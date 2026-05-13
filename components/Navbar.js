@@ -31,6 +31,9 @@ export default function Navbar() {
 
         <div className="nav-actions">
           <ThemeToggle />
+          <a className="nav-youtube" href={contact.youtubeLink} target="_blank" rel="noreferrer">
+            YouTube
+          </a>
           <a className="nav-cta" href={contact.whatsappLink} target="_blank" rel="noreferrer">
             Inscribir equipo
           </a>

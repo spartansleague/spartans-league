@@ -147,6 +147,7 @@ a {
 }
 
 .nav-cta,
+.nav-youtube,
 .primary-btn,
 .secondary-btn {
   border-radius: 999px;
@@ -165,10 +166,16 @@ a {
   box-shadow: 0 12px 28px rgba(243, 197, 21, 0.15);
 }
 
-.secondary-btn {
+.secondary-btn,
+.nav-youtube {
   border-color: var(--line);
   color: var(--text);
   background: var(--soft-bg);
+}
+
+.nav-youtube:hover {
+  border-color: var(--gold);
+  color: var(--gold);
 }
 
 .page-section {
@@ -461,7 +468,8 @@ tr:last-child td {
     width: 100%;
   }
 
-  .nav-cta {
+  .nav-cta,
+  .nav-actions .nav-youtube {
     flex: 1;
   }
 
@@ -577,6 +585,10 @@ tr:last-child td {
 /* Partidos por campus y jornadas */
 .compact-section-head {
   margin-bottom: 20px;
+}
+
+.partidos-summary {
+  margin-top: 18px;
 }
 
 .jornadas-list {

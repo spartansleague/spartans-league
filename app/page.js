@@ -61,9 +61,14 @@ export default function HomePage() {
             </Link>
             <Link className="card" href="/contacto">
               <span className="badge">Contacto</span>
-              <h3>WhatsApp, Instagram y YouTube</h3>
-              <p>Contacta a Spartans League y consulta los videos de los partidos.</p>
+              <h3>WhatsApp e Instagram</h3>
+              <p>Contacta a Spartans League para información de torneos y sedes.</p>
             </Link>
+            <a className="card highlight" href={contact.youtubeLink} target="_blank" rel="noreferrer">
+              <span className="badge">YouTube</span>
+              <h3>Videos de partidos</h3>
+              <p>Abre el canal donde se suben los videos de los partidos.</p>
+            </a>
           </div>
         </div>
       </section>
