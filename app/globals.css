@@ -712,3 +712,36 @@ tr:last-child td {
     min-width: 590px;
   }
 }
+
+.contact-card-with-icon {
+  position: relative;
+  padding-right: 82px;
+}
+
+.contact-icon {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(243, 197, 21, 0.35);
+  border-radius: 999px;
+  color: var(--gold);
+  background: rgba(243, 197, 21, 0.08);
+  box-shadow: 0 10px 24px rgba(243, 197, 21, 0.08);
+}
+
+.contact-icon-svg {
+  width: 26px;
+  height: 26px;
+  fill: currentColor;
+}
+
+@media (max-width: 540px) {
+  .contact-card-with-icon {
+    padding-right: 24px;
+    padding-top: 78px;
+  }
+}
