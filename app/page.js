@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { contact, equipos, partidos, sedes, tablaPosiciones, goleadores } from "@/data/leagueData";
+import { contact, equipos, partidosPorJornada, sedes, tablaPosiciones, goleadores } from "@/data/leagueData";
 
 export default function HomePage() {
-  const totalPartidos = partidos.reduce((total, jornada) => total + jornada.juegos.length, 0);
+  const totalPartidos = partidosPorJornada.reduce((total, jornada) => total + jornada.campus.reduce((campusTotal, campus) => campusTotal + campus.juegos.length, 0), 0);
 
   return (
     <>
@@ -36,7 +36,7 @@ export default function HomePage() {
           <div className="stats-row">
             <div className="stat-box"><strong>{equipos.length}</strong><span>Equipos</span></div>
             <div className="stat-box"><strong>{sedes.length}</strong><span>Sedes</span></div>
-            <div className="stat-box"><strong>{partidos.length}</strong><span>Jornadas</span></div>
+            <div className="stat-box"><strong>{partidosPorJornada.length}</strong><span>Jornadas</span></div>
             <div className="stat-box"><strong>{totalPartidos}</strong><span>Partidos</span></div>
           </div>
         </div>
@@ -61,8 +61,8 @@ export default function HomePage() {
             </Link>
             <Link className="card" href="/contacto">
               <span className="badge">Contacto</span>
-              <h3>WhatsApp e Instagram</h3>
-              <p>Contacta a Spartans League para pedir información de sedes y torneos.</p>
+              <h3>WhatsApp, Instagram y YouTube</h3>
+              <p>Contacta a Spartans League y consulta los videos de los partidos.</p>
             </Link>
           </div>
         </div>

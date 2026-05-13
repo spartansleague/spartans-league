@@ -12,11 +12,11 @@ export default function ContactoPage() {
           <p className="eyebrow">Contacto</p>
           <h1>Contacto</h1>
           <p className="lead">
-            Para información de torneos, sedes o equipos, contacta a Spartans League por WhatsApp o Instagram.
+            Para información de torneos, sedes o equipos, contacta a Spartans League por WhatsApp, Instagram o YouTube.
           </p>
         </div>
 
-        <div className="grid grid-2">
+        <div className="grid grid-3">
           <div className="card contact-card highlight">
             <span className="badge">WhatsApp</span>
             <h3>{contact.whatsapp}</h3>
@@ -31,6 +31,14 @@ export default function ContactoPage() {
             <p>Consulta publicaciones, historias, fotos, videos y anuncios de Spartans League.</p>
             <a className="secondary-btn" href={contact.instagramLink} target="_blank" rel="noreferrer">
               Abrir Instagram
+            </a>
+          </div>
+          <div className="card contact-card">
+            <span className="badge">YouTube</span>
+            <h3>{contact.youtube}</h3>
+            <p>Ve los videos de los partidos publicados en el canal oficial de Spartans League.</p>
+            <a className="secondary-btn" href={contact.youtubeLink} target="_blank" rel="noreferrer">
+              Abrir YouTube
             </a>
           </div>
         </div>

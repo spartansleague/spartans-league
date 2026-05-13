@@ -13,6 +13,7 @@ export default function Footer() {
           <h4>Contacto</h4>
           <a href={contact.whatsappLink} target="_blank" rel="noreferrer">WhatsApp: {contact.whatsapp}</a>
           <a href={contact.instagramLink} target="_blank" rel="noreferrer">Instagram: {contact.instagram}</a>
+          <a href={contact.youtubeLink} target="_blank" rel="noreferrer">YouTube: {contact.youtube}</a>
         </div>
         <div>
           <h4>Secciones</h4>

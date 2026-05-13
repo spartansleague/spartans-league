@@ -43,3 +43,10 @@ npm run dev
 6. Presiona Deploy.
 
 Vercel generará una liga temporal tipo `nombre.vercel.app`. Después puedes conectar `spartansleague.com` desde Settings > Domains.
+
+
+Actualización: horarios por campus agregados. Valle y Campestre: jornadas 1 y 9 de 8:00 AM a 2:00 PM; jornadas 2 a 8 de 8:00 AM a 1:00 PM. Montenova: 8 jornadas con horarios 7:30 PM, 8:30 PM y 9:30 PM.
+
+
+## YouTube
+El canal oficial se puede editar en `data/leagueData.js`, dentro de `youtubeLink`.

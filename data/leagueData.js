@@ -8,6 +8,8 @@ export const contact = {
     "https://wa.me/528122512214?text=Hola%2C%20quiero%20informaci%C3%B3n%20para%20inscribir%20un%20equipo%20en%20Spartans%20League.",
   instagram: "@sprtns_league",
   instagramLink: "https://www.instagram.com/sprtns_league/",
+  youtube: "Spartans League",
+  youtubeLink: "https://www.youtube.com/@SpartansLeague-euro",
 };
 
 export const sedes = [
@@ -59,47 +61,1343 @@ export const equipos = [
   "Rangers SL",
 ];
 
-export const partidos = [
+// PARTIDOS POR JORNADA Y POR CAMPUS
+// Para editar: cambia horarios, equipos, marcadores, estados o descansos.
+// En Jornadas 2 a 8 hay descansos para que el calendario cuadre con 14 equipos.
+
+export const partidosPorJornada = [
   {
-    jornada: "Jornada 1",
-    fecha: "Sábado 10 de agosto",
-    juegos: [
-      { hora: "08:00", sede: "Euro Campus Valle", local: "Spartanos FC", visitante: "Titanes FC", marcador: "3 - 1", estado: "Finalizado" },
-      { hora: "08:50", sede: "Euro Campus Valle", local: "Gladiadores", visitante: "Leones FC", marcador: "2 - 2", estado: "Finalizado" },
-      { hora: "09:40", sede: "Euro Campus Campestre", local: "Real Cumbres", visitante: "Atlético Valle", marcador: "1 - 0", estado: "Finalizado" },
-      { hora: "10:30", sede: "Euro Campus Campestre", local: "Montenova FC", visitante: "Campestre United", marcador: "4 - 2", estado: "Finalizado" },
-      { hora: "11:20", sede: "Campus Montenova", local: "Halcones", visitante: "Dragones FC", marcador: "0 - 2", estado: "Finalizado" },
-      { hora: "12:10", sede: "Campus Montenova", local: "Toros FC", visitante: "Coyotes", marcador: "1 - 1", estado: "Finalizado" },
-      { hora: "13:00", sede: "Campus Montenova", local: "Black Wolves", visitante: "Rangers SL", marcador: "2 - 3", estado: "Finalizado" },
-    ],
+    "jornada": "Jornada 1",
+    "fecha": "Sábado 10 de agosto",
+    "campus": [
+      {
+        "campus": "Campus Valle",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 2:00 PM",
+        "descanso": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Valle Spartans",
+            "visitante": "Atlético Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Real Cumbres",
+            "visitante": "Titanes FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Spartanos FC",
+            "visitante": "Gladiadores",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Leones FC",
+            "visitante": "Halcones Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Toros FC",
+            "visitante": "Coyotes",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Rangers SL",
+            "visitante": "Black Wolves",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Dragones FC",
+            "visitante": "Jaguares Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Campestre",
+        "sede": "Euro Campus Campestre",
+        "horario": "8:00 AM a 2:00 PM",
+        "descanso": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "San Agustín FC",
+            "visitante": "Panteras FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Halcones",
+            "visitante": "Dragones FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Lobos Campestre",
+            "visitante": "Norte FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Leones Negros",
+            "visitante": "Furia FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Tormenta FC",
+            "visitante": "Búfalos",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Rojinegros",
+            "visitante": "Golden FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Campestre United",
+            "visitante": "Real Campestre",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Montenova",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Tiburones",
+          "Venados FC",
+          "Sparta Nova",
+          "Reales SL",
+          "Montenova FC",
+          "Cumbres FC",
+          "Apaches",
+          "Rayos Montenova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Imperio FC",
+            "visitante": "Centuriones",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Nova United",
+            "visitante": "Guerreros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Canarios FC",
+            "visitante": "Real Nova",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      }
+    ]
   },
   {
-    jornada: "Jornada 2",
-    fecha: "Sábado 17 de agosto",
-    juegos: [
-      { hora: "08:00", sede: "Euro Campus Valle", local: "Spartanos FC", visitante: "Gladiadores", marcador: "Por jugar", estado: "Programado" },
-      { hora: "08:50", sede: "Euro Campus Valle", local: "Titanes FC", visitante: "Real Cumbres", marcador: "Por jugar", estado: "Programado" },
-      { hora: "09:40", sede: "Euro Campus Campestre", local: "Leones FC", visitante: "Montenova FC", marcador: "Por jugar", estado: "Programado" },
-      { hora: "10:30", sede: "Euro Campus Campestre", local: "Atlético Valle", visitante: "Halcones", marcador: "Por jugar", estado: "Programado" },
-      { hora: "11:20", sede: "Campus Montenova", local: "Campestre United", visitante: "Toros FC", marcador: "Por jugar", estado: "Programado" },
-      { hora: "12:10", sede: "Campus Montenova", local: "Dragones FC", visitante: "Black Wolves", marcador: "Por jugar", estado: "Programado" },
-      { hora: "13:00", sede: "Campus Montenova", local: "Coyotes", visitante: "Rangers SL", marcador: "Por jugar", estado: "Programado" },
-    ],
+    "jornada": "Jornada 2",
+    "fecha": "Sábado 17 de agosto",
+    "campus": [
+      {
+        "campus": "Campus Valle",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Valle Spartans",
+          "Atlético Valle"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Real Cumbres",
+            "visitante": "Titanes FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Spartanos FC",
+            "visitante": "Gladiadores",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Leones FC",
+            "visitante": "Halcones Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Toros FC",
+            "visitante": "Coyotes",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Rangers SL",
+            "visitante": "Black Wolves",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Dragones FC",
+            "visitante": "Jaguares Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Campestre",
+        "sede": "Euro Campus Campestre",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "San Agustín FC",
+          "Panteras FC"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Halcones",
+            "visitante": "Dragones FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Lobos Campestre",
+            "visitante": "Norte FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Leones Negros",
+            "visitante": "Furia FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Tormenta FC",
+            "visitante": "Búfalos",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Rojinegros",
+            "visitante": "Golden FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Campestre United",
+            "visitante": "Real Campestre",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Montenova",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Imperio FC",
+          "Centuriones",
+          "Nova United",
+          "Reales SL",
+          "Montenova FC",
+          "Cumbres FC",
+          "Apaches",
+          "Rayos Montenova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Guerreros",
+            "visitante": "Canarios FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Real Nova",
+            "visitante": "Tiburones",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Venados FC",
+            "visitante": "Sparta Nova",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      }
+    ]
   },
   {
-    jornada: "Jornada 3",
-    fecha: "Sábado 24 de agosto",
-    juegos: [
-      { hora: "08:00", sede: "Euro Campus Valle", local: "Real Cumbres", visitante: "Spartanos FC", marcador: "Por jugar", estado: "Programado" },
-      { hora: "08:50", sede: "Euro Campus Valle", local: "Montenova FC", visitante: "Titanes FC", marcador: "Por jugar", estado: "Programado" },
-      { hora: "09:40", sede: "Euro Campus Campestre", local: "Halcones", visitante: "Gladiadores", marcador: "Por jugar", estado: "Programado" },
-      { hora: "10:30", sede: "Euro Campus Campestre", local: "Toros FC", visitante: "Leones FC", marcador: "Por jugar", estado: "Programado" },
-      { hora: "11:20", sede: "Campus Montenova", local: "Black Wolves", visitante: "Atlético Valle", marcador: "Por jugar", estado: "Programado" },
-      { hora: "12:10", sede: "Campus Montenova", local: "Rangers SL", visitante: "Campestre United", marcador: "Por jugar", estado: "Programado" },
-      { hora: "13:00", sede: "Campus Montenova", local: "Coyotes", visitante: "Dragones FC", marcador: "Por jugar", estado: "Programado" },
-    ],
+    "jornada": "Jornada 3",
+    "fecha": "Sábado 24 de agosto",
+    "campus": [
+      {
+        "campus": "Campus Valle",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Real Cumbres",
+          "Titanes FC"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Spartanos FC",
+            "visitante": "Gladiadores",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Leones FC",
+            "visitante": "Halcones Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Toros FC",
+            "visitante": "Coyotes",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Rangers SL",
+            "visitante": "Black Wolves",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Dragones FC",
+            "visitante": "Jaguares Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Valle Spartans",
+            "visitante": "Atlético Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Campestre",
+        "sede": "Euro Campus Campestre",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Halcones",
+          "Dragones FC"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Lobos Campestre",
+            "visitante": "Norte FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Leones Negros",
+            "visitante": "Furia FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Tormenta FC",
+            "visitante": "Búfalos",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Rojinegros",
+            "visitante": "Golden FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Campestre United",
+            "visitante": "Real Campestre",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "San Agustín FC",
+            "visitante": "Panteras FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Montenova",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Imperio FC",
+          "Centuriones",
+          "Nova United",
+          "Guerreros",
+          "Canarios FC",
+          "Real Nova",
+          "Apaches",
+          "Rayos Montenova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Tiburones",
+            "visitante": "Venados FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Sparta Nova",
+            "visitante": "Reales SL",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Montenova FC",
+            "visitante": "Cumbres FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      }
+    ]
   },
+  {
+    "jornada": "Jornada 4",
+    "fecha": "Sábado 31 de agosto",
+    "campus": [
+      {
+        "campus": "Campus Valle",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Spartanos FC",
+          "Gladiadores"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Titanes FC",
+            "visitante": "Leones FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Halcones Valle",
+            "visitante": "Toros FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Coyotes",
+            "visitante": "Rangers SL",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Black Wolves",
+            "visitante": "Dragones FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Jaguares Valle",
+            "visitante": "Valle Spartans",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Atlético Valle",
+            "visitante": "Real Cumbres",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Campestre",
+        "sede": "Euro Campus Campestre",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Lobos Campestre",
+          "Norte FC"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Dragones FC",
+            "visitante": "Leones Negros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Furia FC",
+            "visitante": "Tormenta FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Búfalos",
+            "visitante": "Rojinegros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Golden FC",
+            "visitante": "Campestre United",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Real Campestre",
+            "visitante": "San Agustín FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Panteras FC",
+            "visitante": "Halcones",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Montenova",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Centuriones",
+          "Nova United",
+          "Guerreros",
+          "Canarios FC",
+          "Real Nova",
+          "Tiburones",
+          "Venados FC",
+          "Sparta Nova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Reales SL",
+            "visitante": "Montenova FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Cumbres FC",
+            "visitante": "Apaches",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Rayos Montenova",
+            "visitante": "Imperio FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "jornada": "Jornada 5",
+    "fecha": "Sábado 7 de septiembre",
+    "campus": [
+      {
+        "campus": "Campus Valle",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Leones FC",
+          "Halcones Valle"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Spartanos FC",
+            "visitante": "Gladiadores",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Toros FC",
+            "visitante": "Coyotes",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Rangers SL",
+            "visitante": "Black Wolves",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Dragones FC",
+            "visitante": "Jaguares Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Valle Spartans",
+            "visitante": "Atlético Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Real Cumbres",
+            "visitante": "Titanes FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Campestre",
+        "sede": "Euro Campus Campestre",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Leones Negros",
+          "Furia FC"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Lobos Campestre",
+            "visitante": "Norte FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Tormenta FC",
+            "visitante": "Búfalos",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Rojinegros",
+            "visitante": "Golden FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Campestre United",
+            "visitante": "Real Campestre",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "San Agustín FC",
+            "visitante": "Panteras FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Halcones",
+            "visitante": "Dragones FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Montenova",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Canarios FC",
+          "Real Nova",
+          "Tiburones",
+          "Venados FC",
+          "Sparta Nova",
+          "Reales SL",
+          "Montenova FC",
+          "Cumbres FC"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Apaches",
+            "visitante": "Rayos Montenova",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Imperio FC",
+            "visitante": "Centuriones",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Nova United",
+            "visitante": "Guerreros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "jornada": "Jornada 6",
+    "fecha": "Sábado 14 de septiembre",
+    "campus": [
+      {
+        "campus": "Campus Valle",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Toros FC",
+          "Coyotes"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Gladiadores",
+            "visitante": "Leones FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Halcones Valle",
+            "visitante": "Rangers SL",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Black Wolves",
+            "visitante": "Dragones FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Jaguares Valle",
+            "visitante": "Valle Spartans",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Atlético Valle",
+            "visitante": "Real Cumbres",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Titanes FC",
+            "visitante": "Spartanos FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Campestre",
+        "sede": "Euro Campus Campestre",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Tormenta FC",
+          "Búfalos"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Norte FC",
+            "visitante": "Leones Negros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Furia FC",
+            "visitante": "Rojinegros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Golden FC",
+            "visitante": "Campestre United",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Real Campestre",
+            "visitante": "San Agustín FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Panteras FC",
+            "visitante": "Halcones",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Dragones FC",
+            "visitante": "Lobos Campestre",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Montenova",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Imperio FC",
+          "Venados FC",
+          "Sparta Nova",
+          "Reales SL",
+          "Montenova FC",
+          "Cumbres FC",
+          "Apaches",
+          "Rayos Montenova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Centuriones",
+            "visitante": "Nova United",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Guerreros",
+            "visitante": "Canarios FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Real Nova",
+            "visitante": "Tiburones",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "jornada": "Jornada 7",
+    "fecha": "Sábado 21 de septiembre",
+    "campus": [
+      {
+        "campus": "Campus Valle",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Rangers SL",
+          "Black Wolves"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Leones FC",
+            "visitante": "Halcones Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Toros FC",
+            "visitante": "Coyotes",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Dragones FC",
+            "visitante": "Jaguares Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Valle Spartans",
+            "visitante": "Atlético Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Real Cumbres",
+            "visitante": "Titanes FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Spartanos FC",
+            "visitante": "Gladiadores",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Campestre",
+        "sede": "Euro Campus Campestre",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Rojinegros",
+          "Golden FC"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Leones Negros",
+            "visitante": "Furia FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Tormenta FC",
+            "visitante": "Búfalos",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Campestre United",
+            "visitante": "Real Campestre",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "San Agustín FC",
+            "visitante": "Panteras FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Halcones",
+            "visitante": "Dragones FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Lobos Campestre",
+            "visitante": "Norte FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Montenova",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Imperio FC",
+          "Centuriones",
+          "Nova United",
+          "Guerreros",
+          "Montenova FC",
+          "Cumbres FC",
+          "Apaches",
+          "Rayos Montenova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Canarios FC",
+            "visitante": "Real Nova",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Tiburones",
+            "visitante": "Venados FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Sparta Nova",
+            "visitante": "Reales SL",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "jornada": "Jornada 8",
+    "fecha": "Sábado 28 de septiembre",
+    "campus": [
+      {
+        "campus": "Campus Valle",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Dragones FC",
+          "Jaguares Valle"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Halcones Valle",
+            "visitante": "Toros FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Coyotes",
+            "visitante": "Rangers SL",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Black Wolves",
+            "visitante": "Valle Spartans",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Atlético Valle",
+            "visitante": "Real Cumbres",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Titanes FC",
+            "visitante": "Spartanos FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Gladiadores",
+            "visitante": "Leones FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Campestre",
+        "sede": "Euro Campus Campestre",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Campestre United",
+          "Real Campestre"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Furia FC",
+            "visitante": "Tormenta FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Búfalos",
+            "visitante": "Rojinegros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Golden FC",
+            "visitante": "San Agustín FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Panteras FC",
+            "visitante": "Halcones",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Dragones FC",
+            "visitante": "Lobos Campestre",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Norte FC",
+            "visitante": "Leones Negros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Montenova",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Imperio FC",
+          "Centuriones",
+          "Nova United",
+          "Guerreros",
+          "Canarios FC",
+          "Real Nova",
+          "Tiburones",
+          "Rayos Montenova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Venados FC",
+            "visitante": "Sparta Nova",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Reales SL",
+            "visitante": "Montenova FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Cumbres FC",
+            "visitante": "Apaches",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "jornada": "Jornada 9",
+    "fecha": "Sábado 5 de octubre",
+    "campus": [
+      {
+        "campus": "Campus Valle",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 2:00 PM",
+        "descanso": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Toros FC",
+            "visitante": "Coyotes",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Rangers SL",
+            "visitante": "Black Wolves",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Dragones FC",
+            "visitante": "Jaguares Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "Valle Spartans",
+            "visitante": "Atlético Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Real Cumbres",
+            "visitante": "Titanes FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Spartanos FC",
+            "visitante": "Gladiadores",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Leones FC",
+            "visitante": "Halcones Valle",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "campus": "Campus Campestre",
+        "sede": "Euro Campus Campestre",
+        "horario": "8:00 AM a 2:00 PM",
+        "descanso": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Tormenta FC",
+            "visitante": "Búfalos",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "08:50",
+            "local": "Rojinegros",
+            "visitante": "Golden FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:40",
+            "local": "Campestre United",
+            "visitante": "Real Campestre",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:30",
+            "local": "San Agustín FC",
+            "visitante": "Panteras FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:20",
+            "local": "Halcones",
+            "visitante": "Dragones FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:10",
+            "local": "Lobos Campestre",
+            "visitante": "Norte FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Leones Negros",
+            "visitante": "Furia FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      }
+    ]
+  }
 ];
+
+// Alias para mantener compatibilidad con partes anteriores del sitio.
+export const partidos = partidosPorJornada;
 
 export const estadisticasPorCampus = [
   {
