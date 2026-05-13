@@ -36,7 +36,7 @@ export const torneos = [
     nombre: "Spartans League Fut 7",
     categoria: "Libre",
     equipos: 14,
-    estado: "Datos de ejemplo",
+    estado: "Datos",
     sedes: "Euro Campus Valle, Euro Campus Campestre y Campus Montenova",
     inicio: "Fecha por confirmar",
   },
