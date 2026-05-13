@@ -1,0 +1,89 @@
+import Image from "next/image";
+import Link from "next/link";
+import { contact, equipos, partidos, sedes, tablaPosiciones, goleadores } from "@/data/leagueData";
+
+export default function HomePage() {
+  const totalPartidos = partidos.reduce((total, jornada) => total + jornada.juegos.length, 0);
+
+  return (
+    <>
+      <section className="hero">
+        <div className="container hero-grid">
+          <div>
+            <p className="eyebrow">Spartans League Fut 7</p>
+            <h1>Spartans League</h1>
+            <p className="lead">
+              Consulta jornadas, resultados, tabla de posiciones, líderes de goleo, sedes y datos generales de la liga.
+            </p>
+            <div className="hero-actions">
+              <a className="primary-btn" href={contact.whatsappLink} target="_blank" rel="noreferrer">
+                Inscribir equipo
+              </a>
+              <Link className="secondary-btn" href="/partidos">
+                Ver partidos
+              </Link>
+            </div>
+          </div>
+
+          <div className="hero-card">
+            <Image src="/spartans-logo.png" alt="Logo Spartans League" width={420} height={420} priority />
+          </div>
+        </div>
+      </section>
+
+      <section className="page-section">
+        <div className="container">
+          <div className="stats-row">
+            <div className="stat-box"><strong>{equipos.length}</strong><span>Equipos de ejemplo</span></div>
+            <div className="stat-box"><strong>{sedes.length}</strong><span>Sedes</span></div>
+            <div className="stat-box"><strong>{partidos.length}</strong><span>Jornadas cargadas</span></div>
+            <div className="stat-box"><strong>{totalPartidos}</strong><span>Partidos cargados</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section className="page-section">
+        <div className="container">
+          <div className="section-head">
+            <p className="eyebrow">Accesos rápidos</p>
+            <h2>Información de la liga</h2>
+          </div>
+          <div className="grid grid-3">
+            <Link className="card highlight" href="/partidos">
+              <span className="badge">Partidos</span>
+              <h3>Jornadas y resultados</h3>
+              <p>Consulta los partidos programados, horarios, sedes y marcadores.</p>
+            </Link>
+            <Link className="card" href="/estadisticas">
+              <span className="badge">Estadísticas</span>
+              <h3>Tabla y goleo</h3>
+              <p>Consulta la tabla de posiciones y los líderes de goleo del torneo.</p>
+            </Link>
+            <Link className="card" href="/contacto">
+              <span className="badge">Contacto</span>
+              <h3>WhatsApp e Instagram</h3>
+              <p>Contacta a Spartans League para pedir información de sedes y torneos.</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="page-section">
+        <div className="container grid grid-2">
+          <div className="card">
+            <span className="badge">Tabla</span>
+            <h3>Líder actual</h3>
+            <p>{tablaPosiciones[0].equipo} aparece primero en la tabla de ejemplo con {tablaPosiciones[0].pts} puntos.</p>
+            <Link className="secondary-btn" href="/estadisticas">Ver estadísticas</Link>
+          </div>
+          <div className="card">
+            <span className="badge">Goleo</span>
+            <h3>Líder de goleo</h3>
+            <p>{goleadores[0].jugador} de {goleadores[0].equipo} aparece como líder de goleo con {goleadores[0].goles} goles.</p>
+            <Link className="secondary-btn" href="/estadisticas">Ver líderes</Link>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
