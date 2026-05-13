@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { contact } from "@/data/leagueData";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const links = [
   { href: "/", label: "Inicio" },
@@ -28,9 +29,12 @@ export default function Navbar() {
           ))}
         </div>
 
-        <a className="nav-cta" href={contact.whatsappLink} target="_blank" rel="noreferrer">
-          Inscribir equipo
-        </a>
+        <div className="nav-actions">
+          <ThemeToggle />
+          <a className="nav-cta" href={contact.whatsappLink} target="_blank" rel="noreferrer">
+            Inscribir equipo
+          </a>
+        </div>
       </nav>
     </header>
   );

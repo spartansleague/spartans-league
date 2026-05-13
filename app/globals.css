@@ -12,6 +12,44 @@
   --wine: #650711;
   --wine-2: #8a0a17;
   --gray: #8d8d8d;
+  --header-bg: rgba(7, 7, 7, 0.86);
+  --footer-bg: #050505;
+  --button-text: #141414;
+  --table-text: #ededed;
+  --soft-bg: rgba(255, 255, 255, 0.04);
+  --card-gradient: linear-gradient(180deg, rgba(255,255,255,0.055), rgba(255,255,255,0.02));
+  --hero-card-gradient: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+  --highlight-gradient: linear-gradient(180deg, rgba(243, 197, 21, 0.08), rgba(255,255,255,0.02));
+  --page-glow-red: rgba(212, 0, 18, 0.2);
+  --page-glow-gold: rgba(243, 197, 21, 0.12);
+  --shadow: rgba(0, 0, 0, 0.45);
+}
+
+html[data-theme="light"] {
+  --bg: #f6f2e8;
+  --bg-2: #fffaf0;
+  --card: #ffffff;
+  --card-2: #f7f1e5;
+  --line: #ddd2bd;
+  --text: #161616;
+  --muted: #555555;
+  --gold: #b88a00;
+  --gold-2: #f0c21a;
+  --red: #b90010;
+  --wine: #650711;
+  --wine-2: #8a0a17;
+  --gray: #707070;
+  --header-bg: rgba(246, 242, 232, 0.9);
+  --footer-bg: #eee5d4;
+  --button-text: #141414;
+  --table-text: #222222;
+  --soft-bg: rgba(0, 0, 0, 0.035);
+  --card-gradient: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.72));
+  --hero-card-gradient: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(255,255,255,0.68));
+  --highlight-gradient: linear-gradient(180deg, rgba(243, 197, 21, 0.18), rgba(255,255,255,0.78));
+  --page-glow-red: rgba(101, 7, 17, 0.12);
+  --page-glow-gold: rgba(243, 197, 21, 0.22);
+  --shadow: rgba(60, 42, 0, 0.16);
 }
 
 * {
@@ -25,11 +63,12 @@ html {
 body {
   margin: 0;
   background:
-    radial-gradient(circle at top left, rgba(212, 0, 18, 0.2), transparent 28rem),
-    radial-gradient(circle at top right, rgba(243, 197, 21, 0.12), transparent 28rem),
+    radial-gradient(circle at top left, var(--page-glow-red), transparent 28rem),
+    radial-gradient(circle at top right, var(--page-glow-gold), transparent 28rem),
     var(--bg);
   color: var(--text);
   font-family: Arial, Helvetica, sans-serif;
+  transition: background 0.25s ease, color 0.25s ease;
 }
 
 a {
@@ -46,7 +85,7 @@ a {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(7, 7, 7, 0.86);
+  background: var(--header-bg);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--line);
 }
@@ -85,6 +124,28 @@ a {
   color: var(--gold);
 }
 
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.theme-toggle {
+  border: 1px solid var(--line);
+  background: var(--soft-bg);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 11px 14px;
+  font-weight: 800;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.theme-toggle:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
 .nav-cta,
 .primary-btn,
 .secondary-btn {
@@ -100,14 +161,14 @@ a {
 .nav-cta,
 .primary-btn {
   background: linear-gradient(135deg, var(--gold), var(--gold-2));
-  color: #141414;
+  color: var(--button-text);
   box-shadow: 0 12px 28px rgba(243, 197, 21, 0.15);
 }
 
 .secondary-btn {
   border-color: var(--line);
   color: var(--text);
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--soft-bg);
 }
 
 .page-section {
@@ -173,12 +234,12 @@ h3 {
 }
 
 .hero-card {
-  background: linear-gradient(180deg, rgba(255,255,255,0.08), rgba(255,255,255,0.02));
+  background: var(--hero-card-gradient);
   border: 1px solid var(--line);
   border-radius: 28px;
   padding: 28px;
   text-align: center;
-  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 24px 80px var(--shadow);
 }
 
 .hero-card img {
@@ -207,7 +268,7 @@ h3 {
 }
 
 .card {
-  background: linear-gradient(180deg, rgba(255,255,255,0.055), rgba(255,255,255,0.02));
+  background: var(--card-gradient);
   border: 1px solid var(--line);
   border-radius: 24px;
   padding: 24px;
@@ -216,7 +277,7 @@ h3 {
 
 .card.highlight {
   border-color: rgba(243, 197, 21, 0.4);
-  background: linear-gradient(180deg, rgba(243, 197, 21, 0.08), rgba(255,255,255,0.02));
+  background: var(--highlight-gradient);
 }
 
 .card p,
@@ -273,7 +334,7 @@ h3 {
   overflow-x: auto;
   border: 1px solid var(--line);
   border-radius: 22px;
-  background: rgba(255,255,255,0.03);
+  background: var(--soft-bg);
 }
 
 table {
@@ -294,11 +355,11 @@ th {
   font-size: 0.84rem;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  background: rgba(255,255,255,0.035);
+  background: var(--soft-bg);
 }
 
 td {
-  color: #ededed;
+  color: var(--table-text);
 }
 
 tr:last-child td {
@@ -336,7 +397,7 @@ tr:last-child td {
 
 .team-pill {
   border: 1px solid var(--line);
-  background: rgba(255,255,255,0.04);
+  background: var(--soft-bg);
   border-radius: 16px;
   padding: 14px 16px;
   color: var(--muted);
@@ -351,7 +412,7 @@ tr:last-child td {
   margin-top: 56px;
   padding: 42px 0;
   border-top: 1px solid var(--line);
-  background: #050505;
+  background: var(--footer-bg);
 }
 
 .footer-grid {
@@ -396,8 +457,12 @@ tr:last-child td {
     padding-bottom: 6px;
   }
 
-  .nav-cta {
+  .nav-actions {
     width: 100%;
+  }
+
+  .nav-cta {
+    flex: 1;
   }
 
   .hero-grid,
