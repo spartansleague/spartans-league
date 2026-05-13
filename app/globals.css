@@ -500,3 +500,76 @@ tr:last-child td {
     font-size: 0.88rem;
   }
 }
+
+.campus-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 26px;
+}
+
+.campus-tab {
+  border: 1px solid var(--line);
+  background: var(--soft-bg);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 12px 18px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.campus-tab:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
+.campus-tab.active {
+  background: linear-gradient(135deg, var(--gold), var(--gold-2));
+  color: var(--button-text);
+  border-color: transparent;
+}
+
+.campus-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 30px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--card-gradient);
+}
+
+.campus-summary h2 {
+  margin-bottom: 6px;
+}
+
+.campus-counts {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.small-stat {
+  min-width: 130px;
+}
+
+@media (max-width: 700px) {
+  .campus-summary {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .campus-tab {
+    width: 100%;
+  }
+
+  .campus-counts {
+    width: 100%;
+  }
+
+  .small-stat {
+    flex: 1;
+  }
+}

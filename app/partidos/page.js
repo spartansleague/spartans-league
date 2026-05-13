@@ -12,7 +12,7 @@ export default function PartidosPage() {
           <p className="eyebrow">Partidos y resultados</p>
           <h1>Jornadas</h1>
           <p className="lead">
-            Aquí se muestran jornadas, horarios, sedes, equipos y marcadores. Los datos actuales son de ejemplo.
+            Aquí se muestran jornadas, horarios, sedes, equipos y marcadores.
           </p>
         </div>
 

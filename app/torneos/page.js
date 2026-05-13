@@ -12,7 +12,7 @@ export default function TorneosPage() {
           <p className="eyebrow">Torneos</p>
           <h1>Spartans League Fut 7</h1>
           <p className="lead">
-            Consulta la información general del torneo, sedes disponibles y equipos cargados como ejemplo.
+            Consulta la información general del torneo, sedes disponibles y equipos registrados.
           </p>
         </div>
 
@@ -31,8 +31,8 @@ export default function TorneosPage() {
             </div>
           ))}
           <div className="card">
-            <h3>Equipos cargados</h3>
-            <p>Estos equipos son datos de ejemplo. Puedes cambiarlos manualmente en el archivo de datos.</p>
+            <h3>Equipos</h3>
+            <p>Estos son los equipos registrados. Puedes cambiarlos manualmente en el archivo de datos.</p>
             <div className="team-list">
               {equipos.map((equipo) => (
                 <div className="team-pill" key={equipo}>{equipo}</div>

@@ -34,10 +34,10 @@ export default function HomePage() {
       <section className="page-section">
         <div className="container">
           <div className="stats-row">
-            <div className="stat-box"><strong>{equipos.length}</strong><span>Equipos de ejemplo</span></div>
+            <div className="stat-box"><strong>{equipos.length}</strong><span>Equipos</span></div>
             <div className="stat-box"><strong>{sedes.length}</strong><span>Sedes</span></div>
-            <div className="stat-box"><strong>{partidos.length}</strong><span>Jornadas cargadas</span></div>
-            <div className="stat-box"><strong>{totalPartidos}</strong><span>Partidos cargados</span></div>
+            <div className="stat-box"><strong>{partidos.length}</strong><span>Jornadas</span></div>
+            <div className="stat-box"><strong>{totalPartidos}</strong><span>Partidos</span></div>
           </div>
         </div>
       </section>
@@ -73,7 +73,7 @@ export default function HomePage() {
           <div className="card">
             <span className="badge">Tabla</span>
             <h3>Líder actual</h3>
-            <p>{tablaPosiciones[0].equipo} aparece primero en la tabla de ejemplo con {tablaPosiciones[0].pts} puntos.</p>
+            <p>{tablaPosiciones[0].equipo} aparece primero en la tabla de posiciones con {tablaPosiciones[0].pts} puntos.</p>
             <Link className="secondary-btn" href="/estadisticas">Ver estadísticas</Link>
           </div>
           <div className="card">
