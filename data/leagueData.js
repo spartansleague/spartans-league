@@ -84,42 +84,42 @@ export const partidosPorJornada = [
             "estado": "Programado"
           },
           {
-            "hora": "08:50",
+            "hora": "09:00",
             "local": "Real Cumbres",
             "visitante": "Titanes FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
-            "hora": "09:40",
+            "hora": "10:00",
             "local": "Spartanos FC",
             "visitante": "Gladiadores",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
-            "hora": "10:30",
+            "hora": "11:00",
             "local": "Leones FC",
             "visitante": "Halcones Valle",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
-            "hora": "11:20",
+            "hora": "12:00",
             "local": "Toros FC",
             "visitante": "Coyotes",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
-            "hora": "12:10",
+            "hora": "13:00",
             "local": "Rangers SL",
             "visitante": "Black Wolves",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
-            "hora": "13:00",
+            "hora": "14:00",
             "local": "Dragones FC",
             "visitante": "Jaguares Valle",
             "marcador": "Por jugar",
@@ -141,42 +141,42 @@ export const partidosPorJornada = [
             "estado": "Programado"
           },
           {
-            "hora": "08:50",
+            "hora": "09:00",
             "local": "Halcones",
             "visitante": "Dragones FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
-            "hora": "09:40",
+            "hora": "10:00",
             "local": "Lobos Campestre",
             "visitante": "Norte FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
-            "hora": "10:30",
+            "hora": "11:00",
             "local": "Leones Negros",
             "visitante": "Furia FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
-            "hora": "11:20",
+            "hora": "12:00",
             "local": "Tormenta FC",
             "visitante": "Búfalos",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
-            "hora": "12:10",
+            "hora": "13:00",
             "local": "Rojinegros",
             "visitante": "Golden FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
-            "hora": "13:00",
+            "hora": "14:00",
             "local": "Campestre United",
             "visitante": "Real Campestre",
             "marcador": "Por jugar",
