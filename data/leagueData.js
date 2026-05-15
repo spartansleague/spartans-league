@@ -70,58 +70,54 @@ export const partidosPorJornada = [
     "jornada": "Jornada 1",
     "fecha": "Sábado 10 de agosto",
     "campus": [
-      {
+            {
         "campus": "Campus Valle",
         "sede": "Euro Campus Valle",
-        "horario": "8:00 AM a 2:00 PM",
-        "descanso": [],
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Leñadores",
+          "Revo FC"
+        ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Valle Spartans",
-            "visitante": "Atlético Valle",
+            "local": "Rolando City",
+            "visitante": "Lobos FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Real Cumbres",
-            "visitante": "Titanes FC",
+            "local": "Formadores FC",
+            "visitante": "La Banca FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Spartanos FC",
-            "visitante": "Gladiadores",
+            "local": "Las Mopas",
+            "visitante": "Perros",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Leones FC",
-            "visitante": "Halcones Valle",
+            "local": "Atlético de Timbuktu",
+            "visitante": "La Puerquisa",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Toros FC",
-            "visitante": "Coyotes",
+            "local": "TruzAzul",
+            "visitante": "Arrestados FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Rangers SL",
-            "visitante": "Black Wolves",
-            "marcador": "Por jugar",
-            "estado": "Programado"
-          },
-          {
-            "hora": "14:00",
-            "local": "Dragones FC",
-            "visitante": "Jaguares Valle",
+            "local": "Seleçao Canarinha",
+            "visitante": "Roger FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -228,54 +224,58 @@ export const partidosPorJornada = [
     "jornada": "Jornada 2",
     "fecha": "Sábado 17 de agosto",
     "campus": [
-      {
+            {
         "campus": "Campus Valle",
         "sede": "Euro Campus Valle",
-        "horario": "8:00 AM a 1:00 PM",
-        "descanso": [
-          "Valle Spartans",
-          "Atlético Valle"
-        ],
+        "horario": "8:00 AM a 2:00 PM",
+        "descanso": [],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Real Cumbres",
-            "visitante": "Titanes FC",
+            "local": "Rolando City",
+            "visitante": "Atlético de Timbuktu",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Spartanos FC",
-            "visitante": "Gladiadores",
+            "local": "La Puerquisa",
+            "visitante": "Las Mopas",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Leones FC",
-            "visitante": "Halcones Valle",
+            "local": "Revo FC",
+            "visitante": "Leñadores",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Toros FC",
-            "visitante": "Coyotes",
+            "local": "TruzAzul",
+            "visitante": "La Banca FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Rangers SL",
-            "visitante": "Black Wolves",
+            "local": "Lobos FC",
+            "visitante": "Formadores FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Dragones FC",
-            "visitante": "Jaguares Valle",
+            "local": "Arrestados FC",
+            "visitante": "Roger FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "14:00",
+            "local": "Perros",
+            "visitante": "Seleçao Canarinha",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -378,54 +378,54 @@ export const partidosPorJornada = [
     "jornada": "Jornada 3",
     "fecha": "Sábado 24 de agosto",
     "campus": [
-      {
+            {
         "campus": "Campus Valle",
         "sede": "Euro Campus Valle",
         "horario": "8:00 AM a 1:00 PM",
         "descanso": [
-          "Real Cumbres",
-          "Titanes FC"
+          "Rolando City",
+          "Lobos FC"
         ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Spartanos FC",
-            "visitante": "Gladiadores",
+            "local": "Arrestados FC",
+            "visitante": "La Banca FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Leones FC",
-            "visitante": "Halcones Valle",
+            "local": "TruzAzul",
+            "visitante": "Las Mopas",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Toros FC",
-            "visitante": "Coyotes",
+            "local": "Revo FC",
+            "visitante": "La Puerquisa",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Rangers SL",
-            "visitante": "Black Wolves",
+            "local": "Roger FC",
+            "visitante": "Perros",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Dragones FC",
-            "visitante": "Jaguares Valle",
+            "local": "Atlético de Timbuktu",
+            "visitante": "Seleçao Canarinha",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Valle Spartans",
-            "visitante": "Atlético Valle",
+            "local": "Formadores FC",
+            "visitante": "Leñadores",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -528,54 +528,54 @@ export const partidosPorJornada = [
     "jornada": "Jornada 4",
     "fecha": "Sábado 31 de agosto",
     "campus": [
-      {
+            {
         "campus": "Campus Valle",
         "sede": "Euro Campus Valle",
         "horario": "8:00 AM a 1:00 PM",
         "descanso": [
-          "Spartanos FC",
-          "Gladiadores"
+          "Perros",
+          "Seleçao Canarinha"
         ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Titanes FC",
-            "visitante": "Leones FC",
+            "local": "Rolando City",
+            "visitante": "TruzAzul",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Halcones Valle",
-            "visitante": "Toros FC",
+            "local": "Atlético de Timbuktu",
+            "visitante": "Arrestados FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Coyotes",
-            "visitante": "Rangers SL",
+            "local": "La Banca FC",
+            "visitante": "Revo FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Black Wolves",
-            "visitante": "Dragones FC",
+            "local": "Lobos FC",
+            "visitante": "La Puerquisa",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Jaguares Valle",
-            "visitante": "Valle Spartans",
+            "local": "Las Mopas",
+            "visitante": "Formadores FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Atlético Valle",
-            "visitante": "Real Cumbres",
+            "local": "Leñadores",
+            "visitante": "Roger FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -678,54 +678,54 @@ export const partidosPorJornada = [
     "jornada": "Jornada 5",
     "fecha": "Sábado 7 de septiembre",
     "campus": [
-      {
+            {
         "campus": "Campus Valle",
         "sede": "Euro Campus Valle",
         "horario": "8:00 AM a 1:00 PM",
         "descanso": [
-          "Leones FC",
-          "Halcones Valle"
+          "La Puerquisa",
+          "Las Mopas"
         ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Spartanos FC",
-            "visitante": "Gladiadores",
+            "local": "Perros",
+            "visitante": "Rolando City",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Toros FC",
-            "visitante": "Coyotes",
+            "local": "Lobos FC",
+            "visitante": "Atlético de Timbuktu",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Rangers SL",
-            "visitante": "Black Wolves",
+            "local": "Arrestados FC",
+            "visitante": "Revo FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Dragones FC",
-            "visitante": "Jaguares Valle",
+            "local": "La Banca FC",
+            "visitante": "Roger FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Valle Spartans",
-            "visitante": "Atlético Valle",
+            "local": "Seleçao Canarinha",
+            "visitante": "Formadores FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Real Cumbres",
-            "visitante": "Titanes FC",
+            "local": "Leñadores",
+            "visitante": "TruzAzul",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -828,54 +828,54 @@ export const partidosPorJornada = [
     "jornada": "Jornada 6",
     "fecha": "Sábado 14 de septiembre",
     "campus": [
-      {
+            {
         "campus": "Campus Valle",
         "sede": "Euro Campus Valle",
         "horario": "8:00 AM a 1:00 PM",
         "descanso": [
-          "Toros FC",
-          "Coyotes"
+          "TruzAzul",
+          "Atlético de Timbuktu"
         ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Gladiadores",
-            "visitante": "Leones FC",
+            "local": "Rolando City",
+            "visitante": "Roger FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Halcones Valle",
-            "visitante": "Rangers SL",
+            "local": "La Puerquisa",
+            "visitante": "La Banca FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Black Wolves",
-            "visitante": "Dragones FC",
+            "local": "Formadores FC",
+            "visitante": "Revo FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Jaguares Valle",
-            "visitante": "Valle Spartans",
+            "local": "Leñadores",
+            "visitante": "Seleçao Canarinha",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Atlético Valle",
-            "visitante": "Real Cumbres",
+            "local": "Las Mopas",
+            "visitante": "Arrestados FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Titanes FC",
-            "visitante": "Spartanos FC",
+            "local": "Perros",
+            "visitante": "Lobos FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -978,54 +978,54 @@ export const partidosPorJornada = [
     "jornada": "Jornada 7",
     "fecha": "Sábado 21 de septiembre",
     "campus": [
-      {
+            {
         "campus": "Campus Valle",
         "sede": "Euro Campus Valle",
         "horario": "8:00 AM a 1:00 PM",
         "descanso": [
-          "Rangers SL",
-          "Black Wolves"
+          "Formadores FC",
+          "La Banca FC"
         ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Leones FC",
-            "visitante": "Halcones Valle",
+            "local": "Rolando City",
+            "visitante": "Arrestados FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Toros FC",
-            "visitante": "Coyotes",
+            "local": "Roger FC",
+            "visitante": "Atlético de Timbuktu",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Dragones FC",
-            "visitante": "Jaguares Valle",
+            "local": "Revo FC",
+            "visitante": "Leñadores",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Valle Spartans",
-            "visitante": "Atlético Valle",
+            "local": "Seleçao Canarinha",
+            "visitante": "La Puerquisa",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Real Cumbres",
-            "visitante": "Titanes FC",
+            "local": "TruzAzul",
+            "visitante": "Perros",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Spartanos FC",
-            "visitante": "Gladiadores",
+            "local": "Lobos FC",
+            "visitante": "Las Mopas",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -1128,54 +1128,54 @@ export const partidosPorJornada = [
     "jornada": "Jornada 8",
     "fecha": "Sábado 28 de septiembre",
     "campus": [
-      {
+            {
         "campus": "Campus Valle",
         "sede": "Euro Campus Valle",
         "horario": "8:00 AM a 1:00 PM",
         "descanso": [
-          "Dragones FC",
-          "Jaguares Valle"
+          "Roger FC",
+          "Arrestados FC"
         ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Halcones Valle",
-            "visitante": "Toros FC",
+            "local": "Rolando City",
+            "visitante": "La Banca FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Coyotes",
-            "visitante": "Rangers SL",
+            "local": "La Puerquisa",
+            "visitante": "Perros",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Black Wolves",
-            "visitante": "Valle Spartans",
+            "local": "TruzAzul",
+            "visitante": "Revo FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Atlético Valle",
-            "visitante": "Real Cumbres",
+            "local": "Lobos FC",
+            "visitante": "Leñadores",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Titanes FC",
-            "visitante": "Spartanos FC",
+            "local": "Atlético de Timbuktu",
+            "visitante": "Formadores FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Gladiadores",
-            "visitante": "Leones FC",
+            "local": "Las Mopas",
+            "visitante": "Seleçao Canarinha",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -1278,7 +1278,7 @@ export const partidosPorJornada = [
     "jornada": "Jornada 9",
     "fecha": "Sábado 5 de octubre",
     "campus": [
-      {
+            {
         "campus": "Campus Valle",
         "sede": "Euro Campus Valle",
         "horario": "8:00 AM a 2:00 PM",
@@ -1286,50 +1286,50 @@ export const partidosPorJornada = [
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Toros FC",
-            "visitante": "Coyotes",
+            "local": "Rolando City",
+            "visitante": "La Puerquisa",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Rangers SL",
-            "visitante": "Black Wolves",
+            "local": "La Banca FC",
+            "visitante": "Seleçao Canarinha",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Dragones FC",
-            "visitante": "Jaguares Valle",
+            "local": "Revo FC",
+            "visitante": "Lobos FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Valle Spartans",
-            "visitante": "Atlético Valle",
+            "local": "Arrestados FC",
+            "visitante": "Leñadores",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Real Cumbres",
-            "visitante": "Titanes FC",
+            "local": "Perros",
+            "visitante": "Formadores FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Spartanos FC",
-            "visitante": "Gladiadores",
+            "local": "Roger FC",
+            "visitante": "Las Mopas",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "14:00",
-            "local": "Leones FC",
-            "visitante": "Halcones Valle",
+            "local": "TruzAzul",
+            "visitante": "Atlético de Timbuktu",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -1400,35 +1400,26 @@ export const partidosPorJornada = [
 export const partidos = partidosPorJornada;
 
 export const estadisticasPorCampus = [
-  {
+    {
     campus: "Campus Valle",
     sede: "Euro Campus Valle",
     tablaPosiciones: [
-      { equipo: "Valle Spartans", pj: 1, g: 1, e: 0, p: 0, gf: 4, gc: 1, dg: 3, pts: 3 },
-      { equipo: "Atlético Valle", pj: 1, g: 1, e: 0, p: 0, gf: 3, gc: 1, dg: 2, pts: 3 },
-      { equipo: "Real Cumbres", pj: 1, g: 1, e: 0, p: 0, gf: 2, gc: 0, dg: 2, pts: 3 },
-      { equipo: "Titanes FC", pj: 1, g: 1, e: 0, p: 0, gf: 2, gc: 1, dg: 1, pts: 3 },
-      { equipo: "Spartanos FC", pj: 1, g: 0, e: 1, p: 0, gf: 2, gc: 2, dg: 0, pts: 1 },
-      { equipo: "Gladiadores", pj: 1, g: 0, e: 1, p: 0, gf: 2, gc: 2, dg: 0, pts: 1 },
-      { equipo: "Leones FC", pj: 1, g: 0, e: 1, p: 0, gf: 1, gc: 1, dg: 0, pts: 1 },
-      { equipo: "Halcones Valle", pj: 1, g: 0, e: 1, p: 0, gf: 1, gc: 1, dg: 0, pts: 1 },
-      { equipo: "Toros FC", pj: 1, g: 0, e: 0, p: 1, gf: 1, gc: 2, dg: -1, pts: 0 },
-      { equipo: "Coyotes", pj: 1, g: 0, e: 0, p: 1, gf: 1, gc: 3, dg: -2, pts: 0 },
-      { equipo: "Rangers SL", pj: 1, g: 0, e: 0, p: 1, gf: 0, gc: 2, dg: -2, pts: 0 },
-      { equipo: "Black Wolves", pj: 1, g: 0, e: 0, p: 1, gf: 1, gc: 4, dg: -3, pts: 0 },
-      { equipo: "Dragones FC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
-      { equipo: "Jaguares Valle", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Rolando City", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Lobos FC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Formadores FC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "La Banca FC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Las Mopas", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Perros", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Atlético de Timbuktu", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "La Puerquisa", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "TruzAzul", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Arrestados FC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Seleçao Canarinha", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Roger FC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Leñadores", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Revo FC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
     ],
-    goleadores: [
-      { jugador: "Carlos R.", equipo: "Valle Spartans", goles: 3 },
-      { jugador: "Diego M.", equipo: "Atlético Valle", goles: 2 },
-      { jugador: "Santiago L.", equipo: "Real Cumbres", goles: 2 },
-      { jugador: "Emilio G.", equipo: "Titanes FC", goles: 2 },
-      { jugador: "Andrés V.", equipo: "Spartanos FC", goles: 2 },
-      { jugador: "Luis P.", equipo: "Gladiadores", goles: 1 },
-      { jugador: "Mateo A.", equipo: "Leones FC", goles: 1 },
-      { jugador: "Jorge C.", equipo: "Halcones Valle", goles: 1 },
-    ],
+    goleadores: [],
   },
   {
     campus: "Campus Campestre",
