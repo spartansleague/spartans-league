@@ -1,4 +1,4 @@
-import { torneos, equipos, contact } from "@/data/leagueData";
+import { torneos, equiposPorCampus, contact } from "@/data/leagueData";
 
 export const metadata = {
   title: "Torneos | Spartans League",
@@ -12,7 +12,7 @@ export default function TorneosPage() {
           <p className="eyebrow">Torneos</p>
           <h1>Spartans League Fut 7</h1>
           <p className="lead">
-            Consulta la información general del torneo, sedes disponibles y equipos registrados.
+            Consulta la información general del torneo, sedes disponibles y equipos registrados por campus.
           </p>
         </div>
 
@@ -22,7 +22,7 @@ export default function TorneosPage() {
               <span className="badge">{torneo.estado}</span>
               <h3>{torneo.nombre}</h3>
               <p><strong>Categoría:</strong> {torneo.categoria}</p>
-              <p><strong>Equipos:</strong> {torneo.equipos}</p>
+              <p><strong>Equipos por campus:</strong> {torneo.equipos}</p>
               <p><strong>Sedes:</strong> {torneo.sedes}</p>
               <p><strong>Inicio:</strong> {torneo.inicio}</p>
               <div className="actions-row">
@@ -30,15 +30,19 @@ export default function TorneosPage() {
               </div>
             </div>
           ))}
-          <div className="card">
-            <h3>Equipos</h3>
-            <p>Estos son los equipos registrados. Puedes cambiarlos manualmente en el archivo de datos.</p>
-            <div className="team-list">
-              {equipos.map((equipo) => (
-                <div className="team-pill" key={equipo}>{equipo}</div>
-              ))}
+
+          {equiposPorCampus.map((grupo) => (
+            <div className="card" key={grupo.campus}>
+              <span className="badge">{grupo.campus}</span>
+              <h3>Equipos</h3>
+              <p>{grupo.sede}</p>
+              <div className="team-list">
+                {grupo.equipos.map((equipo) => (
+                  <div className="team-pill" key={`${grupo.campus}-${equipo}`}>{equipo}</div>
+                ))}
+              </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
