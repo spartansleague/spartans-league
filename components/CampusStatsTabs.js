@@ -1,11 +1,63 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { estadisticasPorCampus } from "@/data/leagueData";
+
+function toNumber(value) {
+  return Number(value) || 0;
+}
+
+function getDiferenciaGoles(fila) {
+  if (fila.dg !== undefined && fila.dg !== null) {
+    return toNumber(fila.dg);
+  }
+
+  return toNumber(fila.gf) - toNumber(fila.gc);
+}
+
+function ordenarTablaPosiciones(tabla) {
+  return [...tabla].sort((a, b) => {
+    const puntos = toNumber(b.pts) - toNumber(a.pts);
+    if (puntos !== 0) return puntos;
+
+    const diferencia = getDiferenciaGoles(b) - getDiferenciaGoles(a);
+    if (diferencia !== 0) return diferencia;
+
+    const golesFavor = toNumber(b.gf) - toNumber(a.gf);
+    if (golesFavor !== 0) return golesFavor;
+
+    const golesContra = toNumber(a.gc) - toNumber(b.gc);
+    if (golesContra !== 0) return golesContra;
+
+    return a.equipo.localeCompare(b.equipo, "es");
+  });
+}
+
+function ordenarGoleadores(goleadores) {
+  return [...goleadores].sort((a, b) => {
+    const goles = toNumber(b.goles) - toNumber(a.goles);
+    if (goles !== 0) return goles;
+
+    const equipo = a.equipo.localeCompare(b.equipo, "es");
+    if (equipo !== 0) return equipo;
+
+    return a.jugador.localeCompare(b.jugador, "es");
+  });
+}
 
 export default function CampusStatsTabs() {
   const [activeIndex, setActiveIndex] = useState(0);
   const campusActivo = estadisticasPorCampus[activeIndex];
+
+  const tablaOrdenada = useMemo(
+    () => ordenarTablaPosiciones(campusActivo.tablaPosiciones),
+    [campusActivo.tablaPosiciones]
+  );
+
+  const goleadoresOrdenados = useMemo(
+    () => ordenarGoleadores(campusActivo.goleadores),
+    [campusActivo.goleadores]
+  );
 
   return (
     <div>
@@ -64,7 +116,7 @@ export default function CampusStatsTabs() {
               </tr>
             </thead>
             <tbody>
-              {campusActivo.tablaPosiciones.map((fila, index) => (
+              {tablaOrdenada.map((fila, index) => (
                 <tr key={`${campusActivo.campus}-${fila.equipo}`}>
                   <td>{index + 1}</td>
                   <td><strong>{fila.equipo}</strong></td>
@@ -74,7 +126,7 @@ export default function CampusStatsTabs() {
                   <td>{fila.p}</td>
                   <td>{fila.gf}</td>
                   <td>{fila.gc}</td>
-                  <td>{fila.dg}</td>
+                  <td>{getDiferenciaGoles(fila)}</td>
                   <td><strong>{fila.pts}</strong></td>
                 </tr>
               ))}
@@ -99,7 +151,7 @@ export default function CampusStatsTabs() {
               </tr>
             </thead>
             <tbody>
-              {campusActivo.goleadores.map((jugador, index) => (
+              {goleadoresOrdenados.map((jugador, index) => (
                 <tr key={`${campusActivo.campus}-${jugador.jugador}-${jugador.equipo}`}>
                   <td>{index + 1}</td>
                   <td><strong>{jugador.jugador}</strong></td>
