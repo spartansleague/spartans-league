@@ -45,20 +45,20 @@ export const torneos = [
 ];
 
 export const equipos = [
-  "Spartanos FC",
-  "Titanes FC",
-  "Gladiadores",
-  "Leones FC",
-  "Real Cumbres",
-  "Atlético Valle",
-  "Montenova FC",
-  "Campestre United",
-  "Halcones",
-  "Dragones FC",
-  "Toros FC",
-  "Coyotes",
-  "Black Wolves",
-  "Rangers SL",
+  "SoccerBee",
+  "Kawashima Wanders",
+  "Principes de la B",
+  "Commers",
+  "Los Demas FC",
+  "Armadillos FC",
+  "Jaiba Brava",
+  "La Menor FC",
+  "FC Internazionale Milanesa",
+  "Juniors FC",
+  "Capri FC",
+  "CAFC",
+  "Los Krikos",
+  "Necali Moms",
 ];
 
 // PARTIDOS POR JORNADA Y POR CAMPUS
@@ -135,50 +135,50 @@ export const partidosPorJornada = [
         "juegos": [
           {
             "hora": "08:00",
-            "local": "San Agustín FC",
-            "visitante": "Panteras FC",
+            "local": "SoccerBee",
+            "visitante": "Kawashima Wanders",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Halcones",
-            "visitante": "Dragones FC",
+            "local": "Principes de la B",
+            "visitante": "Commers",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Lobos Campestre",
-            "visitante": "Norte FC",
+            "local": "Los Demas FC",
+            "visitante": "Armadillos FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Leones Negros",
-            "visitante": "Furia FC",
+            "local": "Jaiba Brava",
+            "visitante": "La Menor FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Tormenta FC",
-            "visitante": "Búfalos",
+            "local": "FC Internazionale Milanesa",
+            "visitante": "Juniors FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Rojinegros",
-            "visitante": "Golden FC",
+            "local": "Capri FC",
+            "visitante": "CAFC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "14:00",
-            "local": "Campestre United",
-            "visitante": "Real Campestre",
+            "local": "Los Krikos",
+            "visitante": "Necali Moms",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -286,49 +286,49 @@ export const partidosPorJornada = [
         "sede": "Euro Campus Campestre",
         "horario": "8:00 AM a 1:00 PM",
         "descanso": [
-          "San Agustín FC",
-          "Panteras FC"
+                  "Necali Moms",
+                  "Los Demas FC"
         ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Halcones",
-            "visitante": "Dragones FC",
+            "local": "La Menor FC",
+            "visitante": "SoccerBee",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Lobos Campestre",
-            "visitante": "Norte FC",
+            "local": "CAFC",
+            "visitante": "Commers",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Leones Negros",
-            "visitante": "Furia FC",
+            "local": "Kawashima Wanders",
+            "visitante": "Los Krikos",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Tormenta FC",
-            "visitante": "Búfalos",
+            "local": "Armadillos FC",
+            "visitante": "Juniors FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Rojinegros",
-            "visitante": "Golden FC",
+            "local": "FC Internazionale Milanesa",
+            "visitante": "Principes de la B",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Campestre United",
-            "visitante": "Real Campestre",
+            "local": "Jaiba Brava",
+            "visitante": "Capri FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -436,49 +436,49 @@ export const partidosPorJornada = [
         "sede": "Euro Campus Campestre",
         "horario": "8:00 AM a 1:00 PM",
         "descanso": [
-          "Halcones",
-          "Dragones FC"
+                  "SoccerBee",
+                  "Kawashima Wanders"
         ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Lobos Campestre",
-            "visitante": "Norte FC",
+            "local": "CAFC",
+            "visitante": "Armadillos FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Leones Negros",
-            "visitante": "Furia FC",
+            "local": "Commers",
+            "visitante": "Necali Moms",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Tormenta FC",
-            "visitante": "Búfalos",
+            "local": "Capri FC",
+            "visitante": "Los Demas FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Rojinegros",
-            "visitante": "Golden FC",
+            "local": "Juniors FC",
+            "visitante": "La Menor FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Campestre United",
-            "visitante": "Real Campestre",
+            "local": "Los Krikos",
+            "visitante": "FC Internazionale Milanesa",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "San Agustín FC",
-            "visitante": "Panteras FC",
+            "local": "Principes de la B",
+            "visitante": "Jaiba Brava",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -586,49 +586,49 @@ export const partidosPorJornada = [
         "sede": "Euro Campus Campestre",
         "horario": "8:00 AM a 1:00 PM",
         "descanso": [
-          "Lobos Campestre",
-          "Norte FC"
+                  "La Menor FC",
+                  "Los Krikos"
         ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Dragones FC",
-            "visitante": "Leones Negros",
+            "local": "SoccerBee",
+            "visitante": "Capri FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Furia FC",
-            "visitante": "Tormenta FC",
+            "local": "Armadillos FC",
+            "visitante": "Commers",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Búfalos",
-            "visitante": "Rojinegros",
+            "local": "Los Demas FC",
+            "visitante": "Principes de la B",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Golden FC",
-            "visitante": "Campestre United",
+            "local": "Kawashima Wanders",
+            "visitante": "Necali Moms",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Real Campestre",
-            "visitante": "San Agustín FC",
+            "local": "FC Internazionale Milanesa",
+            "visitante": "CAFC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Panteras FC",
-            "visitante": "Halcones",
+            "local": "Jaiba Brava",
+            "visitante": "Juniors FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -736,49 +736,49 @@ export const partidosPorJornada = [
         "sede": "Euro Campus Campestre",
         "horario": "8:00 AM a 1:00 PM",
         "descanso": [
-          "Leones Negros",
-          "Furia FC"
+                  "Commers",
+                  "Jaiba Brava"
         ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Lobos Campestre",
-            "visitante": "Norte FC",
+            "local": "SoccerBee",
+            "visitante": "Los Krikos",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Tormenta FC",
-            "visitante": "Búfalos",
+            "local": "Kawashima Wanders",
+            "visitante": "Principes de la B",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Rojinegros",
-            "visitante": "Golden FC",
+            "local": "Capri FC",
+            "visitante": "Armadillos FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Campestre United",
-            "visitante": "Real Campestre",
+            "local": "Necali Moms",
+            "visitante": "Los Demas FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "San Agustín FC",
-            "visitante": "Panteras FC",
+            "local": "La Menor FC",
+            "visitante": "FC Internazionale Milanesa",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Halcones",
-            "visitante": "Dragones FC",
+            "local": "CAFC",
+            "visitante": "Juniors FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -886,49 +886,49 @@ export const partidosPorJornada = [
         "sede": "Euro Campus Campestre",
         "horario": "8:00 AM a 1:00 PM",
         "descanso": [
-          "Tormenta FC",
-          "Búfalos"
+                  "Capri FC",
+                  "FC Internazionale Milanesa"
         ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Norte FC",
-            "visitante": "Leones Negros",
+            "local": "SoccerBee",
+            "visitante": "Juniors FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Furia FC",
-            "visitante": "Rojinegros",
+            "local": "Principes de la B",
+            "visitante": "Commers",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Golden FC",
-            "visitante": "Campestre United",
+            "local": "La Menor FC",
+            "visitante": "Kawashima Wanders",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Real Campestre",
-            "visitante": "San Agustín FC",
+            "local": "Jaiba Brava",
+            "visitante": "Los Krikos",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Panteras FC",
-            "visitante": "Halcones",
+            "local": "Los Demas FC",
+            "visitante": "CAFC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Dragones FC",
-            "visitante": "Lobos Campestre",
+            "local": "Necali Moms",
+            "visitante": "Armadillos FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -1036,49 +1036,49 @@ export const partidosPorJornada = [
         "sede": "Euro Campus Campestre",
         "horario": "8:00 AM a 1:00 PM",
         "descanso": [
-          "Rojinegros",
-          "Golden FC"
+                  "Principes de la B",
+                  "Armadillos FC"
         ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Leones Negros",
-            "visitante": "Furia FC",
+            "local": "SoccerBee",
+            "visitante": "CAFC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Tormenta FC",
-            "visitante": "Búfalos",
+            "local": "Commers",
+            "visitante": "La Menor FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Campestre United",
-            "visitante": "Real Campestre",
+            "local": "Juniors FC",
+            "visitante": "Los Krikos",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "San Agustín FC",
-            "visitante": "Panteras FC",
+            "local": "Capri FC",
+            "visitante": "Necali Moms",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Halcones",
-            "visitante": "Dragones FC",
+            "local": "FC Internazionale Milanesa",
+            "visitante": "Jaiba Brava",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Lobos Campestre",
-            "visitante": "Norte FC",
+            "local": "Kawashima Wanders",
+            "visitante": "Los Demas FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -1186,49 +1186,49 @@ export const partidosPorJornada = [
         "sede": "Euro Campus Campestre",
         "horario": "8:00 AM a 1:00 PM",
         "descanso": [
-          "Campestre United",
-          "Real Campestre"
+                  "Juniors FC",
+                  "CAFC"
         ],
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Furia FC",
-            "visitante": "Tormenta FC",
+            "local": "SoccerBee",
+            "visitante": "Armadillos FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Búfalos",
-            "visitante": "Rojinegros",
+            "local": "Jaiba Brava",
+            "visitante": "Commers",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Golden FC",
-            "visitante": "San Agustín FC",
+            "local": "Los Krikos",
+            "visitante": "Principes de la B",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "Panteras FC",
-            "visitante": "Halcones",
+            "local": "Kawashima Wanders",
+            "visitante": "Capri FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Dragones FC",
-            "visitante": "Lobos Campestre",
+            "local": "Los Demas FC",
+            "visitante": "FC Internazionale Milanesa",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Norte FC",
-            "visitante": "Leones Negros",
+            "local": "Necali Moms",
+            "visitante": "La Menor FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -1343,50 +1343,50 @@ export const partidosPorJornada = [
         "juegos": [
           {
             "hora": "08:00",
-            "local": "Tormenta FC",
-            "visitante": "Búfalos",
+            "local": "SoccerBee",
+            "visitante": "Necali Moms",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "09:00",
-            "local": "Rojinegros",
-            "visitante": "Golden FC",
+            "local": "Commers",
+            "visitante": "Kawashima Wanders",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "10:00",
-            "local": "Campestre United",
-            "visitante": "Real Campestre",
+            "local": "La Menor FC",
+            "visitante": "Principes de la B",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "11:00",
-            "local": "San Agustín FC",
-            "visitante": "Panteras FC",
+            "local": "CAFC",
+            "visitante": "Jaiba Brava",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "12:00",
-            "local": "Halcones",
-            "visitante": "Dragones FC",
+            "local": "Armadillos FC",
+            "visitante": "FC Internazionale Milanesa",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "13:00",
-            "local": "Lobos Campestre",
-            "visitante": "Norte FC",
+            "local": "Juniors FC",
+            "visitante": "Los Demas FC",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
           {
             "hora": "14:00",
-            "local": "Leones Negros",
-            "visitante": "Furia FC",
+            "local": "Capri FC",
+            "visitante": "Los Krikos",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -1434,31 +1434,22 @@ export const estadisticasPorCampus = [
     campus: "Campus Campestre",
     sede: "Euro Campus Campestre",
     tablaPosiciones: [
-      { equipo: "Campestre United", pj: 1, g: 1, e: 0, p: 0, gf: 5, gc: 2, dg: 3, pts: 3 },
-      { equipo: "Real Campestre", pj: 1, g: 1, e: 0, p: 0, gf: 3, gc: 0, dg: 3, pts: 3 },
-      { equipo: "San Agustín FC", pj: 1, g: 1, e: 0, p: 0, gf: 3, gc: 1, dg: 2, pts: 3 },
-      { equipo: "Panteras FC", pj: 1, g: 1, e: 0, p: 0, gf: 2, gc: 1, dg: 1, pts: 3 },
-      { equipo: "Halcones", pj: 1, g: 0, e: 1, p: 0, gf: 2, gc: 2, dg: 0, pts: 1 },
-      { equipo: "Dragones FC", pj: 1, g: 0, e: 1, p: 0, gf: 2, gc: 2, dg: 0, pts: 1 },
-      { equipo: "Lobos Campestre", pj: 1, g: 0, e: 1, p: 0, gf: 1, gc: 1, dg: 0, pts: 1 },
-      { equipo: "Norte FC", pj: 1, g: 0, e: 1, p: 0, gf: 1, gc: 1, dg: 0, pts: 1 },
-      { equipo: "Leones Negros", pj: 1, g: 0, e: 0, p: 1, gf: 1, gc: 2, dg: -1, pts: 0 },
-      { equipo: "Furia FC", pj: 1, g: 0, e: 0, p: 1, gf: 1, gc: 3, dg: -2, pts: 0 },
-      { equipo: "Tormenta FC", pj: 1, g: 0, e: 0, p: 1, gf: 0, gc: 3, dg: -3, pts: 0 },
-      { equipo: "Búfalos", pj: 1, g: 0, e: 0, p: 1, gf: 2, gc: 5, dg: -3, pts: 0 },
-      { equipo: "Rojinegros", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
-      { equipo: "Golden FC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "SoccerBee", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Kawashima Wanders", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Principes de la B", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Commers", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Los Demas FC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Armadillos FC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Jaiba Brava", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "La Menor FC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "FC Internazionale Milanesa", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Juniors FC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Capri FC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "CAFC", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Los Krikos", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
+      { equipo: "Necali Moms", pj: 0, g: 0, e: 0, p: 0, gf: 0, gc: 0, dg: 0, pts: 0 },
     ],
-    goleadores: [
-      { jugador: "Iván B.", equipo: "Campestre United", goles: 3 },
-      { jugador: "Pablo S.", equipo: "Real Campestre", goles: 2 },
-      { jugador: "Raúl T.", equipo: "San Agustín FC", goles: 2 },
-      { jugador: "Héctor F.", equipo: "Panteras FC", goles: 2 },
-      { jugador: "Mario N.", equipo: "Dragones FC", goles: 2 },
-      { jugador: "Alan R.", equipo: "Búfalos", goles: 2 },
-      { jugador: "Bruno G.", equipo: "Halcones", goles: 1 },
-      { jugador: "Nicolás C.", equipo: "Lobos Campestre", goles: 1 },
-    ],
+    goleadores: [],
   },
   {
     campus: "Campus Montenova",
