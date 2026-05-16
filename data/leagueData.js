@@ -59,6 +59,20 @@ export const equipos = [
   "Roger FC",
   "Leñadores",
   "Revo FC",
+  "SoccerBee",
+  "Kawashima Wanders",
+  "Principes de la B",
+  "Commers",
+  "Los Demas FC",
+  "Armadillos FC",
+  "Jaiba Brava",
+  "La Menor FC",
+  "FC Internazionale Milanesa",
+  "Juniors FC",
+  "Capri FC",
+  "CAFC",
+  "Los Krikos",
+  "Necali Moms",
 ];
 
 export const equiposPorCampus = [
