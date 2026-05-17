@@ -45,6 +45,7 @@ export const torneos = [
 ];
 
 export const equipos = [
+  // Campus Valle
   "Rolando City",
   "Lobos FC",
   "Formadores FC",
@@ -59,6 +60,8 @@ export const equipos = [
   "Roger FC",
   "Leñadores",
   "Revo FC",
+
+  // Campus Campestre
   "SoccerBee",
   "Kawashima Wanders",
   "Principes de la B",
@@ -119,22 +122,7 @@ export const equiposPorCampus = [
   {
     campus: "Campus Montenova",
     sede: "Campus Montenova",
-    equipos: [
-      "Imperio FC",
-      "Centuriones",
-      "Nova United",
-      "Guerreros",
-      "Canarios FC",
-      "Real Nova",
-      "Tiburones",
-      "Venados FC",
-      "Sparta Nova",
-      "Reales SL",
-      "Montenova FC",
-      "Cumbres FC",
-      "Apaches",
-      "Rayos Montenova",
-    ],
+    equipos: [],
   },
 ];
 

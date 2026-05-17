@@ -22,7 +22,7 @@ export default function TorneosPage() {
               <span className="badge">{torneo.estado}</span>
               <h3>{torneo.nombre}</h3>
               <p><strong>Categoría:</strong> {torneo.categoria}</p>
-              <p><strong>Equipos por campus:</strong> {torneo.equipos}</p>
+              <p><strong>Equipos actuales:</strong> {torneo.equipos}</p>
               <p><strong>Sedes:</strong> {torneo.sedes}</p>
               <p><strong>Inicio:</strong> {torneo.inicio}</p>
               <div className="actions-row">
@@ -36,11 +36,15 @@ export default function TorneosPage() {
               <span className="badge">{grupo.campus}</span>
               <h3>Equipos</h3>
               <p>{grupo.sede}</p>
-              <div className="team-list">
-                {grupo.equipos.map((equipo) => (
-                  <div className="team-pill" key={`${grupo.campus}-${equipo}`}>{equipo}</div>
-                ))}
-              </div>
+              {grupo.equipos.length > 0 ? (
+                <div className="team-list">
+                  {grupo.equipos.map((equipo) => (
+                    <div className="team-pill" key={`${grupo.campus}-${equipo}`}>{equipo}</div>
+                  ))}
+                </div>
+              ) : (
+                <p className="note">Equipos por confirmar.</p>
+              )}
             </div>
           ))}
         </div>
