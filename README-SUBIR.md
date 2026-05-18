@@ -22,7 +22,9 @@ El archivo principal con los datos de los Excel es:
 - Tabla de posiciones actualizada desde los Excel.
 - Goleadores actualizados desde los Excel.
 - La pagina de inicio queda con 28 equipos.
+- La pagina de inicio muestra lider de tabla y lider de goleo separados por campus.
 - La pagina de torneos muestra equipos, horarios, resultados y goleadores por campus.
+- Campus Montenova queda sin resultados ni goleadores porque todavia no arranca.
 
 ## Nota importante de Campus Valle
 

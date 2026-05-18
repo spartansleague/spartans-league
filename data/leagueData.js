@@ -601,31 +601,22 @@ export const estadisticasPorCampus = [
     campus: "Campus Montenova",
     sede: "Campus Montenova",
     tablaPosiciones: [
-      {         equipo: "Montenova FC",         pj: 1,         g: 1,         e: 0,         p: 0,         gf: 4,         gc: 0,         dg: 4,         pts: 3       },
-      {         equipo: "Cumbres FC",         pj: 1,         g: 1,         e: 0,         p: 0,         gf: 3,         gc: 1,         dg: 2,         pts: 3       },
-      {         equipo: "Apaches",         pj: 1,         g: 1,         e: 0,         p: 0,         gf: 2,         gc: 0,         dg: 2,         pts: 3       },
-      {         equipo: "Rayos Montenova",         pj: 1,         g: 1,         e: 0,         p: 0,         gf: 2,         gc: 1,         dg: 1,         pts: 3       },
-      {         equipo: "Imperio FC",         pj: 1,         g: 0,         e: 1,         p: 0,         gf: 3,         gc: 3,         dg: 0,         pts: 1       },
-      {         equipo: "Centuriones",         pj: 1,         g: 0,         e: 1,         p: 0,         gf: 3,         gc: 3,         dg: 0,         pts: 1       },
-      {         equipo: "Nova United",         pj: 1,         g: 0,         e: 1,         p: 0,         gf: 1,         gc: 1,         dg: 0,         pts: 1       },
-      {         equipo: "Guerreros",         pj: 1,         g: 0,         e: 1,         p: 0,         gf: 1,         gc: 1,         dg: 0,         pts: 1       },
-      {         equipo: "Canarios FC",         pj: 1,         g: 0,         e: 0,         p: 1,         gf: 1,         gc: 2,         dg: -1,         pts: 0       },
-      {         equipo: "Real Nova",         pj: 1,         g: 0,         e: 0,         p: 1,         gf: 1,         gc: 3,         dg: -2,         pts: 0       },
-      {         equipo: "Tiburones",         pj: 1,         g: 0,         e: 0,         p: 1,         gf: 0,         gc: 2,         dg: -2,         pts: 0       },
-      {         equipo: "Venados FC",         pj: 1,         g: 0,         e: 0,         p: 1,         gf: 0,         gc: 4,         dg: -4,         pts: 0       },
+      {         equipo: "Montenova FC",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
+      {         equipo: "Cumbres FC",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
+      {         equipo: "Apaches",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
+      {         equipo: "Rayos Montenova",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
+      {         equipo: "Imperio FC",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
+      {         equipo: "Centuriones",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
+      {         equipo: "Nova United",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
+      {         equipo: "Guerreros",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
+      {         equipo: "Canarios FC",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
+      {         equipo: "Real Nova",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
+      {         equipo: "Tiburones",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
+      {         equipo: "Venados FC",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
       {         equipo: "Sparta Nova",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
       {         equipo: "Reales SL",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       }
     ],
-    goleadores: [
-      {         jugador: "Eduardo M.",         equipo: "Montenova FC",         goles: 3       },
-      {         jugador: "Ángel P.",         equipo: "Cumbres FC",         goles: 2       },
-      {         jugador: "Sebastián R.",         equipo: "Imperio FC",         goles: 2       },
-      {         jugador: "Rodrigo S.",         equipo: "Centuriones",         goles: 2       },
-      {         jugador: "Gael L.",         equipo: "Apaches",         goles: 2       },
-      {         jugador: "Daniel T.",         equipo: "Rayos Montenova",         goles: 2       },
-      {         jugador: "Omar V.",         equipo: "Nova United",         goles: 1       },
-      {         jugador: "Fabián C.",         equipo: "Guerreros",         goles: 1       }
-    ]
+    goleadores: []
   }
 ];
 

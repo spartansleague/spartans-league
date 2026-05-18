@@ -1,11 +1,36 @@
 import Image from "next/image";
 import Link from "next/link";
-import { contact, equipos, partidosPorJornada, sedes, tablaPosiciones, goleadores } from "@/data/leagueData";
+import { contact, equipos, estadisticasPorCampus, partidosPorJornada, sedes } from "@/data/leagueData";
+
+function ordenarTablaPosiciones(tabla) {
+  return [...tabla].sort((a, b) => {
+    if (b.pts !== a.pts) return b.pts - a.pts;
+    if (b.dg !== a.dg) return b.dg - a.dg;
+    if (b.gf !== a.gf) return b.gf - a.gf;
+    return a.equipo.localeCompare(b.equipo);
+  });
+}
+
+function ordenarGoleadores(goleadores) {
+  return [...goleadores].sort((a, b) => {
+    if (b.goles !== a.goles) return b.goles - a.goles;
+    return a.jugador.localeCompare(b.jugador);
+  });
+}
 
 export default function HomePage() {
   const totalPartidos = partidosPorJornada.reduce((total, jornada) => total + jornada.campus.reduce((campusTotal, campus) => campusTotal + campus.juegos.length, 0), 0);
-  const liderTabla = tablaPosiciones[0];
-  const liderGoleo = goleadores[0];
+  const resumenCampus = estadisticasPorCampus.map((campus) => {
+    const tablaOrdenada = ordenarTablaPosiciones(campus.tablaPosiciones);
+    const liderTabla = tablaOrdenada.find((equipo) => equipo.pj > 0);
+    const liderGoleo = ordenarGoleadores(campus.goleadores)[0];
+
+    return {
+      ...campus,
+      liderTabla,
+      liderGoleo,
+    };
+  });
 
   return (
     <>
@@ -76,26 +101,29 @@ export default function HomePage() {
       </section>
 
       <section className="page-section">
-        <div className="container grid grid-2">
-          <div className="card">
-            <span className="badge">Tabla</span>
-            <h3>Líder actual</h3>
-            <p>
-              {liderTabla
-                ? `${liderTabla.equipo} aparece primero en la tabla de posiciones con ${liderTabla.pts} puntos.`
-                : "La tabla de posiciones se actualizará cuando se registren resultados."}
-            </p>
-            <Link className="secondary-btn" href="/estadisticas">Ver estadísticas</Link>
+        <div className="container">
+          <div className="section-head">
+            <p className="eyebrow">Líderes por campus</p>
+            <h2>Tablas separadas por liga</h2>
           </div>
-          <div className="card">
-            <span className="badge">Goleo</span>
-            <h3>Líder de goleo</h3>
-            <p>
-              {liderGoleo
-                ? `${liderGoleo.jugador} de ${liderGoleo.equipo} aparece como líder de goleo con ${liderGoleo.goles} goles.`
-                : "Los líderes de goleo aparecerán cuando se capturen los primeros goles."}
-            </p>
-            <Link className="secondary-btn" href="/estadisticas">Ver líderes</Link>
+          <div className="grid grid-3">
+            {resumenCampus.map((campus) => (
+              <div className="card" key={campus.campus}>
+                <span className="badge">{campus.campus}</span>
+                <h3>{campus.liderTabla ? campus.liderTabla.equipo : "Por iniciar"}</h3>
+                <p>
+                  {campus.liderTabla
+                    ? `Líder de tabla con ${campus.liderTabla.pts} puntos, ${campus.liderTabla.gf} goles a favor y diferencia de ${campus.liderTabla.dg}.`
+                    : "La tabla se activará cuando se registre el primer resultado de este campus."}
+                </p>
+                <p>
+                  {campus.liderGoleo
+                    ? `Goleo: ${campus.liderGoleo.jugador} de ${campus.liderGoleo.equipo}, ${campus.liderGoleo.goles} goles.`
+                    : "Aún no hay goleadores registrados."}
+                </p>
+                <Link className="secondary-btn" href="/estadisticas">Ver estadísticas</Link>
+              </div>
+            ))}
           </div>
         </div>
       </section>
