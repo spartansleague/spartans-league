@@ -151,14 +151,20 @@ export default function CampusStatsTabs() {
               </tr>
             </thead>
             <tbody>
-              {goleadoresOrdenados.map((jugador, index) => (
-                <tr key={`${campusActivo.campus}-${jugador.jugador}-${jugador.equipo}`}>
-                  <td>{index + 1}</td>
-                  <td><strong>{jugador.jugador}</strong></td>
-                  <td>{jugador.equipo}</td>
-                  <td><strong>{jugador.goles}</strong></td>
+              {goleadoresOrdenados.length > 0 ? (
+                goleadoresOrdenados.map((jugador, index) => (
+                  <tr key={`${campusActivo.campus}-${jugador.jugador}-${jugador.equipo}`}>
+                    <td>{index + 1}</td>
+                    <td><strong>{jugador.jugador}</strong></td>
+                    <td>{jugador.equipo}</td>
+                    <td><strong>{jugador.goles}</strong></td>
+                  </tr>
+                ))
+              ) : (
+                <tr>
+                  <td colSpan="4">Aún no hay goleadores registrados para este campus.</td>
                 </tr>
-              ))}
+              )}
             </tbody>
           </table>
         </div>

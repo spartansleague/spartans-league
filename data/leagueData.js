@@ -17,13 +17,13 @@ export const sedes = [
     nombre: "Euro Campus Valle",
     estado: "Sede activa",
     liga: "Spartans League Fut 7",
-    detalle: "Jornadas y partidos por confirmar según calendario.",
+    detalle: "Jornadas 1, 2 y 9 de 8:00 AM a 2:00 PM; jornadas 3 a 8 de 8:00 AM a 1:00 PM.",
   },
   {
     nombre: "Euro Campus Campestre",
     estado: "Sede activa",
     liga: "Spartans League Fut 7",
-    detalle: "Jornadas y partidos por confirmar según calendario.",
+    detalle: "Jornadas 1 y 9 de 8:00 AM a 2:00 PM; jornadas 2 a 8 de 8:00 AM a 1:00 PM.",
   },
   {
     nombre: "Campus Montenova",
@@ -78,10 +78,13 @@ export const equipos = [
   "Necali Moms",
 ];
 
+export const totalEquipos = equipos.length;
+
 export const equiposPorCampus = [
   {
     campus: "Campus Valle",
     sede: "Euro Campus Valle",
+    horario: "Jornadas 1, 2 y 9: 8:00 AM a 2:00 PM; jornadas 3 a 8: 8:00 AM a 1:00 PM",
     equipos: [
       "Rolando City",
       "Lobos FC",
@@ -102,6 +105,7 @@ export const equiposPorCampus = [
   {
     campus: "Campus Campestre",
     sede: "Euro Campus Campestre",
+    horario: "Jornadas 1 y 9: 8:00 AM a 2:00 PM; jornadas 2 a 8: 8:00 AM a 1:00 PM",
     equipos: [
       "SoccerBee",
       "Kawashima Wanders",
@@ -122,13 +126,14 @@ export const equiposPorCampus = [
   {
     campus: "Campus Montenova",
     sede: "Campus Montenova",
+    horario: "7:30 PM, 8:30 PM y 9:30 PM",
     equipos: [],
   },
 ];
 
 // PARTIDOS POR JORNADA Y POR CAMPUS
 // Para editar: cambia horarios, equipos, marcadores, estados o descansos.
-// En Jornadas 2 a 8 hay descansos para que el calendario cuadre con 14 equipos.
+// Algunas jornadas tienen descansos para que el calendario cuadre con 14 equipos.
 
 export const partidosPorJornada = [
   {
@@ -138,7 +143,7 @@ export const partidosPorJornada = [
             {
         "campus": "Campus Valle",
         "sede": "Euro Campus Valle",
-        "horario": "8:00 AM a 1:00 PM",
+        "horario": "8:00 AM a 2:00 PM",
         "descanso": [
           "Leñadores",
           "Revo FC"

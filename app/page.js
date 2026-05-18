@@ -4,6 +4,8 @@ import { contact, equipos, partidosPorJornada, sedes, tablaPosiciones, goleadore
 
 export default function HomePage() {
   const totalPartidos = partidosPorJornada.reduce((total, jornada) => total + jornada.campus.reduce((campusTotal, campus) => campusTotal + campus.juegos.length, 0), 0);
+  const liderTabla = tablaPosiciones[0];
+  const liderGoleo = goleadores[0];
 
   return (
     <>
@@ -78,13 +80,21 @@ export default function HomePage() {
           <div className="card">
             <span className="badge">Tabla</span>
             <h3>Líder actual</h3>
-            <p>{tablaPosiciones[0].equipo} aparece primero en la tabla de posiciones con {tablaPosiciones[0].pts} puntos.</p>
+            <p>
+              {liderTabla
+                ? `${liderTabla.equipo} aparece primero en la tabla de posiciones con ${liderTabla.pts} puntos.`
+                : "La tabla de posiciones se actualizará cuando se registren resultados."}
+            </p>
             <Link className="secondary-btn" href="/estadisticas">Ver estadísticas</Link>
           </div>
           <div className="card">
             <span className="badge">Goleo</span>
             <h3>Líder de goleo</h3>
-            <p>{goleadores[0].jugador} de {goleadores[0].equipo} aparece como líder de goleo con {goleadores[0].goles} goles.</p>
+            <p>
+              {liderGoleo
+                ? `${liderGoleo.jugador} de ${liderGoleo.equipo} aparece como líder de goleo con ${liderGoleo.goles} goles.`
+                : "Los líderes de goleo aparecerán cuando se capturen los primeros goles."}
+            </p>
             <Link className="secondary-btn" href="/estadisticas">Ver líderes</Link>
           </div>
         </div>
