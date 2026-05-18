@@ -19,7 +19,7 @@ function ordenarGoleadores(goleadores) {
 }
 
 export default function HomePage() {
-  const totalPartidos = partidosPorJornada.reduce((total, jornada) => total + jornada.campus.reduce((campusTotal, campus) => campusTotal + campus.juegos.length, 0), 0);
+  const totalPartidosTemporada = 56 + 56 + 72;
   const resumenCampus = estadisticasPorCampus.map((campus) => {
     const tablaOrdenada = ordenarTablaPosiciones(campus.tablaPosiciones);
     const liderTabla = tablaOrdenada.find((equipo) => equipo.pj > 0);
@@ -64,7 +64,7 @@ export default function HomePage() {
             <div className="stat-box"><strong>{equipos.length}</strong><span>Equipos</span></div>
             <div className="stat-box"><strong>{sedes.length}</strong><span>Sedes</span></div>
             <div className="stat-box"><strong>{partidosPorJornada.length}</strong><span>Jornadas</span></div>
-            <div className="stat-box"><strong>{totalPartidos}</strong><span>Partidos</span></div>
+            <div className="stat-box"><strong>{totalPartidosTemporada}</strong><span>Partidos máx.</span></div>
           </div>
         </div>
       </section>
