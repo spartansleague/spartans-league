@@ -23,7 +23,7 @@ El archivo principal con los datos de los Excel es:
 - Goleadores actualizados desde los Excel.
 - La pagina de inicio queda con 28 equipos.
 - La pagina de inicio muestra lider de tabla y lider de goleo separados por campus.
-- La pagina de inicio muestra 184 partidos maximos: 56 de Valle, 56 de Campestre y 72 de capacidad maxima para el campus pendiente.
+- La pagina de inicio muestra 112 partidos: 56 de Valle y 56 de Campestre. Montenova no se suma hasta que sea oficial.
 - La pagina de torneos muestra equipos, horarios, resultados y goleadores por campus.
 - Campus Montenova queda sin resultados ni goleadores porque todavia no arranca.
 
@@ -32,14 +32,14 @@ El archivo principal con los datos de los Excel es:
 1. En GitHub abre `app/page.js`.
 2. Busca esta linea:
 
-`const totalPartidosTemporada = 56 + 56 + 72;`
+`const totalPartidosTemporada = 56 + 56;`
 
 3. Cambia esos numeros por los que necesites.
 4. Guarda el archivo con `Commit changes`.
 
-Ejemplo: si quieres contar solo Valle y Campestre, cambia la linea a:
+Ejemplo: cuando Montenova sea oficial y quieras sumar 72 partidos mas, cambia la linea a:
 
-`const totalPartidosTemporada = 56 + 56;`
+`const totalPartidosTemporada = 56 + 56 + 72;`
 
 ## Nota importante de Campus Valle
 
