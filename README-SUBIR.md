@@ -1,22 +1,34 @@
-Archivos para subir a GitHub
+# Archivos para subir a GitHub
 
-Sube estos archivos al repositorio spartansleague/spartans-league respetando las mismas carpetas:
+Sube estos archivos a tu repositorio `spartansleague/spartans-league` respetando exactamente las mismas rutas:
 
-- .npmrc
-- package.json
-- package-lock.json
-- app/page.js
-- app/torneos/page.js
-- components/CampusStatsTabs.js
-- data/leagueData.js
+- `.npmrc`
+- `package.json`
+- `package-lock.json`
+- `app/page.js`
+- `app/torneos/page.js`
+- `components/CampusStatsTabs.js`
+- `data/leagueData.js`
 
-Que corrige:
+El archivo principal con los datos de los Excel es:
 
-- La pagina de inicio muestra 28 equipos.
-- Torneos muestra Campus Valle con sus 14 equipos.
-- Torneos muestra horarios por campus.
-- Partidos muestra los horarios y equipos de Campus Valle desde data/leagueData.js.
-- La pagina ya no falla si Campus Valle todavia no tiene goleadores.
-- Vercel usa el registry publico de npm y versiones fijas de Next/React.
+`data/leagueData.js`
 
-Despues de subirlos a GitHub, Vercel deberia iniciar un deploy automaticamente.
+## Que contiene esta actualizacion
+
+- Campus Valle: Jornada 1 cargada con 6 partidos finalizados.
+- Revo FC y Leñadores aparecen como descanso en Jornada 1, con 0 partidos jugados.
+- Campus Campestre: Jornadas 1 y 2 cargadas con 13 partidos finalizados.
+- Tabla de posiciones actualizada desde los Excel.
+- Goleadores actualizados desde los Excel.
+- La pagina de inicio queda con 28 equipos.
+- La pagina de torneos muestra equipos, horarios, resultados y goleadores por campus.
+
+## Nota importante de Campus Valle
+
+En el Excel, los resultados y la tabla indican estos ultimos dos partidos de Jornada 1:
+
+- TruzAzul 4 - 5 Roger FC
+- Seleçao Canarinha 7 - 2 Arrestados FC
+
+Use esos cruces porque son los que cuadran con los resultados y la tabla de posiciones.
