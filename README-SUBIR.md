@@ -16,11 +16,12 @@ El archivo principal con los datos de los Excel es:
 
 ## Que contiene esta actualizacion
 
-- Campus Valle: Jornada 1 cargada con 6 partidos finalizados.
-- Revo FC y Leñadores aparecen como descanso en Jornada 1, con 0 partidos jugados.
+- Campus Valle: Jornadas 1 y 2 cargadas con 12 partidos finalizados.
+- Revo FC y Leñadores aparecen como descanso en Jornada 1. El partido Revo FC vs Leñadores de Jornada 2 sigue sin resultado en el Google Sheet descargado.
 - Campus Campestre: Jornadas 1 y 2 cargadas con 13 partidos finalizados.
-- Tabla de posiciones actualizada desde los Excel.
-- Goleadores actualizados desde los Excel.
+- Campus Campestre Jornada 3 no trae resultados en el backend del Google Sheet descargado; por eso sigue sin cargarse como finalizada.
+- Tabla de posiciones actualizada desde los Google Sheets descargados.
+- Goleadores actualizados desde los Google Sheets descargados.
 - La pagina de inicio queda con 28 equipos.
 - La pagina de inicio muestra lider de tabla y lider de goleo separados por campus.
 - La pagina de inicio muestra 112 partidos: 56 de Valle y 56 de Campestre. Montenova no se suma hasta que sea oficial.
