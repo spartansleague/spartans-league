@@ -11,44 +11,7 @@
     ]
   },
   "Campus Campestre": {
-    "partidos_finalizados": 13,
-    "sin_resultado_en_excel": [
-      [
-        "Jornada 3",
-        "08:00",
-        "CAFC",
-        "Armadillos FC"
-      ],
-      [
-        "Jornada 3",
-        "09:00",
-        "Commers",
-        "Necali Moms"
-      ],
-      [
-        "Jornada 3",
-        "10:00",
-        "Capri FC",
-        "Los Demas FC"
-      ],
-      [
-        "Jornada 3",
-        "11:00",
-        "Juniors FC",
-        "La Menor FC"
-      ],
-      [
-        "Jornada 3",
-        "12:00",
-        "Los Krikos",
-        "FC Internazionale Milanesa"
-      ],
-      [
-        "Jornada 3",
-        "13:00",
-        "Principes de la B",
-        "Jaiba Brava"
-      ]
-    ]
+    "partidos_finalizados": 19,
+    "sin_resultado_en_excel": []
   }
 }

@@ -18,8 +18,8 @@ El archivo principal con los datos de los Excel es:
 
 - Campus Valle: Jornadas 1 y 2 cargadas con 12 partidos finalizados.
 - Revo FC y Leñadores aparecen como descanso en Jornada 1. El partido Revo FC vs Leñadores de Jornada 2 sigue sin resultado en el Google Sheet descargado.
-- Campus Campestre: Jornadas 1 y 2 cargadas con 13 partidos finalizados.
-- Campus Campestre Jornada 3 no trae resultados en el backend del Google Sheet descargado; por eso sigue sin cargarse como finalizada.
+- Campus Campestre: Jornadas 1, 2 y 3 cargadas con 19 partidos finalizados.
+- En Campus Campestre Jornada 3, los cruces Commers vs Capri FC y Los Demas FC vs Necali Moms se tomaron del backend/tabla porque cuadran con goles y posiciones.
 - Tabla de posiciones actualizada desde los Google Sheets descargados.
 - Goleadores actualizados desde los Google Sheets descargados.
 - La pagina de inicio queda con 28 equipos.
