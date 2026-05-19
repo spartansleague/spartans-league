@@ -18,6 +18,7 @@ El archivo principal con los datos de los Excel es:
 
 - Campus Valle: Jornadas 1 y 2 cargadas con 12 partidos finalizados.
 - Revo FC y Leñadores aparecen como descanso en Jornada 1. El partido Revo FC vs Leñadores de Jornada 2 sigue sin resultado en el Google Sheet descargado.
+- El horario y la tabla de goleadores de Campus Valle se actualizaron desde el Google Sheet descargado el 19 de mayo de 2026.
 - Campus Campestre: Jornadas 1, 2 y 3 cargadas con 19 partidos finalizados.
 - En Campus Campestre Jornada 3, los cruces Commers vs Capri FC y Los Demas FC vs Necali Moms se tomaron del backend/tabla porque cuadran con goles y posiciones.
 - El horario de Campus Campestre se actualizo desde la hoja `Horario` del Google Sheet, incluyendo los cambios de Jornadas 4 a 9.

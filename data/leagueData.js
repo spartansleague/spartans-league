@@ -172,11 +172,11 @@ export const partidosPorJornada = [
         descanso: ["Rolando City", "Lobos FC"],
         juegos: [
           {             hora: "08:00",             local: "Arrestados FC",             visitante: "La Banca FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "TruzAzul",             visitante: "Las Mopas",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "09:00",             local: "Formadores FC",             visitante: "Leñadores",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "10:00",             local: "Revo FC",             visitante: "La Puerquisa",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "11:00",             local: "Roger FC",             visitante: "Perros",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "12:00",             local: "Atlético de Timbuktu",             visitante: "Seleçao Canarinha",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "13:00",             local: "Formadores FC",             visitante: "Leñadores",             marcador: "Por jugar",             estado: "Programado"           }
+          {             hora: "13:00",             local: "TruzAzul",             visitante: "Las Mopas",             marcador: "Por jugar",             estado: "Programado"           }
         ]
       },
       {
@@ -217,10 +217,10 @@ export const partidosPorJornada = [
         descanso: ["Perros", "Seleçao Canarinha"],
         juegos: [
           {             hora: "08:00",             local: "Rolando City",             visitante: "TruzAzul",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "Atlético de Timbuktu",             visitante: "Arrestados FC",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "09:00",             local: "Las Mopas",             visitante: "Formadores FC",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "10:00",             local: "La Banca FC",             visitante: "Revo FC",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "11:00",             local: "Lobos FC",             visitante: "La Puerquisa",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "Las Mopas",             visitante: "Formadores FC",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "12:00",             local: "Atlético de Timbuktu",             visitante: "Arrestados FC",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "13:00",             local: "Leñadores",             visitante: "Roger FC",             marcador: "Por jugar",             estado: "Programado"           }
         ]
       },
@@ -262,10 +262,10 @@ export const partidosPorJornada = [
         descanso: ["La Puerquisa", "Las Mopas"],
         juegos: [
           {             hora: "08:00",             local: "Perros",             visitante: "Rolando City",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "Lobos FC",             visitante: "Atlético de Timbuktu",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "09:00",             local: "Seleçao Canarinha",             visitante: "Formadores FC",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "10:00",             local: "Arrestados FC",             visitante: "Revo FC",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "11:00",             local: "La Banca FC",             visitante: "Roger FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "Seleçao Canarinha",             visitante: "Formadores FC",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "12:00",             local: "Lobos FC",             visitante: "Atlético de Timbuktu",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "13:00",             local: "Leñadores",             visitante: "TruzAzul",             marcador: "Por jugar",             estado: "Programado"           }
         ]
       },
@@ -397,10 +397,10 @@ export const partidosPorJornada = [
         descanso: ["Roger FC", "Arrestados FC"],
         juegos: [
           {             hora: "08:00",             local: "Rolando City",             visitante: "La Banca FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "La Puerquisa",             visitante: "Perros",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "09:00",             local: "Atlético de Timbuktu",             visitante: "Formadores FC",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "10:00",             local: "TruzAzul",             visitante: "Revo FC",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "11:00",             local: "Lobos FC",             visitante: "Leñadores",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "Atlético de Timbuktu",             visitante: "Formadores FC",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "12:00",             local: "La Puerquisa",             visitante: "Perros",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "13:00",             local: "Las Mopas",             visitante: "Seleçao Canarinha",             marcador: "Por jugar",             estado: "Programado"           }
         ]
       },
@@ -442,10 +442,10 @@ export const partidosPorJornada = [
         descanso: [],
         juegos: [
           {             hora: "08:00",             local: "Rolando City",             visitante: "La Puerquisa",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "La Banca FC",             visitante: "Seleçao Canarinha",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "09:00",             local: "Perros",             visitante: "Formadores FC",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "10:00",             local: "Revo FC",             visitante: "Lobos FC",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "11:00",             local: "Arrestados FC",             visitante: "Leñadores",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "Perros",             visitante: "Formadores FC",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "12:00",             local: "La Banca FC",             visitante: "Seleçao Canarinha",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "13:00",             local: "Roger FC",             visitante: "Las Mopas",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "14:00",             local: "TruzAzul",             visitante: "Atlético de Timbuktu",             marcador: "Por jugar",             estado: "Programado"           }
         ]
@@ -492,6 +492,7 @@ export const estadisticasPorCampus = [
       {         equipo: "Perros",         pj: 2,         g: 0,         e: 0,         p: 2,         gf: 2,         gc: 18,         dg: -16,         pts: 0       }
     ],
     goleadores: [
+      {         jugador: "Jesús Zambrano",         equipo: "Formadores FC",         goles: 5       },
       {         jugador: "Gerardo Pozas",         equipo: "Selecao",         goles: 5       },
       {         jugador: "Iker Melendez",         equipo: "Las Mopas",         goles: 4       },
       {         jugador: "Emilio Franco",         equipo: "Puerquisa",         goles: 4       },
@@ -504,7 +505,6 @@ export const estadisticasPorCampus = [
       {         jugador: "Leonardo Gutierrez",         equipo: "Selecao",         goles: 3       },
       {         jugador: "Francisco Valdez",         equipo: "Arrestados",         goles: 2       },
       {         jugador: "Donato Uribe",         equipo: "Atlético de Timbuktu",         goles: 2       },
-      {         jugador: "Jesús Zambrano",         equipo: "Formadores FC",         goles: 2       },
       {         jugador: "David Castillo",         equipo: "La Banca",         goles: 2       },
       {         jugador: "Patricio Guevara",         equipo: "La Banca",         goles: 2       },
       {         jugador: "Christian de Lima",         equipo: "Las Mopas",         goles: 2       },
