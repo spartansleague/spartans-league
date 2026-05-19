@@ -18,17 +18,34 @@ function ordenarGoleadores(goleadores) {
   });
 }
 
+function formatearLideresGoleo(goleadores) {
+  if (goleadores.length === 0) {
+    return null;
+  }
+
+  const maxGoles = goleadores[0].goles;
+  const lideres = goleadores.filter((jugador) => jugador.goles === maxGoles);
+  const nombres = lideres.map((jugador) => `${jugador.jugador} de ${jugador.equipo}`);
+
+  if (nombres.length === 1) {
+    return `${nombres[0]}, ${maxGoles} goles.`;
+  }
+
+  return `${nombres.slice(0, -1).join(", ")} y ${nombres[nombres.length - 1]}, ${maxGoles} goles.`;
+}
+
 export default function HomePage() {
   const totalPartidosTemporada = 56 + 56;
   const resumenCampus = estadisticasPorCampus.map((campus) => {
     const tablaOrdenada = ordenarTablaPosiciones(campus.tablaPosiciones);
+    const goleadoresOrdenados = ordenarGoleadores(campus.goleadores);
     const liderTabla = tablaOrdenada.find((equipo) => equipo.pj > 0);
-    const liderGoleo = ordenarGoleadores(campus.goleadores)[0];
+    const lideresGoleo = formatearLideresGoleo(goleadoresOrdenados);
 
     return {
       ...campus,
       liderTabla,
-      liderGoleo,
+      lideresGoleo,
     };
   });
 
@@ -117,8 +134,8 @@ export default function HomePage() {
                     : "La tabla se activará cuando se registre el primer resultado de este campus."}
                 </p>
                 <p>
-                  {campus.liderGoleo
-                    ? `Goleo: ${campus.liderGoleo.jugador} de ${campus.liderGoleo.equipo}, ${campus.liderGoleo.goles} goles.`
+                  {campus.lideresGoleo
+                    ? `Goleo: ${campus.lideresGoleo}`
                     : "Aún no hay goleadores registrados."}
                 </p>
                 <Link className="secondary-btn" href="/estadisticas">Ver estadísticas</Link>
