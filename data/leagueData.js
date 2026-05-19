@@ -231,10 +231,10 @@ export const partidosPorJornada = [
         descanso: ["La Menor FC", "Los Krikos"],
         juegos: [
           {             hora: "08:00",             local: "SoccerBee",             visitante: "Capri FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "Armadillos FC",             visitante: "Commers",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "10:00",             local: "Los Demas FC",             visitante: "Principes de la B",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "11:00",             local: "Kawashima Wanders",             visitante: "Necali Moms",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "FC Internazionale Milanesa",             visitante: "CAFC",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "09:00",             local: "FC Internazionale Milanesa",             visitante: "CAFC",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "10:00",             local: "Armadillos FC",             visitante: "Commers",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "11:00",             local: "Los Demas FC",             visitante: "Principes de la B",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "12:00",             local: "Kawashima Wanders",             visitante: "Necali Moms",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "13:00",             local: "Jaiba Brava",             visitante: "Juniors FC",             marcador: "Por jugar",             estado: "Programado"           }
         ]
       },
@@ -320,10 +320,10 @@ export const partidosPorJornada = [
         horario: "8:00 AM a 1:00 PM",
         descanso: ["Capri FC", "FC Internazionale Milanesa"],
         juegos: [
-          {             hora: "08:00",             local: "SoccerBee",             visitante: "Juniors FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "Principes de la B",             visitante: "Commers",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "10:00",             local: "La Menor FC",             visitante: "Kawashima Wanders",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "11:00",             local: "Jaiba Brava",             visitante: "Los Krikos",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "08:00",             local: "SoccerBee",             visitante: "Jaiba Brava",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "09:00",             local: "La Menor FC",             visitante: "Kawashima Wanders",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "10:00",             local: "Los Krikos",             visitante: "Commers",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "11:00",             local: "Principes de la B",             visitante: "Juniors FC",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "12:00",             local: "Los Demas FC",             visitante: "CAFC",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "13:00",             local: "Necali Moms",             visitante: "Armadillos FC",             marcador: "Por jugar",             estado: "Programado"           }
         ]
@@ -366,9 +366,9 @@ export const partidosPorJornada = [
         descanso: ["Principes de la B", "Armadillos FC"],
         juegos: [
           {             hora: "08:00",             local: "SoccerBee",             visitante: "CAFC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "Commers",             visitante: "La Menor FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "10:00",             local: "Juniors FC",             visitante: "Los Krikos",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "11:00",             local: "Capri FC",             visitante: "Necali Moms",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "09:00",             local: "Capri FC",             visitante: "Necali Moms",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "10:00",             local: "Commers",             visitante: "La Menor FC",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "11:00",             local: "Juniors FC",             visitante: "Los Krikos",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "12:00",             local: "FC Internazionale Milanesa",             visitante: "Jaiba Brava",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "13:00",             local: "Kawashima Wanders",             visitante: "Los Demas FC",             marcador: "Por jugar",             estado: "Programado"           }
         ]
@@ -411,9 +411,9 @@ export const partidosPorJornada = [
         descanso: ["Juniors FC", "CAFC"],
         juegos: [
           {             hora: "08:00",             local: "SoccerBee",             visitante: "Armadillos FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "Jaiba Brava",             visitante: "Commers",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "10:00",             local: "Los Krikos",             visitante: "Principes de la B",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "11:00",             local: "Kawashima Wanders",             visitante: "Capri FC",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "09:00",             local: "Kawashima Wanders",             visitante: "Capri FC",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "10:00",             local: "Jaiba Brava",             visitante: "Commers",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "11:00",             local: "Los Krikos",             visitante: "Principes de la B",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "12:00",             local: "Los Demas FC",             visitante: "FC Internazionale Milanesa",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "13:00",             local: "Necali Moms",             visitante: "La Menor FC",             marcador: "Por jugar",             estado: "Programado"           }
         ]
@@ -457,10 +457,10 @@ export const partidosPorJornada = [
         descanso: [],
         juegos: [
           {             hora: "08:00",             local: "SoccerBee",             visitante: "Necali Moms",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "Commers",             visitante: "Kawashima Wanders",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "10:00",             local: "La Menor FC",             visitante: "Principes de la B",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "09:00",             local: "Armadillos FC",             visitante: "FC Internazionale Milanesa",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "10:00",             local: "Commers",             visitante: "Kawashima Wanders",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "11:00",             local: "CAFC",             visitante: "Jaiba Brava",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "Armadillos FC",             visitante: "FC Internazionale Milanesa",             marcador: "Por jugar",             estado: "Programado"           },
+          {             hora: "12:00",             local: "La Menor FC",             visitante: "Principes de la B",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "13:00",             local: "Juniors FC",             visitante: "Los Demas FC",             marcador: "Por jugar",             estado: "Programado"           },
           {             hora: "14:00",             local: "Capri FC",             visitante: "Los Krikos",             marcador: "Por jugar",             estado: "Programado"           }
         ]
@@ -571,6 +571,7 @@ export const estadisticasPorCampus = [
       {         jugador: "Marcelo Benavides",         equipo: "Necali Moms",         goles: 4       },
       {         jugador: "Gerino Ramirez",         equipo: "Príncipes",         goles: 4       },
       {         jugador: "Raul Marquez",         equipo: "Armadillos FC",         goles: 3       },
+      {         jugador: "Diego Armando",         equipo: "FC Milanesa",         goles: 3       },
       {         jugador: "Salvador Garza",         equipo: "Juniors FC",         goles: 3       },
       {         jugador: "Abel Cepeda",         equipo: "Kawashima Wanders",         goles: 3       },
       {         jugador: "Gil Villarreal",         equipo: "Los Demas FC",         goles: 3       },
@@ -581,7 +582,6 @@ export const estadisticasPorCampus = [
       {         jugador: "Diego Garza",         equipo: "Commers",         goles: 2       },
       {         jugador: "Juan Sanchez",         equipo: "Commers",         goles: 2       },
       {         jugador: "Santiago Castillo",         equipo: "Commers",         goles: 2       },
-      {         jugador: "Diego Armando",         equipo: "FC Milanesa",         goles: 2       },
       {         jugador: "Alex Castillo",         equipo: "Juniors FC",         goles: 2       },
       {         jugador: "Fernando Yarto",         equipo: "Kawashima Wanders",         goles: 2       },
       {         jugador: "Gerardo García",         equipo: "Kawashima Wanders",         goles: 2       },
@@ -599,7 +599,6 @@ export const estadisticasPorCampus = [
       {         jugador: "Raul Marquez",         equipo: "Capri FC",         goles: 1       },
       {         jugador: "Gonzalo Vargas",         equipo: "Commers",         goles: 1       },
       {         jugador: "Javier Molina",         equipo: "Commers",         goles: 1       },
-      {         jugador: "Diego Mijares",         equipo: "FC Milanesa",         goles: 1       },
       {         jugador: "Gerardo Contreras",         equipo: "FC Milanesa",         goles: 1       },
       {         jugador: "Emilio Sanchez",         equipo: "Jaiba Brava",         goles: 1       },
       {         jugador: "Ramon",         equipo: "Jaiba Brava",         goles: 1       },
