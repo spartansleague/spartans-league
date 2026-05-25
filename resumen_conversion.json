@@ -1,6 +1,6 @@
 {
   "Campus Valle": {
-    "partidos_finalizados": 12,
+    "partidos_finalizados": 18,
     "sin_resultado_en_excel": [
       [
         "Jornada 2",
@@ -11,7 +11,7 @@
     ]
   },
   "Campus Campestre": {
-    "partidos_finalizados": 19,
+    "partidos_finalizados": 25,
     "sin_resultado_en_excel": []
   }
 }
