@@ -11,7 +11,14 @@
     ]
   },
   "Campus Campestre": {
-    "partidos_finalizados": 25,
-    "sin_resultado_en_excel": []
+    "partidos_finalizados": 30,
+    "sin_resultado_en_excel": [
+      [
+        "Jornada 5",
+        "09:00",
+        "Kawashima Wanders",
+        "Principes de la B"
+      ]
+    ]
   }
 }
