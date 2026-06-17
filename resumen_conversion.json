@@ -11,12 +11,48 @@
     ]
   },
   "Campus Campestre": {
-    "partidos_finalizados": 30,
+    "partidos_finalizados": 49,
     "sin_resultado_en_excel": [
       [
-        "Jornada 5",
+        "Jornada 8",
+        "11:00",
+        "Los Krikos",
+        "Principes de la B"
+      ],
+      [
+        "Jornada 9",
+        "08:00",
+        "SoccerBee",
+        "Juniors FC"
+      ],
+      [
+        "Jornada 9",
         "09:00",
         "Kawashima Wanders",
+        "Jaiba Brava"
+      ],
+      [
+        "Jornada 9",
+        "10:00",
+        "Commers",
+        "Los Demas FC"
+      ],
+      [
+        "Jornada 9",
+        "11:00",
+        "Capri FC",
+        "La Menor FC"
+      ],
+      [
+        "Jornada 9",
+        "12:00",
+        "Armadillos FC",
+        "FC Internazionale Milanesa"
+      ],
+      [
+        "Jornada 9",
+        "13:00",
+        "Necali Moms",
         "Principes de la B"
       ]
     ]

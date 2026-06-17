@@ -19,11 +19,13 @@ El archivo principal con los datos de los Excel es:
 - Campus Valle: Jornadas 1, 2 y 3 cargadas con 18 partidos finalizados.
 - Revo FC y Leñadores aparecen como descanso en Jornada 1. El partido Revo FC vs Leñadores de Jornada 2 sigue sin resultado en el Google Sheet descargado.
 - Campus Valle ahora incluye 66 goleadores. El lider de goleo es Patricio González de TruzAzul con 7 goles.
-- Campus Campestre: Jornadas 1, 2, 3, 4 y 5 cargadas con 30 partidos finalizados.
-- En Campus Campestre Jornada 5, Kawashima Wanders vs Principes de la B sigue sin resultado en el Google Sheet descargado.
+- Campus Campestre: 49 partidos finalizados cargados.
+- En Campus Campestre Jornada 8, Los Krikos vs Principes de la B sigue sin resultado en el Google Sheet descargado.
+- En Campus Campestre Jornada 9, solo CAFC vs Los Krikos aparece finalizado; los otros partidos siguen sin resultado en el Google Sheet descargado.
 - En Campus Campestre Jornada 3, los cruces Commers vs Capri FC y Los Demas FC vs Necali Moms se tomaron del backend/tabla porque cuadran con goles y posiciones.
 - El horario de Campus Campestre se actualizo desde la hoja `Horario` del Google Sheet, incluyendo los cambios de Jornadas 4 a 9.
-- Campus Campestre ahora incluye 73 goleadores. El lider de goleo es David Garza de Juniors FC con 9 goles.
+- Campus Campestre ahora incluye 108 goleadores. El lider de goleo es David Garza de Juniors FC con 11 goles.
+- El lider de tabla en Campus Campestre es Necali Moms con 17 puntos.
 - Tabla de posiciones actualizada desde los Google Sheets descargados.
 - Goleadores actualizados desde los Google Sheets descargados.
 - La pagina de inicio queda con 28 equipos.
