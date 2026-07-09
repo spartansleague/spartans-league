@@ -33,9 +33,9 @@ export const sedes = [
 
 export const campeones = [
   {
-    campus: "Campus Campestre",
-    torneo: "Spartans League Campus Campestre Abril - Julio 2026",
-    equipo: "Krikos FC"
+    "campus": "Campus Campestre",
+    "torneo": "Spartans League Campus Campestre Abril - Julio 2026",
+    "equipo": "Krikos FC"
   }
 ];
 
@@ -45,196 +45,221 @@ export const campus = [
     "sede": "Euro Campus Valle",
     "horario": "Jornadas 1, 2 y 9: 8:00 AM a 2:00 PM; jornadas 3 a 8: 8:00 AM a 1:00 PM",
     "equipos": [
-      "Rolando City",
-      "Lobos FC",
-      "Formadores FC",
-      "La Banca FC",
-      "Las Mopas",
-      "Perros",
-      "Atlético de Timbuktu",
-      "La Puerquisa",
-      "TruzAzul",
-      "Arrestados FC",
-      "Seleçao Canarinha",
       "Roger FC",
+      "Rolando City",
+      "Revo FC",
+      "Las Mopas",
+      "Formadores FC",
+      "Atlético de Timbuktu",
       "Leñadores",
-      "Revo FC"
+      "Seleçao Canarinha",
+      "Arrestados FC",
+      "TruzAzul",
+      "La Puerquisa",
+      "La Banca FC",
+      "Lobos FC",
+      "Perros"
     ],
     "tabla": [
       {
         "equipo": "Roger FC",
+        "pj": 5,
+        "g": 4,
+        "e": 1,
+        "p": 0,
+        "gf": 39,
+        "gc": 16,
+        "dg": 23,
+        "pts": 14
+      },
+      {
+        "equipo": "Rolando City",
+        "pj": 4,
+        "g": 4,
+        "e": 0,
+        "p": 0,
+        "gf": 17,
+        "gc": 7,
+        "dg": 10,
+        "pts": 12
+      },
+      {
+        "equipo": "Revo FC",
         "pj": 3,
         "g": 3,
         "e": 0,
         "p": 0,
-        "gf": 23,
-        "gc": 7,
-        "dg": 16,
+        "gf": 25,
+        "gc": 3,
+        "dg": 22,
         "pts": 9
       },
       {
-        "equipo": "Seleçao Canarinha",
-        "pj": 3,
-        "g": 2,
+        "equipo": "Las Mopas",
+        "pj": 4,
+        "g": 3,
         "e": 0,
         "p": 1,
         "gf": 19,
-        "gc": 7,
-        "dg": 12,
-        "pts": 6
-      },
-      {
-        "equipo": "Rolando City",
-        "pj": 2,
-        "g": 2,
-        "e": 0,
-        "p": 0,
-        "gf": 10,
-        "gc": 4,
-        "dg": 6,
-        "pts": 6
-      },
-      {
-        "equipo": "Las Mopas",
-        "pj": 3,
-        "g": 2,
-        "e": 0,
-        "p": 1,
-        "gf": 12,
-        "gc": 7,
-        "dg": 5,
-        "pts": 6
+        "gc": 9,
+        "dg": 10,
+        "pts": 9
       },
       {
         "equipo": "Formadores FC",
-        "pj": 3,
-        "g": 2,
+        "pj": 5,
+        "g": 3,
         "e": 0,
-        "p": 1,
-        "gf": 11,
-        "gc": 7,
-        "dg": 4,
-        "pts": 6
-      },
-      {
-        "equipo": "TruzAzul",
-        "pj": 3,
-        "g": 1,
-        "e": 1,
-        "p": 1,
-        "gf": 13,
-        "gc": 11,
-        "dg": 2,
-        "pts": 4
+        "p": 2,
+        "gf": 18,
+        "gc": 18,
+        "dg": 0,
+        "pts": 9
       },
       {
         "equipo": "Atlético de Timbuktu",
-        "pj": 3,
-        "g": 1,
-        "e": 1,
+        "pj": 5,
+        "g": 2,
+        "e": 2,
         "p": 1,
-        "gf": 9,
-        "gc": 8,
-        "dg": 1,
-        "pts": 4
-      },
-      {
-        "equipo": "Revo FC",
-        "pj": 1,
-        "g": 1,
-        "e": 0,
-        "p": 0,
-        "gf": 11,
-        "gc": 0,
-        "dg": 11,
-        "pts": 3
+        "gf": 16,
+        "gc": 12,
+        "dg": 4,
+        "pts": 8
       },
       {
         "equipo": "Leñadores",
-        "pj": 1,
-        "g": 1,
-        "e": 0,
+        "pj": 3,
+        "g": 2,
+        "e": 1,
         "p": 0,
-        "gf": 3,
-        "gc": 1,
-        "dg": 2,
-        "pts": 3
+        "gf": 16,
+        "gc": 10,
+        "dg": 6,
+        "pts": 7
+      },
+      {
+        "equipo": "Seleçao Canarinha",
+        "pj": 4,
+        "g": 2,
+        "e": 0,
+        "p": 2,
+        "gf": 23,
+        "gc": 12,
+        "dg": 11,
+        "pts": 6
       },
       {
         "equipo": "Arrestados FC",
-        "pj": 3,
+        "pj": 5,
         "g": 1,
-        "e": 0,
-        "p": 2,
-        "gf": 8,
-        "gc": 19,
-        "dg": -11,
-        "pts": 3
+        "e": 1,
+        "p": 3,
+        "gf": 11,
+        "gc": 25,
+        "dg": -14,
+        "pts": 5
       },
       {
-        "equipo": "La Banca FC",
-        "pj": 3,
-        "g": 0,
+        "equipo": "TruzAzul",
+        "pj": 5,
+        "g": 1,
         "e": 1,
-        "p": 2,
-        "gf": 10,
-        "gc": 14,
-        "dg": -4,
-        "pts": 2
+        "p": 3,
+        "gf": 19,
+        "gc": 22,
+        "dg": -3,
+        "pts": 4
       },
       {
         "equipo": "La Puerquisa",
-        "pj": 3,
+        "pj": 4,
+        "g": 0,
+        "e": 2,
+        "p": 2,
+        "gf": 8,
+        "gc": 20,
+        "dg": -12,
+        "pts": 4
+      },
+      {
+        "equipo": "La Banca FC",
+        "pj": 5,
         "g": 0,
         "e": 1,
-        "p": 2,
-        "gf": 5,
-        "gc": 17,
-        "dg": -12,
+        "p": 4,
+        "gf": 16,
+        "gc": 35,
+        "dg": -19,
         "pts": 2
       },
       {
         "equipo": "Lobos FC",
-        "pj": 2,
+        "pj": 4,
         "g": 0,
-        "e": 0,
-        "p": 2,
-        "gf": 4,
-        "gc": 12,
-        "dg": -8,
-        "pts": 0
+        "e": 1,
+        "p": 3,
+        "gf": 8,
+        "gc": 19,
+        "dg": -11,
+        "pts": 1
       },
       {
         "equipo": "Perros",
-        "pj": 3,
+        "pj": 4,
         "g": 0,
         "e": 0,
-        "p": 3,
+        "p": 4,
         "gf": 3,
-        "gc": 27,
-        "dg": -24,
+        "gc": 30,
+        "dg": -27,
         "pts": 0
       }
     ],
     "goleadores": [
       {
-        "jugador": "Patricio González",
-        "equipo": "TruzAzul",
-        "goles": 7
-      },
-      {
-        "jugador": "Gerardo Pozas",
-        "equipo": "Selecao",
-        "goles": 6
+        "jugador": "Jesús Zambrano",
+        "equipo": "Formadores FC",
+        "goles": 9
       },
       {
         "jugador": "Pablo Mendez",
         "equipo": "Atlético de Timbuktu",
+        "goles": 8
+      },
+      {
+        "jugador": "Andres Diaz",
+        "equipo": "Roger FC",
+        "goles": 8
+      },
+      {
+        "jugador": "Patricio González",
+        "equipo": "TruzAzul",
+        "goles": 8
+      },
+      {
+        "jugador": "Gerardo Pozas",
+        "equipo": "Seleçao Canarinha",
+        "goles": 7
+      },
+      {
+        "jugador": "Miguel Marroquin",
+        "equipo": "Las Mopas",
+        "goles": 6
+      },
+      {
+        "jugador": "Mauricio Santos",
+        "equipo": "Roger FC",
+        "goles": 6
+      },
+      {
+        "jugador": "Iker Melendez",
+        "equipo": "Las Mopas",
         "goles": 5
       },
       {
-        "jugador": "Jesús Zambrano",
-        "equipo": "Formadores FC",
+        "jugador": "Emilio Franco",
+        "equipo": "Puerquisa",
         "goles": 5
       },
       {
@@ -243,33 +268,58 @@ export const campus = [
         "goles": 5
       },
       {
-        "jugador": "Andres Diaz",
-        "equipo": "Roger FC",
-        "goles": 5
-      },
-      {
         "jugador": "Fernando Sierra",
         "equipo": "Roger FC",
         "goles": 5
       },
       {
-        "jugador": "Iker Melendez",
-        "equipo": "Las Mopas",
-        "goles": 4
-      },
-      {
-        "jugador": "Emilio Franco",
-        "equipo": "Puerquisa",
-        "goles": 4
+        "jugador": "Mateo Vega",
+        "equipo": "Roger FC",
+        "goles": 5
       },
       {
         "jugador": "Braulio Brenes",
         "equipo": "Rolando City",
+        "goles": 5
+      },
+      {
+        "jugador": "Mauricio Palomo",
+        "equipo": "Arrestados FC",
+        "goles": 4
+      },
+      {
+        "jugador": "Mauricio Ramirez",
+        "equipo": "Formadores FC",
+        "goles": 4
+      },
+      {
+        "jugador": "Patricio Guevara",
+        "equipo": "La Banca",
+        "goles": 4
+      },
+      {
+        "jugador": "Alan de la Torre",
+        "equipo": "Leñadores",
+        "goles": 4
+      },
+      {
+        "jugador": "Daniel Yarte",
+        "equipo": "Revo",
+        "goles": 4
+      },
+      {
+        "jugador": "Sebsatian Watty",
+        "equipo": "Roger FC",
         "goles": 4
       },
       {
         "jugador": "Francisco Valdez",
-        "equipo": "Arrestados",
+        "equipo": "Arrestados FC",
+        "goles": 3
+      },
+      {
+        "jugador": "Donato Uribe",
+        "equipo": "Atlético de Timbuktu",
         "goles": 3
       },
       {
@@ -278,7 +328,17 @@ export const campus = [
         "goles": 3
       },
       {
-        "jugador": "Daniel Yarte",
+        "jugador": "Patricio Garcia",
+        "equipo": "Leñadores",
+        "goles": 3
+      },
+      {
+        "jugador": "Bernardo Espinoza",
+        "equipo": "Revo",
+        "goles": 3
+      },
+      {
+        "jugador": "Pablo Richaud",
         "equipo": "Revo",
         "goles": 3
       },
@@ -288,23 +348,28 @@ export const campus = [
         "goles": 3
       },
       {
-        "jugador": "Mateo Vega",
-        "equipo": "Roger FC",
-        "goles": 3
-      },
-      {
         "jugador": "Alejandro Almana",
         "equipo": "Rolando City",
         "goles": 3
       },
       {
+        "jugador": "Jesús Garza",
+        "equipo": "Rolando City",
+        "goles": 3
+      },
+      {
         "jugador": "Leonardo Gutierrez",
-        "equipo": "Selecao",
+        "equipo": "Seleçao Canarinha",
         "goles": 3
       },
       {
         "jugador": "Sergio Soto",
-        "equipo": "Selecao",
+        "equipo": "Seleçao Canarinha",
+        "goles": 3
+      },
+      {
+        "jugador": "Pablo Contreras",
+        "equipo": "TruzAzul",
         "goles": 3
       },
       {
@@ -313,32 +378,17 @@ export const campus = [
         "goles": 3
       },
       {
-        "jugador": "Mauricio Palomo",
-        "equipo": "Arrestados",
-        "goles": 2
-      },
-      {
-        "jugador": "Donato Uribe",
-        "equipo": "Atlético de Timbuktu",
-        "goles": 2
-      },
-      {
-        "jugador": "Mauricio Ramirez",
-        "equipo": "Formadores FC",
-        "goles": 2
-      },
-      {
-        "jugador": "Patricio Guevara",
+        "jugador": "Jorge Palomo",
         "equipo": "La Banca",
         "goles": 2
       },
       {
-        "jugador": "Christian de Lima",
+        "jugador": "Andres Marroquin",
         "equipo": "Las Mopas",
         "goles": 2
       },
       {
-        "jugador": "Miguel Marroquin",
+        "jugador": "Christian de Lima",
         "equipo": "Las Mopas",
         "goles": 2
       },
@@ -348,8 +398,33 @@ export const campus = [
         "goles": 2
       },
       {
+        "jugador": "Marcelo Zambrano",
+        "equipo": "Leñadores",
+        "goles": 2
+      },
+      {
+        "jugador": "Pablo Mendez",
+        "equipo": "Leñadores",
+        "goles": 2
+      },
+      {
         "jugador": "Gregorio Garza",
         "equipo": "Lobos FC",
+        "goles": 2
+      },
+      {
+        "jugador": "Miguel Menendez",
+        "equipo": "Lobos FC",
+        "goles": 2
+      },
+      {
+        "jugador": "Daniel Flores",
+        "equipo": "Revo",
+        "goles": 2
+      },
+      {
+        "jugador": "Patricio Diaz",
+        "equipo": "Revo",
         "goles": 2
       },
       {
@@ -358,13 +433,23 @@ export const campus = [
         "goles": 2
       },
       {
+        "jugador": "Alejandro Basúa",
+        "equipo": "Seleçao Canarinha",
+        "goles": 2
+      },
+      {
         "jugador": "Alex Díaz",
-        "equipo": "Selecao",
+        "equipo": "Seleçao Canarinha",
         "goles": 2
       },
       {
         "jugador": "Juan Angers",
-        "equipo": "Selecao",
+        "equipo": "Seleçao Canarinha",
+        "goles": 2
+      },
+      {
+        "jugador": "Roy Gomez",
+        "equipo": "Seleçao Canarinha",
         "goles": 2
       },
       {
@@ -374,17 +459,32 @@ export const campus = [
       },
       {
         "jugador": "Gabriel",
-        "equipo": "Arrestados",
+        "equipo": "Arrestados FC",
         "goles": 1
       },
       {
         "jugador": "León Prior",
-        "equipo": "Arrestados",
+        "equipo": "Arrestados FC",
         "goles": 1
       },
       {
         "jugador": "Mateo del Rio",
-        "equipo": "Arrestados",
+        "equipo": "Arrestados FC",
+        "goles": 1
+      },
+      {
+        "jugador": "Santiago Elizondo",
+        "equipo": "Arrestados FC",
+        "goles": 1
+      },
+      {
+        "jugador": "Adrián Delgado",
+        "equipo": "Atlético de Timbuktu",
+        "goles": 1
+      },
+      {
+        "jugador": "Diego Rodriguez",
+        "equipo": "Atlético de Timbuktu",
         "goles": 1
       },
       {
@@ -398,7 +498,17 @@ export const campus = [
         "goles": 1
       },
       {
+        "jugador": "Manuel Mendez",
+        "equipo": "Atlético de Timbuktu",
+        "goles": 1
+      },
+      {
         "jugador": "Amilio Arari",
+        "equipo": "Formadores FC",
+        "goles": 1
+      },
+      {
+        "jugador": "César Sandival",
         "equipo": "Formadores FC",
         "goles": 1
       },
@@ -423,6 +533,16 @@ export const campus = [
         "goles": 1
       },
       {
+        "jugador": "David Arpe",
+        "equipo": "La Banca",
+        "goles": 1
+      },
+      {
+        "jugador": "David Vazquez",
+        "equipo": "La Banca",
+        "goles": 1
+      },
+      {
         "jugador": "Eliud Treviño",
         "equipo": "La Banca",
         "goles": 1
@@ -433,7 +553,7 @@ export const campus = [
         "goles": 1
       },
       {
-        "jugador": "Jorge Palomo",
+        "jugador": "Gabriel Chapa",
         "equipo": "La Banca",
         "goles": 1
       },
@@ -443,12 +563,12 @@ export const campus = [
         "goles": 1
       },
       {
-        "jugador": "Andres Marroquin",
+        "jugador": "Andrés Santiesteban",
         "equipo": "Las Mopas",
         "goles": 1
       },
       {
-        "jugador": "Andrés Santiesteban",
+        "jugador": "Juan Madero",
         "equipo": "Las Mopas",
         "goles": 1
       },
@@ -463,8 +583,23 @@ export const campus = [
         "goles": 1
       },
       {
-        "jugador": "Alan de la Torre",
+        "jugador": "Diego Garcia",
         "equipo": "Leñadores",
+        "goles": 1
+      },
+      {
+        "jugador": "Marcelo García",
+        "equipo": "Leñadores",
+        "goles": 1
+      },
+      {
+        "jugador": "Fernando Chapa",
+        "equipo": "Lobos FC",
+        "goles": 1
+      },
+      {
+        "jugador": "Mauricio Julián",
+        "equipo": "Lobos FC",
         "goles": 1
       },
       {
@@ -483,7 +618,17 @@ export const campus = [
         "goles": 1
       },
       {
+        "jugador": "Gustavo Gutierrez",
+        "equipo": "Puerquisa",
+        "goles": 1
+      },
+      {
         "jugador": "Javier Ceja",
+        "equipo": "Puerquisa",
+        "goles": 1
+      },
+      {
+        "jugador": "Marcelo Chapa",
         "equipo": "Puerquisa",
         "goles": 1
       },
@@ -498,7 +643,7 @@ export const campus = [
         "goles": 1
       },
       {
-        "jugador": "Pablo Richaud",
+        "jugador": "Patricio Gzz",
         "equipo": "Revo",
         "goles": 1
       },
@@ -529,17 +674,17 @@ export const campus = [
       },
       {
         "jugador": "Adrián Salinas",
-        "equipo": "Selecao",
+        "equipo": "Seleçao Canarinha",
         "goles": 1
       },
       {
-        "jugador": "Alejandro Basúa",
-        "equipo": "Selecao",
+        "jugador": "Eduardo de la Paz",
+        "equipo": "Seleçao Canarinha",
         "goles": 1
       },
       {
-        "jugador": "Roy Gomez",
-        "equipo": "Selecao",
+        "jugador": "Adrián Gonzalez",
+        "equipo": "TruzAzul",
         "goles": 1
       },
       {
@@ -551,13 +696,7 @@ export const campus = [
     "jornadas": [
       {
         "jornada": "Jornada 1",
-        "fecha": "Sábado 10 de agosto",
-        "sede": "Euro Campus Valle",
-        "horario": "8:00 AM a 2:00 PM",
-        "descanso": [
-          "Leñadores",
-          "Revo FC"
-        ],
+        "fecha": "Por confirmar",
         "juegos": [
           {
             "hora": "08:00",
@@ -601,14 +740,17 @@ export const campus = [
             "marcador": "7 - 2",
             "estado": "Finalizado"
           }
+        ],
+        "sede": "Euro Campus Valle",
+        "horario": "Por confirmar",
+        "descanso": [
+          "Leñadores",
+          "Revo FC"
         ]
       },
       {
         "jornada": "Jornada 2",
-        "fecha": "Sábado 17 de agosto",
-        "sede": "Euro Campus Valle",
-        "horario": "8:00 AM a 2:00 PM",
-        "descanso": [],
+        "fecha": "Por confirmar",
         "juegos": [
           {
             "hora": "08:00",
@@ -659,17 +801,14 @@ export const campus = [
             "marcador": "1 - 10",
             "estado": "Finalizado"
           }
-        ]
+        ],
+        "sede": "Euro Campus Valle",
+        "horario": "Por confirmar",
+        "descanso": []
       },
       {
         "jornada": "Jornada 3",
-        "fecha": "Sábado 24 de agosto",
-        "sede": "Euro Campus Valle",
-        "horario": "8:00 AM a 1:00 PM",
-        "descanso": [
-          "Rolando City",
-          "Lobos FC"
-        ],
+        "fecha": "Por confirmar",
         "juegos": [
           {
             "hora": "08:00",
@@ -713,125 +852,125 @@ export const campus = [
             "marcador": "4 - 1",
             "estado": "Finalizado"
           }
+        ],
+        "sede": "Euro Campus Valle",
+        "horario": "Por confirmar",
+        "descanso": [
+          "Rolando City",
+          "Lobos FC"
         ]
       },
       {
         "jornada": "Jornada 4",
-        "fecha": "Sábado 31 de agosto",
-        "sede": "Euro Campus Valle",
-        "horario": "8:00 AM a 1:00 PM",
-        "descanso": [
-          "Perros",
-          "Seleçao Canarinha"
-        ],
+        "fecha": "Por confirmar",
         "juegos": [
           {
             "hora": "08:00",
             "local": "Rolando City",
             "visitante": "TruzAzul",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "4 - 3",
+            "estado": "Finalizado"
           },
           {
             "hora": "09:00",
             "local": "Las Mopas",
             "visitante": "Formadores FC",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "7 - 2",
+            "estado": "Finalizado"
           },
           {
             "hora": "10:00",
             "local": "La Banca FC",
             "visitante": "Revo FC",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "3 - 11",
+            "estado": "Finalizado"
           },
           {
             "hora": "11:00",
             "local": "Lobos FC",
             "visitante": "La Puerquisa",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "3 - 3",
+            "estado": "Finalizado"
           },
           {
             "hora": "12:00",
             "local": "Atlético de Timbuktu",
             "visitante": "Arrestados FC",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "3 - 3",
+            "estado": "Finalizado"
           },
           {
             "hora": "13:00",
             "local": "Leñadores",
             "visitante": "Roger FC",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "6 - 6",
+            "estado": "Finalizado"
           }
+        ],
+        "sede": "Euro Campus Valle",
+        "horario": "Por confirmar",
+        "descanso": [
+          "Perros",
+          "Seleçao Canarinha"
         ]
       },
       {
         "jornada": "Jornada 5",
-        "fecha": "Sábado 7 de septiembre",
-        "sede": "Euro Campus Valle",
-        "horario": "8:00 AM a 1:00 PM",
-        "descanso": [
-          "La Puerquisa",
-          "Las Mopas"
-        ],
+        "fecha": "Por confirmar",
         "juegos": [
           {
             "hora": "08:00",
             "local": "Perros",
             "visitante": "Rolando City",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "0 - 3",
+            "estado": "Finalizado"
           },
           {
             "hora": "09:00",
             "local": "Seleçao Canarinha",
             "visitante": "Formadores FC",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "4 - 5",
+            "estado": "Finalizado"
           },
           {
             "hora": "10:00",
             "local": "Arrestados FC",
             "visitante": "Revo FC",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "0 - 3",
+            "estado": "Finalizado"
           },
           {
             "hora": "11:00",
             "local": "La Banca FC",
             "visitante": "Roger FC",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "3 - 10",
+            "estado": "Finalizado"
           },
           {
             "hora": "12:00",
             "local": "Lobos FC",
             "visitante": "Atlético de Timbuktu",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "1 - 4",
+            "estado": "Finalizado"
           },
           {
             "hora": "13:00",
             "local": "Leñadores",
             "visitante": "TruzAzul",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "7 - 3",
+            "estado": "Finalizado"
           }
+        ],
+        "sede": "Euro Campus Valle",
+        "horario": "Por confirmar",
+        "descanso": [
+          "La Puerquisa",
+          "Las Mopas"
         ]
       },
       {
         "jornada": "Jornada 6",
-        "fecha": "Sábado 14 de septiembre",
-        "sede": "Euro Campus Valle",
-        "horario": "8:00 AM a 1:00 PM",
-        "descanso": [
-          "TruzAzul",
-          "Atlético de Timbuktu"
-        ],
+        "fecha": "Por confirmar",
         "juegos": [
           {
             "hora": "08:00",
@@ -875,17 +1014,17 @@ export const campus = [
             "marcador": "Por jugar",
             "estado": "Programado"
           }
+        ],
+        "sede": "Euro Campus Valle",
+        "horario": "Por confirmar",
+        "descanso": [
+          "TruzAzul",
+          "Atlético de Timbuktu"
         ]
       },
       {
         "jornada": "Jornada 7",
-        "fecha": "Sábado 21 de septiembre",
-        "sede": "Euro Campus Valle",
-        "horario": "8:00 AM a 1:00 PM",
-        "descanso": [
-          "Formadores FC",
-          "La Banca FC"
-        ],
+        "fecha": "Por confirmar",
         "juegos": [
           {
             "hora": "08:00",
@@ -929,17 +1068,17 @@ export const campus = [
             "marcador": "Por jugar",
             "estado": "Programado"
           }
+        ],
+        "sede": "Euro Campus Valle",
+        "horario": "Por confirmar",
+        "descanso": [
+          "Formadores FC",
+          "La Banca FC"
         ]
       },
       {
         "jornada": "Jornada 8",
-        "fecha": "Sábado 28 de septiembre",
-        "sede": "Euro Campus Valle",
-        "horario": "8:00 AM a 1:00 PM",
-        "descanso": [
-          "Roger FC",
-          "Arrestados FC"
-        ],
+        "fecha": "Por confirmar",
         "juegos": [
           {
             "hora": "08:00",
@@ -983,14 +1122,17 @@ export const campus = [
             "marcador": "Por jugar",
             "estado": "Programado"
           }
+        ],
+        "sede": "Euro Campus Valle",
+        "horario": "Por confirmar",
+        "descanso": [
+          "Roger FC",
+          "Arrestados FC"
         ]
       },
       {
         "jornada": "Jornada 9",
-        "fecha": "Sábado 5 de octubre",
-        "sede": "Euro Campus Valle",
-        "horario": "8:00 AM a 2:00 PM",
-        "descanso": [],
+        "fecha": "Por confirmar",
         "juegos": [
           {
             "hora": "08:00",
@@ -1041,7 +1183,10 @@ export const campus = [
             "marcador": "Por jugar",
             "estado": "Programado"
           }
-        ]
+        ],
+        "sede": "Euro Campus Valle",
+        "horario": "Por confirmar",
+        "descanso": []
       },
       {
         "jornada": "Cuartos de final",
@@ -1132,74 +1277,74 @@ export const campus = [
       {
         "jornada": "Jornada 1",
         "fecha": "Por confirmar",
+        "juegos": [],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": [],
-        "juegos": []
+        "descanso": []
       },
       {
         "jornada": "Jornada 2",
         "fecha": "Por confirmar",
+        "juegos": [],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": [],
-        "juegos": []
+        "descanso": []
       },
       {
         "jornada": "Jornada 3",
         "fecha": "Por confirmar",
+        "juegos": [],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": [],
-        "juegos": []
+        "descanso": []
       },
       {
         "jornada": "Jornada 4",
         "fecha": "Por confirmar",
+        "juegos": [],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": [],
-        "juegos": []
+        "descanso": []
       },
       {
         "jornada": "Jornada 5",
         "fecha": "Por confirmar",
+        "juegos": [],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": [],
-        "juegos": []
+        "descanso": []
       },
       {
         "jornada": "Jornada 6",
         "fecha": "Por confirmar",
+        "juegos": [],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": [],
-        "juegos": []
+        "descanso": []
       },
       {
         "jornada": "Jornada 7",
         "fecha": "Por confirmar",
+        "juegos": [],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": [],
-        "juegos": []
+        "descanso": []
       },
       {
         "jornada": "Jornada 8",
         "fecha": "Por confirmar",
+        "juegos": [],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": [],
-        "juegos": []
+        "descanso": []
       },
       {
         "jornada": "Jornada 9",
         "fecha": "Por confirmar",
+        "juegos": [],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": [],
-        "juegos": []
+        "descanso": []
       },
       {
         "jornada": "Cuartos de final",
@@ -1689,11 +1834,11 @@ export const campus = [
 
 export const torneos = [
   {
-    nombre: "Spartans League Fut 7",
-    categoria: "Libre",
-    estado: "Torneo actual",
-    sedes: "Euro Campus Valle, Euro Campus Campestre y Campus Montenova",
-    inicio: "Fecha por confirmar"
+    "nombre": "Spartans League Fut 7",
+    "categoria": "Libre",
+    "estado": "Torneo actual",
+    "sedes": "Euro Campus Valle, Euro Campus Campestre y Campus Montenova",
+    "inicio": "Fecha por confirmar"
   }
 ];
 

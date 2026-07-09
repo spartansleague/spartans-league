@@ -20,15 +20,17 @@ Si GitHub te pregunta si quieres reemplazar archivos existentes, acepta el reemp
 
 ## Que contiene esta actualizacion
 
-- Campus Campestre queda limpio para nueva temporada:
-  - 0 equipos
-  - 0 partidos/resultados viejos
-  - 0 tabla de posiciones
-  - 0 goleadores
-- Campus Valle conserva sus datos actuales:
+- Campus Valle fue actualizado desde el Excel de Google Sheets:
   - 14 equipos
   - 14 equipos en tabla
-  - 66 goleadores
+  - 30 partidos finalizados
+  - 95 goleadores
+  - Solo queda sin resultado en el Excel: Jornada 2, Revo FC vs Leñadores
+- Campus Campestre queda limpio porque ya terminó esa temporada:
+  - 0 equipos
+  - 0 partidos/resultados
+  - 0 tabla de posiciones
+  - 0 goleadores
 - Campus Montenova queda sin estadisticas porque no tiene temporada activa.
 - Todos los campus tienen 12 secciones en Partidos:
   - Jornada 1 a Jornada 9

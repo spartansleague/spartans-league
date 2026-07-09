@@ -1,14 +1,19 @@
 {
   "Campus Valle": {
-    "estado": "Conserva los datos actuales.",
+    "estado": "Actualizado desde el Google Sheet.",
     "equipos": 14,
+    "partidos_finalizados": 30,
+    "partidos_sin_resultado": [
+      ["Jornada 2", "10:00", "Revo FC", "Leñadores"]
+    ],
     "tabla_posiciones": 14,
-    "goleadores": 66,
+    "goleadores": 95,
     "secciones_partidos": 12
   },
   "Campus Campestre": {
     "estado": "Limpio para nueva temporada.",
     "equipos": 0,
+    "partidos_finalizados": 0,
     "tabla_posiciones": 0,
     "goleadores": 0,
     "secciones_partidos": 12
@@ -16,6 +21,7 @@
   "Campus Montenova": {
     "estado": "Sin temporada activa.",
     "equipos": 0,
+    "partidos_finalizados": 0,
     "tabla_posiciones": 0,
     "goleadores": 0,
     "secciones_partidos": 12
