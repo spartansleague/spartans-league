@@ -1,60 +1,23 @@
 {
   "Campus Valle": {
-    "partidos_finalizados": 18,
-    "sin_resultado_en_excel": [
-      [
-        "Jornada 2",
-        "10:00",
-        "Revo FC",
-        "Leñadores"
-      ]
-    ]
+    "estado": "Conserva los datos actuales.",
+    "equipos": 14,
+    "tabla_posiciones": 14,
+    "goleadores": 66,
+    "secciones_partidos": 12
   },
   "Campus Campestre": {
-    "partidos_finalizados": 49,
-    "sin_resultado_en_excel": [
-      [
-        "Jornada 8",
-        "11:00",
-        "Los Krikos",
-        "Principes de la B"
-      ],
-      [
-        "Jornada 9",
-        "08:00",
-        "SoccerBee",
-        "Juniors FC"
-      ],
-      [
-        "Jornada 9",
-        "09:00",
-        "Kawashima Wanders",
-        "Jaiba Brava"
-      ],
-      [
-        "Jornada 9",
-        "10:00",
-        "Commers",
-        "Los Demas FC"
-      ],
-      [
-        "Jornada 9",
-        "11:00",
-        "Capri FC",
-        "La Menor FC"
-      ],
-      [
-        "Jornada 9",
-        "12:00",
-        "Armadillos FC",
-        "FC Internazionale Milanesa"
-      ],
-      [
-        "Jornada 9",
-        "13:00",
-        "Necali Moms",
-        "Principes de la B"
-      ]
-    ]
+    "estado": "Limpio para nueva temporada.",
+    "equipos": 0,
+    "tabla_posiciones": 0,
+    "goleadores": 0,
+    "secciones_partidos": 12
+  },
+  "Campus Montenova": {
+    "estado": "Sin temporada activa.",
+    "equipos": 0,
+    "tabla_posiciones": 0,
+    "goleadores": 0,
+    "secciones_partidos": 12
   }
 }

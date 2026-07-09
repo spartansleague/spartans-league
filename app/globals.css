@@ -617,38 +617,6 @@ tr:last-child td {
   font-size: 1.45rem;
 }
 
-.campus-match-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 16px;
-}
-
-.campus-match-card {
-  border: 1px solid var(--line);
-  border-radius: 20px;
-  background: var(--card-gradient);
-  padding: 16px;
-}
-
-.campus-match-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 14px;
-  margin-bottom: 12px;
-  flex-wrap: wrap;
-}
-
-.campus-match-head h3 {
-  margin: 0;
-  font-size: 1.08rem;
-}
-
-.small-eyebrow {
-  font-size: 0.68rem;
-  margin-bottom: 5px;
-}
-
 .mini-badge {
   display: inline-flex;
   align-items: center;
@@ -704,44 +672,7 @@ tr:last-child td {
     padding: 14px;
   }
 
-  .campus-match-card {
-    padding: 14px;
-  }
-
   .compact-table {
     min-width: 590px;
-  }
-}
-
-.contact-card-with-icon {
-  position: relative;
-  padding-right: 82px;
-}
-
-.contact-icon {
-  position: absolute;
-  top: 24px;
-  right: 24px;
-  width: 44px;
-  height: 44px;
-  display: grid;
-  place-items: center;
-  border: 1px solid rgba(243, 197, 21, 0.35);
-  border-radius: 999px;
-  color: var(--gold);
-  background: rgba(243, 197, 21, 0.08);
-  box-shadow: 0 10px 24px rgba(243, 197, 21, 0.08);
-}
-
-.contact-icon-svg {
-  width: 26px;
-  height: 26px;
-  fill: currentColor;
-}
-
-@media (max-width: 540px) {
-  .contact-card-with-icon {
-    padding-right: 24px;
-    padding-top: 78px;
   }
 }

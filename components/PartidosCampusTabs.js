@@ -1,72 +1,51 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { partidosPorJornada } from "@/data/leagueData";
 
+const ordenCampus = ["Campus Valle", "Campus Campestre", "Campus Montenova"];
+
+function getJornadasPorCampus(nombreCampus) {
+  return partidosPorJornada
+    .map((jornada) => {
+      const campus = jornada.campus.find((item) => item.campus === nombreCampus);
+      if (!campus) return null;
+      return { ...campus, jornada: jornada.jornada, fecha: jornada.fecha };
+    })
+    .filter(Boolean);
+}
+
 export default function PartidosCampusTabs() {
-  const campusData = useMemo(() => {
-    const ordenCampus = ["Campus Valle", "Campus Campestre", "Campus Montenova"];
-
-    return ordenCampus
-      .map((campusNombre) => {
-        const jornadas = partidosPorJornada
-          .map((jornada) => {
-            const campus = jornada.campus.find((item) => item.campus === campusNombre);
-            if (!campus) return null;
-
-            return {
-              jornada: jornada.jornada,
-              fecha: jornada.fecha,
-              ...campus,
-            };
-          })
-          .filter(Boolean);
-
-        return {
-          campus: campusNombre,
-          jornadas,
-        };
-      })
-      .filter((campus) => campus.jornadas.length > 0);
-  }, []);
-
-  const [activeIndex, setActiveIndex] = useState(0);
-  const campusActivo = campusData[activeIndex];
-
-  const totalPartidos = campusActivo.jornadas.reduce(
-    (total, jornada) => total + jornada.juegos.length,
-    0
-  );
+  const [indice, setIndice] = useState(0);
+  const campusNombre = ordenCampus[indice];
+  const jornadas = getJornadasPorCampus(campusNombre);
+  const totalPartidos = jornadas.reduce((total, jornada) => total + jornada.juegos.length, 0);
 
   return (
     <div>
-      <div className="campus-tabs" role="tablist" aria-label="Partidos por campus">
-        {campusData.map((campus, index) => (
+      <div className="campus-tabs">
+        {ordenCampus.map((campus, i) => (
           <button
-            key={campus.campus}
+            key={campus}
             type="button"
-            className={`campus-tab ${activeIndex === index ? "active" : ""}`}
-            onClick={() => setActiveIndex(index)}
-            role="tab"
-            aria-selected={activeIndex === index}
+            className={`campus-tab ${i === indice ? "active" : ""}`}
+            onClick={() => setIndice(i)}
           >
-            {campus.campus}
+            {campus}
           </button>
         ))}
       </div>
 
       <div className="campus-summary partidos-summary">
         <div>
-          <span className="badge">{campusActivo.campus}</span>
+          <span className="badge">{campusNombre}</span>
           <h2>Partidos por jornada</h2>
-          <p className="lead">
-            Consulta los horarios, resultados y descansos de este campus.
-          </p>
+          <p className="lead">Horarios, descansos, marcadores y fases finales.</p>
         </div>
         <div className="campus-counts">
           <div className="stat-box small-stat">
-            <strong>{campusActivo.jornadas.length}</strong>
-            <span>Jornadas</span>
+            <strong>{jornadas.length}</strong>
+            <span>Secciones</span>
           </div>
           <div className="stat-box small-stat">
             <strong>{totalPartidos}</strong>
@@ -76,11 +55,11 @@ export default function PartidosCampusTabs() {
       </div>
 
       <div className="jornadas-list">
-        {campusActivo.jornadas.map((jornada) => (
-          <section className="jornada-group" key={`${campusActivo.campus}-${jornada.jornada}`}>
+        {jornadas.map((jornada) => (
+          <section className="jornada-group" key={`${campusNombre}-${jornada.jornada}`}>
             <div className="jornada-header">
               <div>
-                <h2>{jornada.jornada} de {jornada.campus}</h2>
+                <h2>{jornada.jornada} de {campusNombre}</h2>
                 <p className="note">{jornada.fecha} · {jornada.sede}</p>
               </div>
               <span className="mini-badge">{jornada.horario}</span>
@@ -103,15 +82,19 @@ export default function PartidosCampusTabs() {
                   </tr>
                 </thead>
                 <tbody>
-                  {jornada.juegos.map((juego) => (
-                    <tr key={`${campusActivo.campus}-${jornada.jornada}-${juego.hora}-${juego.local}`}>
-                      <td>{juego.hora}</td>
-                      <td>{juego.local}</td>
-                      <td>{juego.visitante}</td>
-                      <td><strong>{juego.marcador}</strong></td>
-                      <td><span className="status compact-status">{juego.estado}</span></td>
-                    </tr>
-                  ))}
+                  {jornada.juegos.length === 0 ? (
+                    <tr><td colSpan="5">Partidos por confirmar.</td></tr>
+                  ) : (
+                    jornada.juegos.map((juego, i) => (
+                      <tr key={`${jornada.jornada}-${i}`}>
+                        <td>{juego.hora}</td>
+                        <td>{juego.local}</td>
+                        <td>{juego.visitante}</td>
+                        <td><strong>{juego.marcador}</strong></td>
+                        <td><span className="status compact-status">{juego.estado}</span></td>
+                      </tr>
+                    ))
+                  )}
                 </tbody>
               </table>
             </div>

@@ -1,34 +1,1689 @@
-// IMPORTANTE:
-// Este archivo fue generado desde los Excel de Spartans League.
-// Puedes editar contacto, equipos, partidos, tabla y goleadores manualmente si hace falta.
+// Archivo principal de datos de Spartans League.
+// Edita esta lista primero. Lo demás se calcula solo abajo.
 
 export const contact = {
-  whatsapp: "8122512214",
-  whatsappLink: "https://wa.me/528122512214?text=Hola%2C%20quiero%20informaci%C3%B3n%20para%20inscribir%20un%20equipo%20en%20Spartans%20League.",
-  instagram: "@sprtns_league",
-  instagramLink: "https://www.instagram.com/sprtns_league/",
-  youtube: "Spartans League",
-  youtubeLink: "https://www.youtube.com/@SpartansLeague-euro"
+  "whatsapp": "8122512214",
+  "whatsappLink": "https://wa.me/528122512214?text=Hola%2C%20quiero%20informaci%C3%B3n%20para%20inscribir%20un%20equipo%20en%20Spartans%20League.",
+  "instagram": "@sprtns_league",
+  "instagramLink": "https://www.instagram.com/sprtns_league/",
+  "youtube": "Spartans League",
+  "youtubeLink": "https://www.youtube.com/@SpartansLeague-euro"
 };
 
 export const sedes = [
   {
-    nombre: "Euro Campus Valle",
-    estado: "Sede activa",
-    liga: "Spartans League Fut 7",
-    detalle: "Jornadas 1, 2 y 9 de 8:00 AM a 2:00 PM; jornadas 3 a 8 de 8:00 AM a 1:00 PM."
+    "nombre": "Euro Campus Valle",
+    "estado": "Sede activa",
+    "liga": "Spartans League Fut 7",
+    "detalle": "Jornadas 1, 2 y 9 de 8:00 AM a 2:00 PM; jornadas 3 a 8 de 8:00 AM a 1:00 PM."
   },
   {
-    nombre: "Euro Campus Campestre",
-    estado: "Sede activa",
-    liga: "Spartans League Fut 7",
-    detalle: "Jornadas 1 y 9 de 8:00 AM a 2:00 PM; jornadas 2 a 8 de 8:00 AM a 1:00 PM."
+    "nombre": "Euro Campus Campestre",
+    "estado": "Sede activa",
+    "liga": "Spartans League Fut 7",
+    "detalle": "Jornadas 1 y 9 de 8:00 AM a 2:00 PM; jornadas 2 a 8 de 8:00 AM a 1:00 PM."
   },
   {
-    nombre: "Campus Montenova",
-    estado: "Sede disponible",
-    liga: "Spartans League Fut 7",
-    detalle: "Información de torneos y horarios por confirmar."
+    "nombre": "Campus Montenova",
+    "estado": "Sede disponible",
+    "liga": "Spartans League Fut 7",
+    "detalle": "Información de torneos y horarios por confirmar."
+  }
+];
+
+export const campeones = [
+  {
+    campus: "Campus Campestre",
+    torneo: "Spartans League Campus Campestre Abril - Julio 2026",
+    equipo: "Krikos FC"
+  }
+];
+
+export const campus = [
+  {
+    "nombre": "Campus Valle",
+    "sede": "Euro Campus Valle",
+    "horario": "Jornadas 1, 2 y 9: 8:00 AM a 2:00 PM; jornadas 3 a 8: 8:00 AM a 1:00 PM",
+    "equipos": [
+      "Rolando City",
+      "Lobos FC",
+      "Formadores FC",
+      "La Banca FC",
+      "Las Mopas",
+      "Perros",
+      "Atlético de Timbuktu",
+      "La Puerquisa",
+      "TruzAzul",
+      "Arrestados FC",
+      "Seleçao Canarinha",
+      "Roger FC",
+      "Leñadores",
+      "Revo FC"
+    ],
+    "tabla": [
+      {
+        "equipo": "Roger FC",
+        "pj": 3,
+        "g": 3,
+        "e": 0,
+        "p": 0,
+        "gf": 23,
+        "gc": 7,
+        "dg": 16,
+        "pts": 9
+      },
+      {
+        "equipo": "Seleçao Canarinha",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "gf": 19,
+        "gc": 7,
+        "dg": 12,
+        "pts": 6
+      },
+      {
+        "equipo": "Rolando City",
+        "pj": 2,
+        "g": 2,
+        "e": 0,
+        "p": 0,
+        "gf": 10,
+        "gc": 4,
+        "dg": 6,
+        "pts": 6
+      },
+      {
+        "equipo": "Las Mopas",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "gf": 12,
+        "gc": 7,
+        "dg": 5,
+        "pts": 6
+      },
+      {
+        "equipo": "Formadores FC",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "gf": 11,
+        "gc": 7,
+        "dg": 4,
+        "pts": 6
+      },
+      {
+        "equipo": "TruzAzul",
+        "pj": 3,
+        "g": 1,
+        "e": 1,
+        "p": 1,
+        "gf": 13,
+        "gc": 11,
+        "dg": 2,
+        "pts": 4
+      },
+      {
+        "equipo": "Atlético de Timbuktu",
+        "pj": 3,
+        "g": 1,
+        "e": 1,
+        "p": 1,
+        "gf": 9,
+        "gc": 8,
+        "dg": 1,
+        "pts": 4
+      },
+      {
+        "equipo": "Revo FC",
+        "pj": 1,
+        "g": 1,
+        "e": 0,
+        "p": 0,
+        "gf": 11,
+        "gc": 0,
+        "dg": 11,
+        "pts": 3
+      },
+      {
+        "equipo": "Leñadores",
+        "pj": 1,
+        "g": 1,
+        "e": 0,
+        "p": 0,
+        "gf": 3,
+        "gc": 1,
+        "dg": 2,
+        "pts": 3
+      },
+      {
+        "equipo": "Arrestados FC",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "gf": 8,
+        "gc": 19,
+        "dg": -11,
+        "pts": 3
+      },
+      {
+        "equipo": "La Banca FC",
+        "pj": 3,
+        "g": 0,
+        "e": 1,
+        "p": 2,
+        "gf": 10,
+        "gc": 14,
+        "dg": -4,
+        "pts": 2
+      },
+      {
+        "equipo": "La Puerquisa",
+        "pj": 3,
+        "g": 0,
+        "e": 1,
+        "p": 2,
+        "gf": 5,
+        "gc": 17,
+        "dg": -12,
+        "pts": 2
+      },
+      {
+        "equipo": "Lobos FC",
+        "pj": 2,
+        "g": 0,
+        "e": 0,
+        "p": 2,
+        "gf": 4,
+        "gc": 12,
+        "dg": -8,
+        "pts": 0
+      },
+      {
+        "equipo": "Perros",
+        "pj": 3,
+        "g": 0,
+        "e": 0,
+        "p": 3,
+        "gf": 3,
+        "gc": 27,
+        "dg": -24,
+        "pts": 0
+      }
+    ],
+    "goleadores": [
+      {
+        "jugador": "Patricio González",
+        "equipo": "TruzAzul",
+        "goles": 7
+      },
+      {
+        "jugador": "Gerardo Pozas",
+        "equipo": "Selecao",
+        "goles": 6
+      },
+      {
+        "jugador": "Pablo Mendez",
+        "equipo": "Atlético de Timbuktu",
+        "goles": 5
+      },
+      {
+        "jugador": "Jesús Zambrano",
+        "equipo": "Formadores FC",
+        "goles": 5
+      },
+      {
+        "jugador": "Luis Peña",
+        "equipo": "Revo",
+        "goles": 5
+      },
+      {
+        "jugador": "Andres Diaz",
+        "equipo": "Roger FC",
+        "goles": 5
+      },
+      {
+        "jugador": "Fernando Sierra",
+        "equipo": "Roger FC",
+        "goles": 5
+      },
+      {
+        "jugador": "Iker Melendez",
+        "equipo": "Las Mopas",
+        "goles": 4
+      },
+      {
+        "jugador": "Emilio Franco",
+        "equipo": "Puerquisa",
+        "goles": 4
+      },
+      {
+        "jugador": "Braulio Brenes",
+        "equipo": "Rolando City",
+        "goles": 4
+      },
+      {
+        "jugador": "Francisco Valdez",
+        "equipo": "Arrestados",
+        "goles": 3
+      },
+      {
+        "jugador": "David Castillo",
+        "equipo": "La Banca",
+        "goles": 3
+      },
+      {
+        "jugador": "Daniel Yarte",
+        "equipo": "Revo",
+        "goles": 3
+      },
+      {
+        "jugador": "Isaac Lozano",
+        "equipo": "Roger FC",
+        "goles": 3
+      },
+      {
+        "jugador": "Mateo Vega",
+        "equipo": "Roger FC",
+        "goles": 3
+      },
+      {
+        "jugador": "Alejandro Almana",
+        "equipo": "Rolando City",
+        "goles": 3
+      },
+      {
+        "jugador": "Leonardo Gutierrez",
+        "equipo": "Selecao",
+        "goles": 3
+      },
+      {
+        "jugador": "Sergio Soto",
+        "equipo": "Selecao",
+        "goles": 3
+      },
+      {
+        "jugador": "Teo Contreras",
+        "equipo": "TruzAzul",
+        "goles": 3
+      },
+      {
+        "jugador": "Mauricio Palomo",
+        "equipo": "Arrestados",
+        "goles": 2
+      },
+      {
+        "jugador": "Donato Uribe",
+        "equipo": "Atlético de Timbuktu",
+        "goles": 2
+      },
+      {
+        "jugador": "Mauricio Ramirez",
+        "equipo": "Formadores FC",
+        "goles": 2
+      },
+      {
+        "jugador": "Patricio Guevara",
+        "equipo": "La Banca",
+        "goles": 2
+      },
+      {
+        "jugador": "Christian de Lima",
+        "equipo": "Las Mopas",
+        "goles": 2
+      },
+      {
+        "jugador": "Miguel Marroquin",
+        "equipo": "Las Mopas",
+        "goles": 2
+      },
+      {
+        "jugador": "Eugenio Velasco",
+        "equipo": "Leñadores",
+        "goles": 2
+      },
+      {
+        "jugador": "Gregorio Garza",
+        "equipo": "Lobos FC",
+        "goles": 2
+      },
+      {
+        "jugador": "Sebastian Brenes",
+        "equipo": "Rolando City",
+        "goles": 2
+      },
+      {
+        "jugador": "Alex Díaz",
+        "equipo": "Selecao",
+        "goles": 2
+      },
+      {
+        "jugador": "Juan Angers",
+        "equipo": "Selecao",
+        "goles": 2
+      },
+      {
+        "jugador": "Juan",
+        "equipo": "TruzAzul",
+        "goles": 2
+      },
+      {
+        "jugador": "Gabriel",
+        "equipo": "Arrestados",
+        "goles": 1
+      },
+      {
+        "jugador": "León Prior",
+        "equipo": "Arrestados",
+        "goles": 1
+      },
+      {
+        "jugador": "Mateo del Rio",
+        "equipo": "Arrestados",
+        "goles": 1
+      },
+      {
+        "jugador": "Ivan Navarro",
+        "equipo": "Atlético de Timbuktu",
+        "goles": 1
+      },
+      {
+        "jugador": "Leonardo Rodriguez",
+        "equipo": "Atlético de Timbuktu",
+        "goles": 1
+      },
+      {
+        "jugador": "Amilio Arari",
+        "equipo": "Formadores FC",
+        "goles": 1
+      },
+      {
+        "jugador": "Francisco Fletes",
+        "equipo": "Formadores FC",
+        "goles": 1
+      },
+      {
+        "jugador": "Luis Velazquez",
+        "equipo": "Formadores FC",
+        "goles": 1
+      },
+      {
+        "jugador": "Vicente Sánchez",
+        "equipo": "Formadores FC",
+        "goles": 1
+      },
+      {
+        "jugador": "Daniel Velez",
+        "equipo": "La Banca",
+        "goles": 1
+      },
+      {
+        "jugador": "Eliud Treviño",
+        "equipo": "La Banca",
+        "goles": 1
+      },
+      {
+        "jugador": "Eugenio Martinez",
+        "equipo": "La Banca",
+        "goles": 1
+      },
+      {
+        "jugador": "Jorge Palomo",
+        "equipo": "La Banca",
+        "goles": 1
+      },
+      {
+        "jugador": "Patricio Campos",
+        "equipo": "La Banca",
+        "goles": 1
+      },
+      {
+        "jugador": "Andres Marroquin",
+        "equipo": "Las Mopas",
+        "goles": 1
+      },
+      {
+        "jugador": "Andrés Santiesteban",
+        "equipo": "Las Mopas",
+        "goles": 1
+      },
+      {
+        "jugador": "Patricio Santiestteban",
+        "equipo": "Las Mopas",
+        "goles": 1
+      },
+      {
+        "jugador": "Rodrigo Martinez",
+        "equipo": "Las Mopas",
+        "goles": 1
+      },
+      {
+        "jugador": "Alan de la Torre",
+        "equipo": "Leñadores",
+        "goles": 1
+      },
+      {
+        "jugador": "Aldo Tijerina",
+        "equipo": "Perros",
+        "goles": 1
+      },
+      {
+        "jugador": "Mateo Samanillo",
+        "equipo": "Perros",
+        "goles": 1
+      },
+      {
+        "jugador": "Pablo Campos",
+        "equipo": "Perros",
+        "goles": 1
+      },
+      {
+        "jugador": "Javier Ceja",
+        "equipo": "Puerquisa",
+        "goles": 1
+      },
+      {
+        "jugador": "Daniel Flores",
+        "equipo": "Revo",
+        "goles": 1
+      },
+      {
+        "jugador": "Jesus Garcia",
+        "equipo": "Revo",
+        "goles": 1
+      },
+      {
+        "jugador": "Pablo Richaud",
+        "equipo": "Revo",
+        "goles": 1
+      },
+      {
+        "jugador": "Diego Manzanarez",
+        "equipo": "Roger FC",
+        "goles": 1
+      },
+      {
+        "jugador": "Diego del Rio",
+        "equipo": "Roger FC",
+        "goles": 1
+      },
+      {
+        "jugador": "Leonardo Rivas",
+        "equipo": "Roger FC",
+        "goles": 1
+      },
+      {
+        "jugador": "Patricio Salazar",
+        "equipo": "Roger FC",
+        "goles": 1
+      },
+      {
+        "jugador": "Jared Vargas",
+        "equipo": "Rolando City",
+        "goles": 1
+      },
+      {
+        "jugador": "Adrián Salinas",
+        "equipo": "Selecao",
+        "goles": 1
+      },
+      {
+        "jugador": "Alejandro Basúa",
+        "equipo": "Selecao",
+        "goles": 1
+      },
+      {
+        "jugador": "Roy Gomez",
+        "equipo": "Selecao",
+        "goles": 1
+      },
+      {
+        "jugador": "Diego Perez",
+        "equipo": "TruzAzul",
+        "goles": 1
+      }
+    ],
+    "jornadas": [
+      {
+        "jornada": "Jornada 1",
+        "fecha": "Sábado 10 de agosto",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 2:00 PM",
+        "descanso": [
+          "Leñadores",
+          "Revo FC"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Rolando City",
+            "visitante": "Lobos FC",
+            "marcador": "7 - 2",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "09:00",
+            "local": "Formadores FC",
+            "visitante": "La Banca FC",
+            "marcador": "5 - 2",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Las Mopas",
+            "visitante": "Perros",
+            "marcador": "8 - 1",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Atlético de Timbuktu",
+            "visitante": "La Puerquisa",
+            "marcador": "3 - 3",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "12:00",
+            "local": "TruzAzul",
+            "visitante": "Roger FC",
+            "marcador": "4 - 5",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Seleçao Canarinha",
+            "visitante": "Arrestados FC",
+            "marcador": "7 - 2",
+            "estado": "Finalizado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 2",
+        "fecha": "Sábado 17 de agosto",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 2:00 PM",
+        "descanso": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Rolando City",
+            "visitante": "Atlético de Timbuktu",
+            "marcador": "3 - 2",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "09:00",
+            "local": "La Puerquisa",
+            "visitante": "Las Mopas",
+            "marcador": "2 - 3",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Revo FC",
+            "visitante": "Leñadores",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "TruzAzul",
+            "visitante": "La Banca FC",
+            "marcador": "5 - 5",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "12:00",
+            "local": "Lobos FC",
+            "visitante": "Formadores FC",
+            "marcador": "2 - 5",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Arrestados FC",
+            "visitante": "Roger FC",
+            "marcador": "2 - 9",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "14:00",
+            "local": "Perros",
+            "visitante": "Seleçao Canarinha",
+            "marcador": "1 - 10",
+            "estado": "Finalizado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 3",
+        "fecha": "Sábado 24 de agosto",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Rolando City",
+          "Lobos FC"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Arrestados FC",
+            "visitante": "La Banca FC",
+            "marcador": "4 - 3",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "09:00",
+            "local": "Formadores FC",
+            "visitante": "Leñadores",
+            "marcador": "1 - 3",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Revo FC",
+            "visitante": "La Puerquisa",
+            "marcador": "11 - 0",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Roger FC",
+            "visitante": "Perros",
+            "marcador": "9 - 1",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "12:00",
+            "local": "Atlético de Timbuktu",
+            "visitante": "Seleçao Canarinha",
+            "marcador": "4 - 2",
+            "estado": "Finalizado"
+          },
+          {
+            "hora": "13:00",
+            "local": "TruzAzul",
+            "visitante": "Las Mopas",
+            "marcador": "4 - 1",
+            "estado": "Finalizado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 4",
+        "fecha": "Sábado 31 de agosto",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Perros",
+          "Seleçao Canarinha"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Rolando City",
+            "visitante": "TruzAzul",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "Las Mopas",
+            "visitante": "Formadores FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "La Banca FC",
+            "visitante": "Revo FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Lobos FC",
+            "visitante": "La Puerquisa",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "Atlético de Timbuktu",
+            "visitante": "Arrestados FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Leñadores",
+            "visitante": "Roger FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 5",
+        "fecha": "Sábado 7 de septiembre",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "La Puerquisa",
+          "Las Mopas"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Perros",
+            "visitante": "Rolando City",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "Seleçao Canarinha",
+            "visitante": "Formadores FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Arrestados FC",
+            "visitante": "Revo FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "La Banca FC",
+            "visitante": "Roger FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "Lobos FC",
+            "visitante": "Atlético de Timbuktu",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Leñadores",
+            "visitante": "TruzAzul",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 6",
+        "fecha": "Sábado 14 de septiembre",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "TruzAzul",
+          "Atlético de Timbuktu"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Rolando City",
+            "visitante": "Roger FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "La Puerquisa",
+            "visitante": "La Banca FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Formadores FC",
+            "visitante": "Revo FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Leñadores",
+            "visitante": "Seleçao Canarinha",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "Las Mopas",
+            "visitante": "Arrestados FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Perros",
+            "visitante": "Lobos FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 7",
+        "fecha": "Sábado 21 de septiembre",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Formadores FC",
+          "La Banca FC"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Rolando City",
+            "visitante": "Arrestados FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "Roger FC",
+            "visitante": "Atlético de Timbuktu",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Revo FC",
+            "visitante": "Leñadores",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Seleçao Canarinha",
+            "visitante": "La Puerquisa",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "TruzAzul",
+            "visitante": "Perros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Lobos FC",
+            "visitante": "Las Mopas",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 8",
+        "fecha": "Sábado 28 de septiembre",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 1:00 PM",
+        "descanso": [
+          "Roger FC",
+          "Arrestados FC"
+        ],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Rolando City",
+            "visitante": "La Banca FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "Atlético de Timbuktu",
+            "visitante": "Formadores FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "TruzAzul",
+            "visitante": "Revo FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Lobos FC",
+            "visitante": "Leñadores",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "La Puerquisa",
+            "visitante": "Perros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Las Mopas",
+            "visitante": "Seleçao Canarinha",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 9",
+        "fecha": "Sábado 5 de octubre",
+        "sede": "Euro Campus Valle",
+        "horario": "8:00 AM a 2:00 PM",
+        "descanso": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Rolando City",
+            "visitante": "La Puerquisa",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "Perros",
+            "visitante": "Formadores FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Revo FC",
+            "visitante": "Lobos FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Arrestados FC",
+            "visitante": "Leñadores",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "La Banca FC",
+            "visitante": "Seleçao Canarinha",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Roger FC",
+            "visitante": "Las Mopas",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "14:00",
+            "local": "TruzAzul",
+            "visitante": "Atlético de Timbuktu",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Cuartos de final",
+        "fecha": "Por confirmar",
+        "juegos": [
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
+        "sede": "Euro Campus Valle",
+        "horario": "Por confirmar",
+        "descanso": []
+      },
+      {
+        "jornada": "Semifinal",
+        "fecha": "Por confirmar",
+        "juegos": [
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
+        "sede": "Euro Campus Valle",
+        "horario": "Por confirmar",
+        "descanso": []
+      },
+      {
+        "jornada": "Final",
+        "fecha": "Por confirmar",
+        "juegos": [
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
+        "sede": "Euro Campus Valle",
+        "horario": "Por confirmar",
+        "descanso": []
+      }
+    ]
+  },
+  {
+    "nombre": "Campus Campestre",
+    "sede": "Euro Campus Campestre",
+    "horario": "Nueva temporada por confirmar",
+    "equipos": [],
+    "tabla": [],
+    "goleadores": [],
+    "jornadas": [
+      {
+        "jornada": "Jornada 1",
+        "fecha": "Por confirmar",
+        "sede": "Euro Campus Campestre",
+        "horario": "Por confirmar",
+        "descanso": [],
+        "juegos": []
+      },
+      {
+        "jornada": "Jornada 2",
+        "fecha": "Por confirmar",
+        "sede": "Euro Campus Campestre",
+        "horario": "Por confirmar",
+        "descanso": [],
+        "juegos": []
+      },
+      {
+        "jornada": "Jornada 3",
+        "fecha": "Por confirmar",
+        "sede": "Euro Campus Campestre",
+        "horario": "Por confirmar",
+        "descanso": [],
+        "juegos": []
+      },
+      {
+        "jornada": "Jornada 4",
+        "fecha": "Por confirmar",
+        "sede": "Euro Campus Campestre",
+        "horario": "Por confirmar",
+        "descanso": [],
+        "juegos": []
+      },
+      {
+        "jornada": "Jornada 5",
+        "fecha": "Por confirmar",
+        "sede": "Euro Campus Campestre",
+        "horario": "Por confirmar",
+        "descanso": [],
+        "juegos": []
+      },
+      {
+        "jornada": "Jornada 6",
+        "fecha": "Por confirmar",
+        "sede": "Euro Campus Campestre",
+        "horario": "Por confirmar",
+        "descanso": [],
+        "juegos": []
+      },
+      {
+        "jornada": "Jornada 7",
+        "fecha": "Por confirmar",
+        "sede": "Euro Campus Campestre",
+        "horario": "Por confirmar",
+        "descanso": [],
+        "juegos": []
+      },
+      {
+        "jornada": "Jornada 8",
+        "fecha": "Por confirmar",
+        "sede": "Euro Campus Campestre",
+        "horario": "Por confirmar",
+        "descanso": [],
+        "juegos": []
+      },
+      {
+        "jornada": "Jornada 9",
+        "fecha": "Por confirmar",
+        "sede": "Euro Campus Campestre",
+        "horario": "Por confirmar",
+        "descanso": [],
+        "juegos": []
+      },
+      {
+        "jornada": "Cuartos de final",
+        "fecha": "Por confirmar",
+        "juegos": [
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
+        "sede": "Euro Campus Campestre",
+        "horario": "Por confirmar",
+        "descanso": []
+      },
+      {
+        "jornada": "Semifinal",
+        "fecha": "Por confirmar",
+        "juegos": [
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
+        "sede": "Euro Campus Campestre",
+        "horario": "Por confirmar",
+        "descanso": []
+      },
+      {
+        "jornada": "Final",
+        "fecha": "Por confirmar",
+        "juegos": [
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
+        "sede": "Euro Campus Campestre",
+        "horario": "Por confirmar",
+        "descanso": []
+      }
+    ]
+  },
+  {
+    "nombre": "Campus Montenova",
+    "sede": "Campus Montenova",
+    "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+    "equipos": [],
+    "tabla": [],
+    "goleadores": [],
+    "jornadas": [
+      {
+        "jornada": "Jornada 1",
+        "fecha": "Sábado 10 de agosto",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Tiburones",
+          "Venados FC",
+          "Sparta Nova",
+          "Reales SL",
+          "Montenova FC",
+          "Cumbres FC",
+          "Apaches",
+          "Rayos Montenova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Imperio FC",
+            "visitante": "Centuriones",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Nova United",
+            "visitante": "Guerreros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Canarios FC",
+            "visitante": "Real Nova",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 2",
+        "fecha": "Sábado 17 de agosto",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Imperio FC",
+          "Centuriones",
+          "Nova United",
+          "Reales SL",
+          "Montenova FC",
+          "Cumbres FC",
+          "Apaches",
+          "Rayos Montenova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Guerreros",
+            "visitante": "Canarios FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Real Nova",
+            "visitante": "Tiburones",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Venados FC",
+            "visitante": "Sparta Nova",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 3",
+        "fecha": "Sábado 24 de agosto",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Imperio FC",
+          "Centuriones",
+          "Nova United",
+          "Guerreros",
+          "Canarios FC",
+          "Real Nova",
+          "Apaches",
+          "Rayos Montenova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Tiburones",
+            "visitante": "Venados FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Sparta Nova",
+            "visitante": "Reales SL",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Montenova FC",
+            "visitante": "Cumbres FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 4",
+        "fecha": "Sábado 31 de agosto",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Centuriones",
+          "Nova United",
+          "Guerreros",
+          "Canarios FC",
+          "Real Nova",
+          "Tiburones",
+          "Venados FC",
+          "Sparta Nova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Reales SL",
+            "visitante": "Montenova FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Cumbres FC",
+            "visitante": "Apaches",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Rayos Montenova",
+            "visitante": "Imperio FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 5",
+        "fecha": "Sábado 7 de septiembre",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Canarios FC",
+          "Real Nova",
+          "Tiburones",
+          "Venados FC",
+          "Sparta Nova",
+          "Reales SL",
+          "Montenova FC",
+          "Cumbres FC"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Apaches",
+            "visitante": "Rayos Montenova",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Imperio FC",
+            "visitante": "Centuriones",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Nova United",
+            "visitante": "Guerreros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 6",
+        "fecha": "Sábado 14 de septiembre",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Imperio FC",
+          "Venados FC",
+          "Sparta Nova",
+          "Reales SL",
+          "Montenova FC",
+          "Cumbres FC",
+          "Apaches",
+          "Rayos Montenova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Centuriones",
+            "visitante": "Nova United",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Guerreros",
+            "visitante": "Canarios FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Real Nova",
+            "visitante": "Tiburones",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 7",
+        "fecha": "Sábado 21 de septiembre",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Imperio FC",
+          "Centuriones",
+          "Nova United",
+          "Guerreros",
+          "Montenova FC",
+          "Cumbres FC",
+          "Apaches",
+          "Rayos Montenova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Canarios FC",
+            "visitante": "Real Nova",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Tiburones",
+            "visitante": "Venados FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Sparta Nova",
+            "visitante": "Reales SL",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 8",
+        "fecha": "Sábado 28 de septiembre",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [
+          "Imperio FC",
+          "Centuriones",
+          "Nova United",
+          "Guerreros",
+          "Canarios FC",
+          "Real Nova",
+          "Tiburones",
+          "Rayos Montenova"
+        ],
+        "juegos": [
+          {
+            "hora": "19:30",
+            "local": "Venados FC",
+            "visitante": "Sparta Nova",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "20:30",
+            "local": "Reales SL",
+            "visitante": "Montenova FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "21:30",
+            "local": "Cumbres FC",
+            "visitante": "Apaches",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ]
+      },
+      {
+        "jornada": "Jornada 9",
+        "fecha": "Sábado 5 de octubre",
+        "sede": "Campus Montenova",
+        "horario": "7:30 PM, 8:30 PM y 9:30 PM",
+        "descanso": [],
+        "juegos": []
+      },
+      {
+        "jornada": "Cuartos de final",
+        "fecha": "Por confirmar",
+        "juegos": [
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
+        "sede": "Campus Montenova",
+        "horario": "Por confirmar",
+        "descanso": []
+      },
+      {
+        "jornada": "Semifinal",
+        "fecha": "Por confirmar",
+        "juegos": [
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
+        "sede": "Campus Montenova",
+        "horario": "Por confirmar",
+        "descanso": []
+      },
+      {
+        "jornada": "Final",
+        "fecha": "Por confirmar",
+        "juegos": [
+          {
+            "hora": "Por definir",
+            "local": "Por definir",
+            "visitante": "Por definir",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
+        "sede": "Campus Montenova",
+        "horario": "Por confirmar",
+        "descanso": []
+      }
+    ]
   }
 ];
 
@@ -36,682 +1691,41 @@ export const torneos = [
   {
     nombre: "Spartans League Fut 7",
     categoria: "Libre",
-    equipos: 28,
     estado: "Torneo actual",
     sedes: "Euro Campus Valle, Euro Campus Campestre y Campus Montenova",
     inicio: "Fecha por confirmar"
   }
 ];
 
-export const equipos = ["Rolando City", "Lobos FC", "Formadores FC", "La Banca FC", "Las Mopas", "Perros", "Atlético de Timbuktu", "La Puerquisa", "TruzAzul", "Arrestados FC", "Seleçao Canarinha", "Roger FC", "Leñadores", "Revo FC", "SoccerBee", "Kawashima Wanders", "Principes de la B", "Commers", "Los Demas FC", "Armadillos FC", "Jaiba Brava", "La Menor FC", "FC Internazionale Milanesa", "Juniors FC", "Capri FC", "CAFC", "Los Krikos", "Necali Moms"];
+export const equiposPorCampus = campus.map((item) => ({
+  campus: item.nombre,
+  sede: item.sede,
+  horario: item.horario,
+  equipos: item.equipos
+}));
 
+export const equipos = campus.flatMap((item) => item.equipos);
 export const totalEquipos = equipos.length;
 
-export const equiposPorCampus = [
-  {
-    campus: "Campus Valle",
-    sede: "Euro Campus Valle",
-    horario: "Jornadas 1, 2 y 9: 8:00 AM a 2:00 PM; jornadas 3 a 8: 8:00 AM a 1:00 PM",
-    equipos: ["Rolando City", "Lobos FC", "Formadores FC", "La Banca FC", "Las Mopas", "Perros", "Atlético de Timbuktu", "La Puerquisa", "TruzAzul", "Arrestados FC", "Seleçao Canarinha", "Roger FC", "Leñadores", "Revo FC"]
-  },
-  {
-    campus: "Campus Campestre",
-    sede: "Euro Campus Campestre",
-    horario: "Jornadas 1 y 9: 8:00 AM a 2:00 PM; jornadas 2 a 8: 8:00 AM a 1:00 PM",
-    equipos: ["SoccerBee", "Kawashima Wanders", "Principes de la B", "Commers", "Los Demas FC", "Armadillos FC", "Jaiba Brava", "La Menor FC", "FC Internazionale Milanesa", "Juniors FC", "Capri FC", "CAFC", "Los Krikos", "Necali Moms"]
-  },
-  {
-    campus: "Campus Montenova",
-    sede: "Campus Montenova",
-    horario: "7:30 PM, 8:30 PM y 9:30 PM",
-    equipos: []
-  }
-];
+export const estadisticasPorCampus = campus.map((item) => ({
+  campus: item.nombre,
+  sede: item.sede,
+  tablaPosiciones: item.tabla,
+  goleadores: item.goleadores
+}));
 
-export const partidosPorJornada = [
-  {
-    jornada: "Jornada 1",
-    fecha: "Sábado 10 de agosto",
-    campus: [
-      {
-        campus: "Campus Valle",
-        sede: "Euro Campus Valle",
-        horario: "8:00 AM a 2:00 PM",
-        descanso: ["Leñadores", "Revo FC"],
-        juegos: [
-          {             hora: "08:00",             local: "Rolando City",             visitante: "Lobos FC",             marcador: "7 - 2",             estado: "Finalizado"           },
-          {             hora: "09:00",             local: "Formadores FC",             visitante: "La Banca FC",             marcador: "5 - 2",             estado: "Finalizado"           },
-          {             hora: "10:00",             local: "Las Mopas",             visitante: "Perros",             marcador: "8 - 1",             estado: "Finalizado"           },
-          {             hora: "11:00",             local: "Atlético de Timbuktu",             visitante: "La Puerquisa",             marcador: "3 - 3",             estado: "Finalizado"           },
-          {             hora: "12:00",             local: "TruzAzul",             visitante: "Roger FC",             marcador: "4 - 5",             estado: "Finalizado"           },
-          {             hora: "13:00",             local: "Seleçao Canarinha",             visitante: "Arrestados FC",             marcador: "7 - 2",             estado: "Finalizado"           }
-        ]
-      },
-      {
-        campus: "Campus Campestre",
-        sede: "Euro Campus Campestre",
-        horario: "8:00 AM a 2:00 PM",
-        descanso: [],
-        juegos: [
-          {             hora: "08:00",             local: "SoccerBee",             visitante: "Kawashima Wanders",             marcador: "0 - 3",             estado: "Finalizado"           },
-          {             hora: "09:00",             local: "Principes de la B",             visitante: "Commers",             marcador: "3 - 11",             estado: "Finalizado"           },
-          {             hora: "10:00",             local: "Los Demas FC",             visitante: "Armadillos FC",             marcador: "9 - 1",             estado: "Finalizado"           },
-          {             hora: "11:00",             local: "Jaiba Brava",             visitante: "La Menor FC",             marcador: "2 - 2",             estado: "Finalizado"           },
-          {             hora: "12:00",             local: "FC Internazionale Milanesa",             visitante: "Juniors FC",             marcador: "1 - 4",             estado: "Finalizado"           },
-          {             hora: "13:00",             local: "Capri FC",             visitante: "CAFC",             marcador: "1 - 1",             estado: "Finalizado"           },
-          {             hora: "14:00",             local: "Los Krikos",             visitante: "Necali Moms",             marcador: "3 - 6",             estado: "Finalizado"           }
-        ]
-      },
-      {
-        campus: "Campus Montenova",
-        sede: "Campus Montenova",
-        horario: "7:30 PM, 8:30 PM y 9:30 PM",
-        descanso: ["Tiburones", "Venados FC", "Sparta Nova", "Reales SL", "Montenova FC", "Cumbres FC", "Apaches", "Rayos Montenova"],
-        juegos: [
-          {             hora: "19:30",             local: "Imperio FC",             visitante: "Centuriones",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "20:30",             local: "Nova United",             visitante: "Guerreros",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "21:30",             local: "Canarios FC",             visitante: "Real Nova",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      }
-    ]
-  },
-  {
-    jornada: "Jornada 2",
-    fecha: "Sábado 17 de agosto",
-    campus: [
-      {
-        campus: "Campus Valle",
-        sede: "Euro Campus Valle",
-        horario: "8:00 AM a 2:00 PM",
-        descanso: [],
-        juegos: [
-          {             hora: "08:00",             local: "Rolando City",             visitante: "Atlético de Timbuktu",             marcador: "3 - 2",             estado: "Finalizado"           },
-          {             hora: "09:00",             local: "La Puerquisa",             visitante: "Las Mopas",             marcador: "2 - 3",             estado: "Finalizado"           },
-          {             hora: "10:00",             local: "Revo FC",             visitante: "Leñadores",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "11:00",             local: "TruzAzul",             visitante: "La Banca FC",             marcador: "5 - 5",             estado: "Finalizado"           },
-          {             hora: "12:00",             local: "Lobos FC",             visitante: "Formadores FC",             marcador: "2 - 5",             estado: "Finalizado"           },
-          {             hora: "13:00",             local: "Arrestados FC",             visitante: "Roger FC",             marcador: "2 - 9",             estado: "Finalizado"           },
-          {             hora: "14:00",             local: "Perros",             visitante: "Seleçao Canarinha",             marcador: "1 - 10",             estado: "Finalizado"           }
-        ]
-      },
-      {
-        campus: "Campus Campestre",
-        sede: "Euro Campus Campestre",
-        horario: "8:00 AM a 1:00 PM",
-        descanso: ["Necali Moms", "Los Demas FC"],
-        juegos: [
-          {             hora: "08:00",             local: "La Menor FC",             visitante: "SoccerBee",             marcador: "2 - 3",             estado: "Finalizado"           },
-          {             hora: "09:00",             local: "CAFC",             visitante: "Commers",             marcador: "4 - 2",             estado: "Finalizado"           },
-          {             hora: "10:00",             local: "Kawashima Wanders",             visitante: "Los Krikos",             marcador: "11 - 1",             estado: "Finalizado"           },
-          {             hora: "11:00",             local: "Armadillos FC",             visitante: "Juniors FC",             marcador: "3 - 5",             estado: "Finalizado"           },
-          {             hora: "12:00",             local: "FC Internazionale Milanesa",             visitante: "Principes de la B",             marcador: "1 - 2",             estado: "Finalizado"           },
-          {             hora: "13:00",             local: "Jaiba Brava",             visitante: "Capri FC",             marcador: "1 - 3",             estado: "Finalizado"           }
-        ]
-      },
-      {
-        campus: "Campus Montenova",
-        sede: "Campus Montenova",
-        horario: "7:30 PM, 8:30 PM y 9:30 PM",
-        descanso: ["Imperio FC", "Centuriones", "Nova United", "Reales SL", "Montenova FC", "Cumbres FC", "Apaches", "Rayos Montenova"],
-        juegos: [
-          {             hora: "19:30",             local: "Guerreros",             visitante: "Canarios FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "20:30",             local: "Real Nova",             visitante: "Tiburones",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "21:30",             local: "Venados FC",             visitante: "Sparta Nova",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      }
-    ]
-  },
-  {
-    jornada: "Jornada 3",
-    fecha: "Sábado 24 de agosto",
-    campus: [
-      {
-        campus: "Campus Valle",
-        sede: "Euro Campus Valle",
-        horario: "8:00 AM a 1:00 PM",
-        descanso: ["Rolando City", "Lobos FC"],
-        juegos: [
-          {             hora: "08:00",             local: "Arrestados FC",             visitante: "La Banca FC",             marcador: "4 - 3",             estado: "Finalizado"           },
-          {             hora: "09:00",             local: "Formadores FC",             visitante: "Leñadores",             marcador: "1 - 3",             estado: "Finalizado"           },
-          {             hora: "10:00",             local: "Revo FC",             visitante: "La Puerquisa",             marcador: "11 - 0",             estado: "Finalizado"           },
-          {             hora: "11:00",             local: "Roger FC",             visitante: "Perros",             marcador: "9 - 1",             estado: "Finalizado"           },
-          {             hora: "12:00",             local: "Atlético de Timbuktu",             visitante: "Seleçao Canarinha",             marcador: "4 - 2",             estado: "Finalizado"           },
-          {             hora: "13:00",             local: "TruzAzul",             visitante: "Las Mopas",             marcador: "4 - 1",             estado: "Finalizado"           }
-        ]
-      },
-      {
-        campus: "Campus Campestre",
-        sede: "Euro Campus Campestre",
-        horario: "8:00 AM a 1:00 PM",
-        descanso: ["SoccerBee", "Kawashima Wanders"],
-        juegos: [
-          {             hora: "08:00",             local: "CAFC",             visitante: "Armadillos FC",             marcador: "4 - 3",             estado: "Finalizado"           },
-          {             hora: "09:00",             local: "Los Demas FC",             visitante: "Necali Moms",             marcador: "5 - 5",             estado: "Finalizado"           },
-          {             hora: "10:00",             local: "Capri FC",             visitante: "Commers",             marcador: "3 - 0",             estado: "Finalizado"           },
-          {             hora: "11:00",             local: "Juniors FC",             visitante: "La Menor FC",             marcador: "3 - 2",             estado: "Finalizado"           },
-          {             hora: "12:00",             local: "Los Krikos",             visitante: "FC Internazionale Milanesa",             marcador: "2 - 2",             estado: "Finalizado"           },
-          {             hora: "13:00",             local: "Principes de la B",             visitante: "Jaiba Brava",             marcador: "2 - 1",             estado: "Finalizado"           }
-        ]
-      },
-      {
-        campus: "Campus Montenova",
-        sede: "Campus Montenova",
-        horario: "7:30 PM, 8:30 PM y 9:30 PM",
-        descanso: ["Imperio FC", "Centuriones", "Nova United", "Guerreros", "Canarios FC", "Real Nova", "Apaches", "Rayos Montenova"],
-        juegos: [
-          {             hora: "19:30",             local: "Tiburones",             visitante: "Venados FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "20:30",             local: "Sparta Nova",             visitante: "Reales SL",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "21:30",             local: "Montenova FC",             visitante: "Cumbres FC",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      }
-    ]
-  },
-  {
-    jornada: "Jornada 4",
-    fecha: "Sábado 31 de agosto",
-    campus: [
-      {
-        campus: "Campus Valle",
-        sede: "Euro Campus Valle",
-        horario: "8:00 AM a 1:00 PM",
-        descanso: ["Perros", "Seleçao Canarinha"],
-        juegos: [
-          {             hora: "08:00",             local: "Rolando City",             visitante: "TruzAzul",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "Las Mopas",             visitante: "Formadores FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "10:00",             local: "La Banca FC",             visitante: "Revo FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "11:00",             local: "Lobos FC",             visitante: "La Puerquisa",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "Atlético de Timbuktu",             visitante: "Arrestados FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "13:00",             local: "Leñadores",             visitante: "Roger FC",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      },
-      {
-        campus: "Campus Campestre",
-        sede: "Euro Campus Campestre",
-        horario: "8:00 AM a 1:00 PM",
-        descanso: ["La Menor FC", "Los Krikos"],
-        juegos: [
-          {             hora: "08:00",             local: "SoccerBee",             visitante: "Capri FC",             marcador: "4 - 1",             estado: "Finalizado"           },
-          {             hora: "09:00",             local: "Kawashima Wanders",             visitante: "Necali Moms",             marcador: "5 - 4",             estado: "Finalizado"           },
-          {             hora: "10:00",             local: "Armadillos FC",             visitante: "Commers",             marcador: "4 - 3",             estado: "Finalizado"           },
-          {             hora: "11:00",             local: "Los Demas FC",             visitante: "Principes de la B",             marcador: "3 - 0",             estado: "Finalizado"           },
-          {             hora: "12:00",             local: "FC Internazionale Milanesa",             visitante: "CAFC",             marcador: "2 - 3",             estado: "Finalizado"           },
-          {             hora: "13:00",             local: "Jaiba Brava",             visitante: "Juniors FC",             marcador: "0 - 5",             estado: "Finalizado"           }
-        ]
-      },
-      {
-        campus: "Campus Montenova",
-        sede: "Campus Montenova",
-        horario: "7:30 PM, 8:30 PM y 9:30 PM",
-        descanso: ["Centuriones", "Nova United", "Guerreros", "Canarios FC", "Real Nova", "Tiburones", "Venados FC", "Sparta Nova"],
-        juegos: [
-          {             hora: "19:30",             local: "Reales SL",             visitante: "Montenova FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "20:30",             local: "Cumbres FC",             visitante: "Apaches",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "21:30",             local: "Rayos Montenova",             visitante: "Imperio FC",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      }
-    ]
-  },
-  {
-    jornada: "Jornada 5",
-    fecha: "Sábado 7 de septiembre",
-    campus: [
-      {
-        campus: "Campus Valle",
-        sede: "Euro Campus Valle",
-        horario: "8:00 AM a 1:00 PM",
-        descanso: ["La Puerquisa", "Las Mopas"],
-        juegos: [
-          {             hora: "08:00",             local: "Perros",             visitante: "Rolando City",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "Seleçao Canarinha",             visitante: "Formadores FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "10:00",             local: "Arrestados FC",             visitante: "Revo FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "11:00",             local: "La Banca FC",             visitante: "Roger FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "Lobos FC",             visitante: "Atlético de Timbuktu",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "13:00",             local: "Leñadores",             visitante: "TruzAzul",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      },
-      {
-        campus: "Campus Campestre",
-        sede: "Euro Campus Campestre",
-        horario: "8:00 AM a 1:00 PM",
-        descanso: ["Commers", "Jaiba Brava"],
-        juegos: [
-          {             hora: "08:00",             local: "SoccerBee",             visitante: "Los Krikos",             marcador: "3 - 0",             estado: "Finalizado"           },
-          {             hora: "09:00",             local: "Kawashima Wanders",             visitante: "Principes de la B",             marcador: "2 - 2",             estado: "Finalizado"           },
-          {             hora: "10:00",             local: "Capri FC",             visitante: "Armadillos FC",             marcador: "2 - 8",             estado: "Finalizado"           },
-          {             hora: "11:00",             local: "La Menor FC",             visitante: "Los Demas FC",             marcador: "3 - 0",             estado: "Finalizado"           },
-          {             hora: "12:00",             local: "Necali Moms",             visitante: "FC Internazionale Milanesa",             marcador: "12 - 3",             estado: "Finalizado"           },
-          {             hora: "13:00",             local: "CAFC",             visitante: "Juniors FC",             marcador: "2 - 3",             estado: "Finalizado"           }
-        ]
-      },
-      {
-        campus: "Campus Montenova",
-        sede: "Campus Montenova",
-        horario: "7:30 PM, 8:30 PM y 9:30 PM",
-        descanso: ["Canarios FC", "Real Nova", "Tiburones", "Venados FC", "Sparta Nova", "Reales SL", "Montenova FC", "Cumbres FC"],
-        juegos: [
-          {             hora: "19:30",             local: "Apaches",             visitante: "Rayos Montenova",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "20:30",             local: "Imperio FC",             visitante: "Centuriones",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "21:30",             local: "Nova United",             visitante: "Guerreros",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      }
-    ]
-  },
-  {
-    jornada: "Jornada 6",
-    fecha: "Sábado 14 de septiembre",
-    campus: [
-      {
-        campus: "Campus Valle",
-        sede: "Euro Campus Valle",
-        horario: "8:00 AM a 1:00 PM",
-        descanso: ["TruzAzul", "Atlético de Timbuktu"],
-        juegos: [
-          {             hora: "08:00",             local: "Rolando City",             visitante: "Roger FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "La Puerquisa",             visitante: "La Banca FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "10:00",             local: "Formadores FC",             visitante: "Revo FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "11:00",             local: "Leñadores",             visitante: "Seleçao Canarinha",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "Las Mopas",             visitante: "Arrestados FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "13:00",             local: "Perros",             visitante: "Lobos FC",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      },
-      {
-        campus: "Campus Campestre",
-        sede: "Euro Campus Campestre",
-        horario: "8:00 AM a 1:00 PM",
-        descanso: ["Capri FC", "FC Internazionale Milanesa"],
-        juegos: [
-          {             hora: "08:00",             local: "SoccerBee",             visitante: "Jaiba Brava",             marcador: "4 - 4",             estado: "Finalizado"           },
-          {             hora: "09:00",             local: "La Menor FC",             visitante: "Kawashima Wanders",             marcador: "1 - 2",             estado: "Finalizado"           },
-          {             hora: "10:00",             local: "Los Krikos",             visitante: "Commers",             marcador: "3 - 0",             estado: "Finalizado"           },
-          {             hora: "11:00",             local: "Principes de la B",             visitante: "Juniors FC",             marcador: "5 - 3",             estado: "Finalizado"           },
-          {             hora: "12:00",             local: "Los Demas FC",             visitante: "CAFC",             marcador: "6 - 6",             estado: "Finalizado"           },
-          {             hora: "13:00",             local: "Necali Moms",             visitante: "Armadillos FC",             marcador: "6 - 2",             estado: "Finalizado"           }
-        ]
-      },
-      {
-        campus: "Campus Montenova",
-        sede: "Campus Montenova",
-        horario: "7:30 PM, 8:30 PM y 9:30 PM",
-        descanso: ["Imperio FC", "Venados FC", "Sparta Nova", "Reales SL", "Montenova FC", "Cumbres FC", "Apaches", "Rayos Montenova"],
-        juegos: [
-          {             hora: "19:30",             local: "Centuriones",             visitante: "Nova United",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "20:30",             local: "Guerreros",             visitante: "Canarios FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "21:30",             local: "Real Nova",             visitante: "Tiburones",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      }
-    ]
-  },
-  {
-    jornada: "Jornada 7",
-    fecha: "Sábado 21 de septiembre",
-    campus: [
-      {
-        campus: "Campus Valle",
-        sede: "Euro Campus Valle",
-        horario: "8:00 AM a 1:00 PM",
-        descanso: ["Formadores FC", "La Banca FC"],
-        juegos: [
-          {             hora: "08:00",             local: "Rolando City",             visitante: "Arrestados FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "Roger FC",             visitante: "Atlético de Timbuktu",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "10:00",             local: "Revo FC",             visitante: "Leñadores",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "11:00",             local: "Seleçao Canarinha",             visitante: "La Puerquisa",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "TruzAzul",             visitante: "Perros",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "13:00",             local: "Lobos FC",             visitante: "Las Mopas",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      },
-      {
-        campus: "Campus Campestre",
-        sede: "Euro Campus Campestre",
-        horario: "8:00 AM a 1:00 PM",
-        descanso: ["Principes de la B", "Armadillos FC"],
-        juegos: [
-          {             hora: "08:00",             local: "SoccerBee",             visitante: "CAFC",             marcador: "6 - 1",             estado: "Finalizado"           },
-          {             hora: "09:00",             local: "Capri FC",             visitante: "Necali Moms",             marcador: "2 - 5",             estado: "Finalizado"           },
-          {             hora: "10:00",             local: "Commers",             visitante: "La Menor FC",             marcador: "3 - 1",             estado: "Finalizado"           },
-          {             hora: "11:00",             local: "Juniors FC",             visitante: "Los Krikos",             marcador: "2 - 3",             estado: "Finalizado"           },
-          {             hora: "12:00",             local: "FC Internazionale Milanesa",             visitante: "Jaiba Brava",             marcador: "0 - 0",             estado: "Finalizado"           },
-          {             hora: "13:00",             local: "Kawashima Wanders",             visitante: "Los Demas FC",             marcador: "5 - 3",             estado: "Finalizado"           }
-        ]
-      },
-      {
-        campus: "Campus Montenova",
-        sede: "Campus Montenova",
-        horario: "7:30 PM, 8:30 PM y 9:30 PM",
-        descanso: ["Imperio FC", "Centuriones", "Nova United", "Guerreros", "Montenova FC", "Cumbres FC", "Apaches", "Rayos Montenova"],
-        juegos: [
-          {             hora: "19:30",             local: "Canarios FC",             visitante: "Real Nova",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "20:30",             local: "Tiburones",             visitante: "Venados FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "21:30",             local: "Sparta Nova",             visitante: "Reales SL",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      }
-    ]
-  },
-  {
-    jornada: "Jornada 8",
-    fecha: "Sábado 28 de septiembre",
-    campus: [
-      {
-        campus: "Campus Valle",
-        sede: "Euro Campus Valle",
-        horario: "8:00 AM a 1:00 PM",
-        descanso: ["Roger FC", "Arrestados FC"],
-        juegos: [
-          {             hora: "08:00",             local: "Rolando City",             visitante: "La Banca FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "Atlético de Timbuktu",             visitante: "Formadores FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "10:00",             local: "TruzAzul",             visitante: "Revo FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "11:00",             local: "Lobos FC",             visitante: "Leñadores",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "La Puerquisa",             visitante: "Perros",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "13:00",             local: "Las Mopas",             visitante: "Seleçao Canarinha",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      },
-      {
-        campus: "Campus Campestre",
-        sede: "Euro Campus Campestre",
-        horario: "8:00 AM a 1:00 PM",
-        descanso: ["Juniors FC", "CAFC"],
-        juegos: [
-          {             hora: "08:00",             local: "SoccerBee",             visitante: "Armadillos FC",             marcador: "7 - 1",             estado: "Finalizado"           },
-          {             hora: "09:00",             local: "Kawashima Wanders",             visitante: "Capri FC",             marcador: "1 - 3",             estado: "Finalizado"           },
-          {             hora: "10:00",             local: "Jaiba Brava",             visitante: "Commers",             marcador: "5 - 2",             estado: "Finalizado"           },
-          {             hora: "11:00",             local: "Los Krikos",             visitante: "Principes de la B",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "Los Demas FC",             visitante: "FC Internazionale Milanesa",             marcador: "4 - 2",             estado: "Finalizado"           },
-          {             hora: "13:00",             local: "Necali Moms",             visitante: "La Menor FC",             marcador: "4 - 3",             estado: "Finalizado"           }
-        ]
-      },
-      {
-        campus: "Campus Montenova",
-        sede: "Campus Montenova",
-        horario: "7:30 PM, 8:30 PM y 9:30 PM",
-        descanso: ["Imperio FC", "Centuriones", "Nova United", "Guerreros", "Canarios FC", "Real Nova", "Tiburones", "Rayos Montenova"],
-        juegos: [
-          {             hora: "19:30",             local: "Venados FC",             visitante: "Sparta Nova",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "20:30",             local: "Reales SL",             visitante: "Montenova FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "21:30",             local: "Cumbres FC",             visitante: "Apaches",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      }
-    ]
-  },
-  {
-    jornada: "Jornada 9",
-    fecha: "Sábado 5 de octubre",
-    campus: [
-      {
-        campus: "Campus Valle",
-        sede: "Euro Campus Valle",
-        horario: "8:00 AM a 2:00 PM",
-        descanso: [],
-        juegos: [
-          {             hora: "08:00",             local: "Rolando City",             visitante: "La Puerquisa",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "Perros",             visitante: "Formadores FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "10:00",             local: "Revo FC",             visitante: "Lobos FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "11:00",             local: "Arrestados FC",             visitante: "Leñadores",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "La Banca FC",             visitante: "Seleçao Canarinha",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "13:00",             local: "Roger FC",             visitante: "Las Mopas",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "14:00",             local: "TruzAzul",             visitante: "Atlético de Timbuktu",             marcador: "Por jugar",             estado: "Programado"           }
-        ]
-      },
-      {
-        campus: "Campus Campestre",
-        sede: "Euro Campus Campestre",
-        horario: "8:00 AM a 2:00 PM",
-        descanso: [],
-        juegos: [
-          {             hora: "08:00",             local: "SoccerBee",             visitante: "Juniors FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "09:00",             local: "Kawashima Wanders",             visitante: "Jaiba Brava",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "10:00",             local: "Commers",             visitante: "Los Demas FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "11:00",             local: "Capri FC",             visitante: "La Menor FC",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "12:00",             local: "Armadillos FC",             visitante: "FC Internazionale Milanesa",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "13:00",             local: "Necali Moms",             visitante: "Principes de la B",             marcador: "Por jugar",             estado: "Programado"           },
-          {             hora: "14:00",             local: "CAFC",             visitante: "Los Krikos",             marcador: "0 - 3",             estado: "Finalizado"           }
-        ]
-      }
-    ]
-  }
-];
+export const partidosPorJornada = campus[0].jornadas.map((_, index) => ({
+  jornada: campus[0].jornadas[index].jornada,
+  fecha: campus[0].jornadas[index].fecha,
+  campus: campus.map((item) => ({
+    campus: item.nombre,
+    sede: item.jornadas[index]?.sede || item.sede,
+    horario: item.jornadas[index]?.horario || item.horario,
+    descanso: item.jornadas[index]?.descanso || [],
+    juegos: item.jornadas[index]?.juegos || []
+  }))
+}));
 
 export const partidos = partidosPorJornada;
-
-export const estadisticasPorCampus = [
-  {
-    campus: "Campus Valle",
-    sede: "Euro Campus Valle",
-    tablaPosiciones: [
-      {         equipo: "Roger FC",         pj: 3,         g: 3,         e: 0,         p: 0,         gf: 23,         gc: 7,         dg: 16,         pts: 9       },
-      {         equipo: "Seleçao Canarinha",         pj: 3,         g: 2,         e: 0,         p: 1,         gf: 19,         gc: 7,         dg: 12,         pts: 6       },
-      {         equipo: "Rolando City",         pj: 2,         g: 2,         e: 0,         p: 0,         gf: 10,         gc: 4,         dg: 6,         pts: 6       },
-      {         equipo: "Las Mopas",         pj: 3,         g: 2,         e: 0,         p: 1,         gf: 12,         gc: 7,         dg: 5,         pts: 6       },
-      {         equipo: "Formadores FC",         pj: 3,         g: 2,         e: 0,         p: 1,         gf: 11,         gc: 7,         dg: 4,         pts: 6       },
-      {         equipo: "TruzAzul",         pj: 3,         g: 1,         e: 1,         p: 1,         gf: 13,         gc: 11,         dg: 2,         pts: 4       },
-      {         equipo: "Atlético de Timbuktu",         pj: 3,         g: 1,         e: 1,         p: 1,         gf: 9,         gc: 8,         dg: 1,         pts: 4       },
-      {         equipo: "Revo FC",         pj: 1,         g: 1,         e: 0,         p: 0,         gf: 11,         gc: 0,         dg: 11,         pts: 3       },
-      {         equipo: "Leñadores",         pj: 1,         g: 1,         e: 0,         p: 0,         gf: 3,         gc: 1,         dg: 2,         pts: 3       },
-      {         equipo: "Arrestados FC",         pj: 3,         g: 1,         e: 0,         p: 2,         gf: 8,         gc: 19,         dg: -11,         pts: 3       },
-      {         equipo: "La Banca FC",         pj: 3,         g: 0,         e: 1,         p: 2,         gf: 10,         gc: 14,         dg: -4,         pts: 2       },
-      {         equipo: "La Puerquisa",         pj: 3,         g: 0,         e: 1,         p: 2,         gf: 5,         gc: 17,         dg: -12,         pts: 2       },
-      {         equipo: "Lobos FC",         pj: 2,         g: 0,         e: 0,         p: 2,         gf: 4,         gc: 12,         dg: -8,         pts: 0       },
-      {         equipo: "Perros",         pj: 3,         g: 0,         e: 0,         p: 3,         gf: 3,         gc: 27,         dg: -24,         pts: 0       }
-    ],
-    goleadores: [
-      {         jugador: "Patricio González",         equipo: "TruzAzul",         goles: 7       },
-      {         jugador: "Gerardo Pozas",         equipo: "Selecao",         goles: 6       },
-      {         jugador: "Pablo Mendez",         equipo: "Atlético de Timbuktu",         goles: 5       },
-      {         jugador: "Jesús Zambrano",         equipo: "Formadores FC",         goles: 5       },
-      {         jugador: "Luis Peña",         equipo: "Revo",         goles: 5       },
-      {         jugador: "Andres Diaz",         equipo: "Roger FC",         goles: 5       },
-      {         jugador: "Fernando Sierra",         equipo: "Roger FC",         goles: 5       },
-      {         jugador: "Iker Melendez",         equipo: "Las Mopas",         goles: 4       },
-      {         jugador: "Emilio Franco",         equipo: "Puerquisa",         goles: 4       },
-      {         jugador: "Braulio Brenes",         equipo: "Rolando City",         goles: 4       },
-      {         jugador: "Francisco Valdez",         equipo: "Arrestados",         goles: 3       },
-      {         jugador: "David Castillo",         equipo: "La Banca",         goles: 3       },
-      {         jugador: "Daniel Yarte",         equipo: "Revo",         goles: 3       },
-      {         jugador: "Isaac Lozano",         equipo: "Roger FC",         goles: 3       },
-      {         jugador: "Mateo Vega",         equipo: "Roger FC",         goles: 3       },
-      {         jugador: "Alejandro Almana",         equipo: "Rolando City",         goles: 3       },
-      {         jugador: "Leonardo Gutierrez",         equipo: "Selecao",         goles: 3       },
-      {         jugador: "Sergio Soto",         equipo: "Selecao",         goles: 3       },
-      {         jugador: "Teo Contreras",         equipo: "TruzAzul",         goles: 3       },
-      {         jugador: "Mauricio Palomo",         equipo: "Arrestados",         goles: 2       },
-      {         jugador: "Donato Uribe",         equipo: "Atlético de Timbuktu",         goles: 2       },
-      {         jugador: "Mauricio Ramirez",         equipo: "Formadores FC",         goles: 2       },
-      {         jugador: "Patricio Guevara",         equipo: "La Banca",         goles: 2       },
-      {         jugador: "Christian de Lima",         equipo: "Las Mopas",         goles: 2       },
-      {         jugador: "Miguel Marroquin",         equipo: "Las Mopas",         goles: 2       },
-      {         jugador: "Eugenio Velasco",         equipo: "Leñadores",         goles: 2       },
-      {         jugador: "Gregorio Garza",         equipo: "Lobos FC",         goles: 2       },
-      {         jugador: "Sebastian Brenes",         equipo: "Rolando City",         goles: 2       },
-      {         jugador: "Alex Díaz",         equipo: "Selecao",         goles: 2       },
-      {         jugador: "Juan Angers",         equipo: "Selecao",         goles: 2       },
-      {         jugador: "Juan",         equipo: "TruzAzul",         goles: 2       },
-      {         jugador: "Gabriel",         equipo: "Arrestados",         goles: 1       },
-      {         jugador: "León Prior",         equipo: "Arrestados",         goles: 1       },
-      {         jugador: "Mateo del Rio",         equipo: "Arrestados",         goles: 1       },
-      {         jugador: "Ivan Navarro",         equipo: "Atlético de Timbuktu",         goles: 1       },
-      {         jugador: "Leonardo Rodriguez",         equipo: "Atlético de Timbuktu",         goles: 1       },
-      {         jugador: "Amilio Arari",         equipo: "Formadores FC",         goles: 1       },
-      {         jugador: "Francisco Fletes",         equipo: "Formadores FC",         goles: 1       },
-      {         jugador: "Luis Velazquez",         equipo: "Formadores FC",         goles: 1       },
-      {         jugador: "Vicente Sánchez",         equipo: "Formadores FC",         goles: 1       },
-      {         jugador: "Daniel Velez",         equipo: "La Banca",         goles: 1       },
-      {         jugador: "Eliud Treviño",         equipo: "La Banca",         goles: 1       },
-      {         jugador: "Eugenio Martinez",         equipo: "La Banca",         goles: 1       },
-      {         jugador: "Jorge Palomo",         equipo: "La Banca",         goles: 1       },
-      {         jugador: "Patricio Campos",         equipo: "La Banca",         goles: 1       },
-      {         jugador: "Andres Marroquin",         equipo: "Las Mopas",         goles: 1       },
-      {         jugador: "Andrés Santiesteban",         equipo: "Las Mopas",         goles: 1       },
-      {         jugador: "Patricio Santiestteban",         equipo: "Las Mopas",         goles: 1       },
-      {         jugador: "Rodrigo Martinez",         equipo: "Las Mopas",         goles: 1       },
-      {         jugador: "Alan de la Torre",         equipo: "Leñadores",         goles: 1       },
-      {         jugador: "Aldo Tijerina",         equipo: "Perros",         goles: 1       },
-      {         jugador: "Mateo Samanillo",         equipo: "Perros",         goles: 1       },
-      {         jugador: "Pablo Campos",         equipo: "Perros",         goles: 1       },
-      {         jugador: "Javier Ceja",         equipo: "Puerquisa",         goles: 1       },
-      {         jugador: "Daniel Flores",         equipo: "Revo",         goles: 1       },
-      {         jugador: "Jesus Garcia",         equipo: "Revo",         goles: 1       },
-      {         jugador: "Pablo Richaud",         equipo: "Revo",         goles: 1       },
-      {         jugador: "Diego Manzanarez",         equipo: "Roger FC",         goles: 1       },
-      {         jugador: "Diego del Rio",         equipo: "Roger FC",         goles: 1       },
-      {         jugador: "Leonardo Rivas",         equipo: "Roger FC",         goles: 1       },
-      {         jugador: "Patricio Salazar",         equipo: "Roger FC",         goles: 1       },
-      {         jugador: "Jared Vargas",         equipo: "Rolando City",         goles: 1       },
-      {         jugador: "Adrián Salinas",         equipo: "Selecao",         goles: 1       },
-      {         jugador: "Alejandro Basúa",         equipo: "Selecao",         goles: 1       },
-      {         jugador: "Roy Gomez",         equipo: "Selecao",         goles: 1       },
-      {         jugador: "Diego Perez",         equipo: "TruzAzul",         goles: 1       }
-    ]
-  },
-  {
-    campus: "Campus Campestre",
-    sede: "Euro Campus Campestre",
-    tablaPosiciones: [
-      {         equipo: "Necali Moms",         pj: 7,         g: 5,         e: 1,         p: 1,         gf: 42,         gc: 23,         dg: 19,         pts: 17       },
-      {         equipo: "Kawashima Wanders",         pj: 7,         g: 5,         e: 1,         p: 1,         gf: 29,         gc: 14,         dg: 15,         pts: 17       },
-      {         equipo: "SoccerBee",         pj: 7,         g: 5,         e: 1,         p: 1,         gf: 27,         gc: 12,         dg: 15,         pts: 16       },
-      {         equipo: "Juniors FC",         pj: 7,         g: 5,         e: 0,         p: 2,         gf: 25,         gc: 16,         dg: 9,         pts: 15       },
-      {         equipo: "CAFC",         pj: 8,         g: 3,         e: 2,         p: 3,         gf: 21,         gc: 26,         dg: -5,         pts: 12       },
-      {         equipo: "Los Demas FC",         pj: 7,         g: 3,         e: 2,         p: 2,         gf: 30,         gc: 22,         dg: 8,         pts: 11       },
-      {         equipo: "Capri FC",         pj: 7,         g: 3,         e: 1,         p: 3,         gf: 15,         gc: 20,         dg: -5,         pts: 11       },
-      {         equipo: "Los Krikos",         pj: 7,         g: 3,         e: 1,         p: 3,         gf: 15,         gc: 24,         dg: -9,         pts: 11       },
-      {         equipo: "Principes de la B",         pj: 6,         g: 3,         e: 1,         p: 2,         gf: 14,         gc: 21,         dg: -7,         pts: 10       },
-      {         equipo: "Jaiba Brava",         pj: 7,         g: 1,         e: 3,         p: 3,         gf: 13,         gc: 18,         dg: -5,         pts: 7       },
-      {         equipo: "Commers",         pj: 7,         g: 2,         e: 0,         p: 5,         gf: 21,         gc: 23,         dg: -2,         pts: 6       },
-      {         equipo: "Armadillos FC",         pj: 7,         g: 2,         e: 0,         p: 5,         gf: 22,         gc: 36,         dg: -14,         pts: 6       },
-      {         equipo: "La Menor FC",         pj: 7,         g: 1,         e: 1,         p: 5,         gf: 14,         gc: 17,         dg: -3,         pts: 5       },
-      {         equipo: "FC Internazionale Milanesa",         pj: 7,         g: 0,         e: 2,         p: 5,         gf: 11,         gc: 27,         dg: -16,         pts: 3       }
-    ],
-    goleadores: [
-      {         jugador: "David Garza",         equipo: "Juniors FC",         goles: 11       },
-      {         jugador: "Marcelo Benavides",         equipo: "Necali Moms",         goles: 11       },
-      {         jugador: "Eugenio Perez",         equipo: "Necali Moms",         goles: 9       },
-      {         jugador: "Armando Cueto",         equipo: "Armadillos FC",         goles: 8       },
-      {         jugador: "Edgar Treviño",         equipo: "Necali Moms",         goles: 8       },
-      {         jugador: "Eugenio Bortoni",         equipo: "CAFC",         goles: 7       },
-      {         jugador: "Guillermo Lozano",         equipo: "Commers",         goles: 7       },
-      {         jugador: "Gil Villarreal",         equipo: "Los Demas FC",         goles: 7       },
-      {         jugador: "Fernando Chapa",         equipo: "SoccerBee",         goles: 7       },
-      {         jugador: "Raul Marquez",         equipo: "Armadillos FC",         goles: 6       },
-      {         jugador: "Adrián Lozano",         equipo: "CAFC",         goles: 6       },
-      {         jugador: "Gerino Ramirez",         equipo: "Príncipes",         goles: 6       },
-      {         jugador: "Daniel García",         equipo: "SoccerBee",         goles: 6       },
-      {         jugador: "Abel Cepeda",         equipo: "Kawashima Wanders",         goles: 5       },
-      {         jugador: "Ruben Canales",         equipo: "Necali Moms",         goles: 5       },
-      {         jugador: "Marcelo Chapa",         equipo: "CAFC",         goles: 4       },
-      {         jugador: "Alfredo Gtz",         equipo: "Jaiba Brava",         goles: 4       },
-      {         jugador: "Gerardo García",         equipo: "Kawashima Wanders",         goles: 4       },
-      {         jugador: "Gilberto Treviño",         equipo: "Kawashima Wanders",         goles: 4       },
-      {         jugador: "Mauricio Gigi",         equipo: "Los Demas FC",         goles: 4       },
-      {         jugador: "Rodolfo Ayala",         equipo: "Los Demas FC",         goles: 4       },
-      {         jugador: "Pablo García",         equipo: "Necali Moms",         goles: 4       },
-      {         jugador: "David Fuentes",         equipo: "Armadillos FC",         goles: 3       },
-      {         jugador: "Javier Molina",         equipo: "Commers",         goles: 3       },
-      {         jugador: "Juan Sanchez",         equipo: "Commers",         goles: 3       },
-      {         jugador: "Diego Armando",         equipo: "FC Milanesa",         goles: 3       },
-      {         jugador: "Albino Ramos",         equipo: "Juniors FC",         goles: 3       },
-      {         jugador: "Alex Castillo",         equipo: "Juniors FC",         goles: 3       },
-      {         jugador: "Salvador Garza",         equipo: "Juniors FC",         goles: 3       },
-      {         jugador: "Fernando Yarto",         equipo: "Kawashima Wanders",         goles: 3       },
-      {         jugador: "Juan Pablo Reyes",         equipo: "Kawashima Wanders",         goles: 3       },
-      {         jugador: "Rogelio Reyes",         equipo: "Kawashima Wanders",         goles: 3       },
-      {         jugador: "Pablo Montaño",         equipo: "La Menor FC",         goles: 3       },
-      {         jugador: "Ricardo Garza",         equipo: "La Menor FC",         goles: 3       },
-      {         jugador: "Andrés Rodriguez",         equipo: "Los Demas FC",         goles: 3       },
-      {         jugador: "Patricio García",         equipo: "Príncipes",         goles: 3       },
-      {         jugador: "Mauricio Ramirez",         equipo: "SoccerBee",         goles: 3       },
-      {         jugador: "Marcelo Vela",         equipo: "Armadillos FC",         goles: 2       },
-      {         jugador: "Mauricio Hernandez",         equipo: "Armadillos FC",         goles: 2       },
-      {         jugador: "Santiago",         equipo: "CAFC",         goles: 2       },
-      {         jugador: "José Tamez",         equipo: "Capri FC",         goles: 2       },
-      {         jugador: "Ricardo Porras",         equipo: "Capri FC",         goles: 2       },
-      {         jugador: "Diego Garza",         equipo: "Commers",         goles: 2       },
-      {         jugador: "Gonzalo Vargas",         equipo: "Commers",         goles: 2       },
-      {         jugador: "Santiago Castillo",         equipo: "Commers",         goles: 2       },
-      {         jugador: "Cesar Mendez",         equipo: "FC Milanesa",         goles: 2       },
-      {         jugador: "Gerardo Contreras",         equipo: "FC Milanesa",         goles: 2       },
-      {         jugador: "Sebastián Díaz",         equipo: "Jaiba Brava",         goles: 2       },
-      {         jugador: "Carlos Vela",         equipo: "La Menor FC",         goles: 2       },
-      {         jugador: "Franco Torres",         equipo: "Los Demas FC",         goles: 2       },
-      {         jugador: "Joaquín Navarro",         equipo: "Los Demas FC",         goles: 2       },
-      {         jugador: "Eugenio Davalos",         equipo: "Necali Moms",         goles: 2       },
-      {         jugador: "Oswaldo Gonzalez",         equipo: "Pintao",         goles: 2       },
-      {         jugador: "Adrián Elizondo",         equipo: "SoccerBee",         goles: 2       },
-      {         jugador: "Gernando Garza",         equipo: "SoccerBee",         goles: 2       },
-      {         jugador: "Raúl Quintero",         equipo: "Armadillos FC",         goles: 1       },
-      {         jugador: "Manuel Saldaña",         equipo: "CAFC",         goles: 1       },
-      {         jugador: "Pablo Arteaga",         equipo: "CAFC",         goles: 1       },
-      {         jugador: "Cristobal Marcos",         equipo: "Capri FC",         goles: 1       },
-      {         jugador: "Erick Villarreal",         equipo: "Capri FC",         goles: 1       },
-      {         jugador: "Fabricio Flores",         equipo: "Capri FC",         goles: 1       },
-      {         jugador: "Luis de León",         equipo: "Capri FC",         goles: 1       },
-      {         jugador: "Marcelo Hernandez",         equipo: "Capri FC",         goles: 1       },
-      {         jugador: "Mauricio Flores",         equipo: "Capri FC",         goles: 1       },
-      {         jugador: "Nicolás Marcos",         equipo: "Capri FC",         goles: 1       },
-      {         jugador: "Raul Marquez",         equipo: "Capri FC",         goles: 1       },
-      {         jugador: "Marcelo Uribe",         equipo: "Commers",         goles: 1       },
-      {         jugador: "Alan Selma",         equipo: "FC Milanesa",         goles: 1       },
-      {         jugador: "Manuel Velazquez",         equipo: "FC Milanesa",         goles: 1       },
-      {         jugador: "Octavio Cortés",         equipo: "FC Milanesa",         goles: 1       },
-      {         jugador: "Eduardo Castillo",         equipo: "Jaiba Brava",         goles: 1       },
-      {         jugador: "Emilio Sanchez",         equipo: "Jaiba Brava",         goles: 1       },
-      {         jugador: "Fernando Gtz",         equipo: "Jaiba Brava",         goles: 1       },
-      {         jugador: "Jesús Gtz",         equipo: "Jaiba Brava",         goles: 1       },
-      {         jugador: "Julián Gzz",         equipo: "Jaiba Brava",         goles: 1       },
-      {         jugador: "Ramon",         equipo: "Jaiba Brava",         goles: 1       },
-      {         jugador: "Aurelio Elizondo",         equipo: "Juniors FC",         goles: 1       },
-      {         jugador: "Mario Campuzano",         equipo: "Juniors FC",         goles: 1       },
-      {         jugador: "Rodrigo García",         equipo: "Juniors FC",         goles: 1       },
-      {         jugador: "Santiago Guajardo",         equipo: "Juniors FC",         goles: 1       },
-      {         jugador: "Eugenio Reyes",         equipo: "Kawashima Wanders",         goles: 1       },
-      {         jugador: "Gerardo García",         equipo: "Kawashima Wanders",         goles: 1       },
-      {         jugador: "Gustavo Patiño",         equipo: "Kawashima Wanders",         goles: 1       },
-      {         jugador: "Miguel Rodriguez",         equipo: "Kawashima Wanders",         goles: 1       },
-      {         jugador: "Andrés Castillo",         equipo: "La Menor FC",         goles: 1       },
-      {         jugador: "Gonzalo Escobar",         equipo: "La Menor FC",         goles: 1       },
-      {         jugador: "Jorge Furber",         equipo: "La Menor FC",         goles: 1       },
-      {         jugador: "Bernardo Corena",         equipo: "Los Demas FC",         goles: 1       },
-      {         jugador: "Brandon Gtz",         equipo: "Los Demas FC",         goles: 1       },
-      {         jugador: "Gabriel Robles",         equipo: "Los Demas FC",         goles: 1       },
-      {         jugador: "Pablo Elizondo",         equipo: "Los Demas FC",         goles: 1       },
-      {         jugador: "Santiago Ganem",         equipo: "Los Demas FC",         goles: 1       },
-      {         jugador: "Alejandro Palau",         equipo: "Necali Moms",         goles: 1       },
-      {         jugador: "Marco Saldivar",         equipo: "Necali Moms",         goles: 1       },
-      {         jugador: "Sebastian Rosas",         equipo: "Necali Moms",         goles: 1       },
-      {         jugador: "Andrés Castilla",         equipo: "Pintao",         goles: 1       },
-      {         jugador: "Andrés Martinez",         equipo: "Pintao",         goles: 1       },
-      {         jugador: "Diego Lopez",         equipo: "Pintao",         goles: 1       },
-      {         jugador: "Gianluca Saggio",         equipo: "Pintao",         goles: 1       },
-      {         jugador: "Claudio Pizano",         equipo: "Príncipes",         goles: 1       },
-      {         jugador: "Emilio Villarreal",         equipo: "Príncipes",         goles: 1       },
-      {         jugador: "Marcelo Arce",         equipo: "Príncipes",         goles: 1       },
-      {         jugador: "Matías García",         equipo: "Príncipes",         goles: 1       },
-      {         jugador: "Patricio Sada",         equipo: "Príncipes",         goles: 1       },
-      {         jugador: "Beny",         equipo: "SoccerBee",         goles: 1       },
-      {         jugador: "Franco Delice",         equipo: "SoccerBee",         goles: 1       },
-      {         jugador: "Leonel Duran",         equipo: "SoccerBee",         goles: 1       },
-      {         jugador: "Luis Hernandez",         equipo: "SoccerBee",         goles: 1       }
-    ]
-  },
-  {
-    campus: "Campus Montenova",
-    sede: "Campus Montenova",
-    tablaPosiciones: [
-      {         equipo: "Montenova FC",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
-      {         equipo: "Cumbres FC",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
-      {         equipo: "Apaches",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
-      {         equipo: "Rayos Montenova",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
-      {         equipo: "Imperio FC",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
-      {         equipo: "Centuriones",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
-      {         equipo: "Nova United",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
-      {         equipo: "Guerreros",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
-      {         equipo: "Canarios FC",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
-      {         equipo: "Real Nova",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
-      {         equipo: "Tiburones",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
-      {         equipo: "Venados FC",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
-      {         equipo: "Sparta Nova",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       },
-      {         equipo: "Reales SL",         pj: 0,         g: 0,         e: 0,         p: 0,         gf: 0,         gc: 0,         dg: 0,         pts: 0       }
-    ],
-    goleadores: []
-  }
-];
-
 export const tablaPosiciones = estadisticasPorCampus[0].tablaPosiciones;
 export const goleadores = estadisticasPorCampus[0].goleadores;
