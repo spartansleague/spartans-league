@@ -1269,23 +1269,289 @@ export const campus = [
   {
     "nombre": "Campus Campestre",
     "sede": "Euro Campus Campestre",
-    "horario": "Nueva temporada por confirmar",
-    "equipos": [],
-    "tabla": [],
+    "horario": "Horario por confirmar",
+    "equipos": [
+      "Anti CDP",
+      "CAFC",
+      "Caguameros FC",
+      "Capri FC",
+      "Crocs FC",
+      "Diamantes Negros",
+      "Jaiba Brava",
+      "Kawashima Wonders",
+      "La Menor FC",
+      "Los Demás FC",
+      "Monarquinha",
+      "Pintao FC",
+      "Principes de la B",
+      "SoccerBEE"
+    ],
+    "tabla": [
+      {
+        "equipo": "Anti CDP",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      },
+      {
+        "equipo": "CAFC",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      },
+      {
+        "equipo": "Caguameros FC",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      },
+      {
+        "equipo": "Capri FC",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      },
+      {
+        "equipo": "Crocs FC",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      },
+      {
+        "equipo": "Diamantes Negros",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      },
+      {
+        "equipo": "Jaiba Brava",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      },
+      {
+        "equipo": "Kawashima Wonders",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      },
+      {
+        "equipo": "La Menor FC",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      },
+      {
+        "equipo": "Los Demás FC",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      },
+      {
+        "equipo": "Monarquinha",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      },
+      {
+        "equipo": "Pintao FC",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      },
+      {
+        "equipo": "Principes de la B",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      },
+      {
+        "equipo": "SoccerBEE",
+        "pj": 0,
+        "g": 0,
+        "e": 0,
+        "p": 0,
+        "gf": 0,
+        "gc": 0,
+        "dg": 0,
+        "pts": 0
+      }
+    ],
     "goleadores": [],
     "jornadas": [
       {
         "jornada": "Jornada 1",
         "fecha": "Por confirmar",
-        "juegos": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Pintao FC",
+            "visitante": "CAFC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "La Menor FC",
+            "visitante": "Crocs FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "SoccerBEE",
+            "visitante": "Caguameros FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Diamantes Negros",
+            "visitante": "Jaiba Brava",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "Capri FC",
+            "visitante": "Anti CDP",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Kawashima Wonders",
+            "visitante": "Monarquinha",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": []
+        "descanso": [
+          "Los Demás FC",
+          "Principes de la B"
+        ]
       },
       {
         "jornada": "Jornada 2",
         "fecha": "Por confirmar",
-        "juegos": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Crocs FC",
+            "visitante": "Diamantes Negros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "Pintao FC",
+            "visitante": "La Menor FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Kawashima Wonders",
+            "visitante": "CAFC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Jaiba Brava",
+            "visitante": "Anti CDP",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "Capri FC",
+            "visitante": "SoccerBEE",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Los Demás FC",
+            "visitante": "Caguameros FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "14:00",
+            "local": "Monarquinha",
+            "visitante": "Principes de la B",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
         "descanso": []
@@ -1293,55 +1559,381 @@ export const campus = [
       {
         "jornada": "Jornada 3",
         "fecha": "Por confirmar",
-        "juegos": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Kawashima Wonders",
+            "visitante": "Capri FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "CAFC",
+            "visitante": "SoccerBEE",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Caguameros FC",
+            "visitante": "La Menor FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Principes de la B",
+            "visitante": "Los Demás FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "Anti CDP",
+            "visitante": "Diamantes Negros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Crocs FC",
+            "visitante": "Monarquinha",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": []
+        "descanso": [
+          "Jaiba Brava",
+          "Pintao FC"
+        ]
       },
       {
         "jornada": "Jornada 4",
         "fecha": "Por confirmar",
-        "juegos": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Pintao FC",
+            "visitante": "Los Demás FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "SoccerBEE",
+            "visitante": "Kawashima Wonders",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "La Menor FC",
+            "visitante": "Anti CDP",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Jaiba Brava",
+            "visitante": "Crocs FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "Principes de la B",
+            "visitante": "Caguameros FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Capri FC",
+            "visitante": "Monarquinha",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": []
+        "descanso": [
+          "Diamantes Negros",
+          "CAFC"
+        ]
       },
       {
         "jornada": "Jornada 5",
         "fecha": "Por confirmar",
-        "juegos": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Los Demás FC",
+            "visitante": "SoccerBEE",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "Kawashima Wonders",
+            "visitante": "Anti CDP",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Crocs FC",
+            "visitante": "Capri FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Jaiba Brava",
+            "visitante": "CAFC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "Pintao FC",
+            "visitante": "Caguameros FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Diamantes Negros",
+            "visitante": "Principes de la B",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": []
+        "descanso": [
+          "Monarquinha",
+          "La Menor FC"
+        ]
       },
       {
         "jornada": "Jornada 6",
         "fecha": "Por confirmar",
-        "juegos": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Caguameros FC",
+            "visitante": "Anti CDP",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "Diamantes Negros",
+            "visitante": "Pintao FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Los Demás FC",
+            "visitante": "Capri FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Jaiba Brava",
+            "visitante": "La Menor FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "Principes de la B",
+            "visitante": "Kawashima Wonders",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "CAFC",
+            "visitante": "Monarquinha",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": []
+        "descanso": [
+          "Crocs FC",
+          "SoccerBEE"
+        ]
       },
       {
         "jornada": "Jornada 7",
         "fecha": "Por confirmar",
-        "juegos": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Anti CDP",
+            "visitante": "CAFC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "Crocs FC",
+            "visitante": "Los Demás FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Pintao FC",
+            "visitante": "Principes de la B",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Jaiba Brava",
+            "visitante": "Kawashima Wonders",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "SoccerBEE",
+            "visitante": "La Menor FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "Monarquinha",
+            "visitante": "Diamantes Negros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": []
+        "descanso": [
+          "Caguameros FC",
+          "Capri FC"
+        ]
       },
       {
         "jornada": "Jornada 8",
         "fecha": "Por confirmar",
-        "juegos": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "Principes de la B",
+            "visitante": "SoccerBEE",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "CAFC",
+            "visitante": "Caguameros FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Los Demás FC",
+            "visitante": "Diamantes Negros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Jaiba Brava",
+            "visitante": "Capri FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "Pintao FC",
+            "visitante": "Crocs FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "La Menor FC",
+            "visitante": "Monarquinha",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
-        "descanso": []
+        "descanso": [
+          "Anti CDP",
+          "Kawashima Wonders"
+        ]
       },
       {
         "jornada": "Jornada 9",
         "fecha": "Por confirmar",
-        "juegos": [],
+        "juegos": [
+          {
+            "hora": "08:00",
+            "local": "La Menor FC",
+            "visitante": "Diamantes Negros",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "09:00",
+            "local": "Principes de la B",
+            "visitante": "Capri FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "10:00",
+            "local": "Crocs FC",
+            "visitante": "Kawashima Wonders",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "11:00",
+            "local": "Jaiba Brava",
+            "visitante": "Pintao FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "12:00",
+            "local": "CAFC",
+            "visitante": "Los Demás FC",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "13:00",
+            "local": "SoccerBEE",
+            "visitante": "Anti CDP",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          },
+          {
+            "hora": "14:00",
+            "local": "Caguameros FC",
+            "visitante": "Monarquinha",
+            "marcador": "Por jugar",
+            "estado": "Programado"
+          }
+        ],
         "sede": "Euro Campus Campestre",
         "horario": "Por confirmar",
         "descanso": []

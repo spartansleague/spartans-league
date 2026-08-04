@@ -26,10 +26,11 @@ Si GitHub te pregunta si quieres reemplazar archivos existentes, acepta el reemp
   - 30 partidos finalizados
   - 95 goleadores
   - Solo queda sin resultado en el Excel: Jornada 2, Revo FC vs Leñadores
-- Campus Campestre queda limpio porque ya terminó esa temporada:
-  - 0 equipos
-  - 0 partidos/resultados
-  - 0 tabla de posiciones
+- Campus Campestre fue actualizado desde el Google Sheet nuevo:
+  - 14 equipos
+  - 14 equipos en tabla inicial
+  - calendario cargado
+  - 0 partidos finalizados
   - 0 goleadores
 - Campus Montenova queda sin estadisticas porque no tiene temporada activa.
 - Todos los campus tienen 12 secciones en Partidos:
