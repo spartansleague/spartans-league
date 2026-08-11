@@ -20,14 +20,14 @@ Si GitHub pregunta si quieres reemplazar archivos existentes, acepta el reemplaz
 
 ## Que contiene esta actualizacion
 
-- Campus Valle actualizado desde Google Sheets:
+- Campus Valle actualizado desde el Excel local enviado el 11 de agosto de 2026:
   - 14 equipos
   - 38 partidos finalizados
   - 14 equipos en tabla
   - 103 goleadores
   - Lider de tabla: Roger FC con 17 puntos
   - Lider de goleo: Mauricio Santos con 11 goles
-- Campus Campestre actualizado desde Google Sheets:
+- Campus Campestre actualizado desde el Excel local enviado el 11 de agosto de 2026:
   - 14 equipos
   - 6 partidos finalizados
   - 14 equipos en tabla
