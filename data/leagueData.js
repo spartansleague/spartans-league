@@ -1085,7 +1085,7 @@ export const campus = [
             "local": "Revo FC",
             "visitante": "Leñadores",
             "marcador": "Por jugar",
-            "estado": "Finalizado"
+            "estado": "Programado"
           },
           {
             "hora": "11:00",
