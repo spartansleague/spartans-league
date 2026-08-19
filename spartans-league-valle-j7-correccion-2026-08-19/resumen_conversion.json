@@ -1,0 +1,50 @@
+{
+  "Campus Valle": {
+    "equipos": 14,
+    "partidos_finalizados": 43,
+    "partidos_sin_resultado": [
+    ],
+    "tabla_posiciones": 14,
+    "goleadores": 113,
+    "secciones_partidos": 12
+  },
+  "Campus Campestre": {
+    "equipos": 14,
+    "partidos_finalizados": 14,
+    "partidos_sin_resultado": [
+      [
+        "Jornada 4",
+        "08:00",
+        "Pintao FC",
+        "Los Demás FC"
+      ],
+      [
+        "Jornada 4",
+        "09:00",
+        "SoccerBEE",
+        "Kawashima Wonders"
+      ],
+      [
+        "Jornada 4",
+        "10:00",
+        "La Menor FC",
+        "Anti CDP"
+      ],
+      [
+        "Jornada 4",
+        "11:00",
+        "Jaiba Brava",
+        "Crocs FC"
+      ],
+      [
+        "Jornada 4",
+        "12:00",
+        "Capri FC",
+        "Caguameros FC"
+      ]
+    ],
+    "tabla_posiciones": 14,
+    "goleadores": 49,
+    "secciones_partidos": 12
+  }
+}
