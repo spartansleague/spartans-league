@@ -24,7 +24,7 @@ Si GitHub pregunta si quieres reemplazar archivos existentes, acepta el reemplaz
 
 - Campus Valle actualizado desde el link de Drive el 19 de agosto de 2026:
   - 14 equipos
-  - 41 partidos finalizados
+  - 43 partidos finalizados
   - 14 equipos en tabla
   - 113 goleadores
   - Lider de tabla: Roger FC con 19 puntos

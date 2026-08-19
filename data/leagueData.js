@@ -96,24 +96,24 @@ export const campus = [
       },
       {
         "equipo": "Las Mopas",
-        "pj": 5,
-        "g": 3,
+        "pj": 6,
+        "g": 4,
         "e": 0,
         "p": 2,
-        "gf": 27,
-        "gc": 15,
-        "dg": 12,
-        "pts": 12
+        "gf": 35,
+        "gc": 18,
+        "dg": 17,
+        "pts": 15
       },
       {
         "equipo": "Rolando City",
-        "pj": 5,
+        "pj": 6,
         "g": 4,
         "e": 0,
-        "p": 1,
-        "gf": 24,
-        "gc": 22,
-        "dg": 2,
+        "p": 2,
+        "gf": 27,
+        "gc": 30,
+        "dg": -3,
         "pts": 12
       },
       {
@@ -151,13 +151,13 @@ export const campus = [
       },
       {
         "equipo": "Arrestados FC",
-        "pj": 6,
+        "pj": 7,
         "g": 2,
         "e": 1,
-        "p": 3,
-        "gf": 17,
-        "gc": 29,
-        "dg": -12,
+        "p": 4,
+        "gf": 20,
+        "gc": 33,
+        "dg": -13,
         "pts": 8
       },
       {
@@ -173,14 +173,14 @@ export const campus = [
       },
       {
         "equipo": "Lobos FC",
-        "pj": 5,
-        "g": 1,
+        "pj": 6,
+        "g": 2,
         "e": 1,
         "p": 3,
-        "gf": 16,
-        "gc": 22,
-        "dg": -6,
-        "pts": 7
+        "gf": 20,
+        "gc": 25,
+        "dg": -5,
+        "pts": 10
       },
       {
         "equipo": "Seleçao Canarinha",
@@ -1119,9 +1119,9 @@ export const campus = [
           {
             "hora": "08:00",
             "local": "Rolando City",
-            "visitante": "Arrestados FC",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "visitante": "Las Mopas",
+            "marcador": "3 - 8",
+            "estado": "Finalizado"
           },
           {
             "hora": "09:00",
@@ -1154,9 +1154,9 @@ export const campus = [
           {
             "hora": "13:00",
             "local": "Lobos FC",
-            "visitante": "Las Mopas",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "visitante": "Arrestados FC",
+            "marcador": "4 - 3",
+            "estado": "Finalizado"
           }
         ],
         "sede": "Euro Campus Valle",

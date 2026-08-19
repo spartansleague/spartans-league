@@ -1,20 +1,8 @@
 {
   "Campus Valle": {
     "equipos": 14,
-    "partidos_finalizados": 41,
+    "partidos_finalizados": 43,
     "partidos_sin_resultado": [
-      [
-        "Jornada 7",
-        "08:00",
-        "Rolando City",
-        "Arrestados FC"
-      ],
-      [
-        "Jornada 7",
-        "13:00",
-        "Lobos FC",
-        "Las Mopas"
-      ]
     ],
     "tabla_posiciones": 14,
     "goleadores": 113,
