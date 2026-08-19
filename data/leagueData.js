@@ -70,7 +70,7 @@ export const campus = [
         "gf": 46,
         "gc": 20,
         "dg": 26,
-        "pts": 19
+        "pts": 18
       },
       {
         "equipo": "Leñadores",
@@ -81,7 +81,7 @@ export const campus = [
         "gf": 31,
         "gc": 16,
         "dg": 15,
-        "pts": 15
+        "pts": 16
       },
       {
         "equipo": "Revo FC",
@@ -180,7 +180,7 @@ export const campus = [
         "gf": 20,
         "gc": 25,
         "dg": -5,
-        "pts": 10
+        "pts": 7
       },
       {
         "equipo": "Seleçao Canarinha",
