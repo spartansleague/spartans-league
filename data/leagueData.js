@@ -169,7 +169,7 @@ export const campus = [
         "gf": 27,
         "gc": 24,
         "dg": 3,
-        "pts": 7
+        "pts": 8
       },
       {
         "equipo": "Lobos FC",
