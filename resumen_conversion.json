@@ -1,7 +1,7 @@
 {
   "Campus Valle": {
     "equipos": 14,
-    "partidos_finalizados": 38,
+    "partidos_finalizados": 41,
     "partidos_sin_resultado": [
       [
         "Jornada 7",
@@ -11,43 +11,19 @@
       ],
       [
         "Jornada 7",
-        "09:00",
-        "Roger FC",
-        "Atlético de Timbuktu"
-      ],
-      [
-        "Jornada 7",
-        "11:00",
-        "Seleçao Canarinha",
-        "La Puerquisa"
-      ],
-      [
-        "Jornada 7",
-        "12:00",
-        "TruzAzul",
-        "Perros"
-      ],
-      [
-        "Jornada 7",
         "13:00",
         "Lobos FC",
         "Las Mopas"
       ]
     ],
     "tabla_posiciones": 14,
-    "goleadores": 103,
+    "goleadores": 113,
     "secciones_partidos": 12
   },
   "Campus Campestre": {
     "equipos": 14,
-    "partidos_finalizados": 6,
+    "partidos_finalizados": 14,
     "partidos_sin_resultado": [
-      [
-        "Jornada 1",
-        "10:00",
-        "SoccerBEE",
-        "Caguameros FC"
-      ],
       [
         "Jornada 4",
         "08:00",
@@ -74,13 +50,13 @@
       ],
       [
         "Jornada 4",
-        "13:00",
+        "12:00",
         "Capri FC",
-        "Monarquinha"
+        "Caguameros FC"
       ]
     ],
     "tabla_posiciones": 14,
-    "goleadores": 28,
+    "goleadores": 49,
     "secciones_partidos": 12
   }
 }

@@ -22,20 +22,20 @@ Si GitHub pregunta si quieres reemplazar archivos existentes, acepta el reemplaz
 
 ## Que contiene esta actualizacion
 
-- Campus Valle actualizado desde el Excel local enviado el 11 de agosto de 2026:
+- Campus Valle actualizado desde el link de Drive el 19 de agosto de 2026:
   - 14 equipos
-  - 38 partidos finalizados
+  - 41 partidos finalizados
   - 14 equipos en tabla
-  - 103 goleadores
-  - Lider de tabla: Roger FC con 17 puntos
+  - 113 goleadores
+  - Lider de tabla: Roger FC con 19 puntos
   - Lider de goleo: Mauricio Santos con 11 goles
-- Campus Campestre actualizado desde el Excel local enviado el 11 de agosto de 2026:
+- Campus Campestre actualizado desde el link de Drive el 19 de agosto de 2026:
   - 14 equipos
-  - 6 partidos finalizados
+  - 14 partidos finalizados
   - 14 equipos en tabla
-  - 28 goleadores
-  - Lider de tabla: Caguameros FC con 3 puntos
-  - Lider de goleo: Horacio Perez con 3 goles
+  - 49 goleadores
+  - Lider de tabla: Kawashima Wonders con 6 puntos
+  - Lider de goleo: Diego Aguirre con 3 goles
 - Campus Montenova sigue sin datos.
 - Todos los campus tienen 12 secciones en Partidos:
   - Jornada 1 a Jornada 9
