@@ -33,7 +33,7 @@ Si GitHub pregunta si quieres reemplazar archivos existentes, acepta el reemplaz
   - 14 equipos
   - 14 partidos finalizados
   - 14 equipos en tabla
-  - 49 goleadores
+  - 48 goleadores
   - Lider de tabla: Kawashima Wonders con 6 puntos
   - Lider de goleo: Diego Aguirre con 3 goles
 - Campus Montenova sigue sin datos.

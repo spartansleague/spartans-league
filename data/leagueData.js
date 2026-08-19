@@ -70,7 +70,7 @@ export const campus = [
         "gf": 46,
         "gc": 20,
         "dg": 26,
-        "pts": 18
+        "pts": 19
       },
       {
         "equipo": "Leñadores",
@@ -81,7 +81,7 @@ export const campus = [
         "gf": 31,
         "gc": 16,
         "dg": 15,
-        "pts": 16
+        "pts": 15
       },
       {
         "equipo": "Revo FC",
@@ -180,7 +180,7 @@ export const campus = [
         "gf": 20,
         "gc": 25,
         "dg": -5,
-        "pts": 7
+        "pts": 10
       },
       {
         "equipo": "Seleçao Canarinha",
@@ -1467,8 +1467,8 @@ export const campus = [
       },
       {
         "equipo": "Monarquinha",
-        "pj": 3,
-        "g": 2,
+        "pj": 2,
+        "g": 1,
         "e": 0,
         "p": 1,
         "gf": 7,
@@ -1511,10 +1511,10 @@ export const campus = [
       },
       {
         "equipo": "Príncipes de la B",
-        "pj": 3,
+        "pj": 2,
         "g": 0,
         "e": 0,
-        "p": 3,
+        "p": 2,
         "gf": 7,
         "gc": 14,
         "dg": -7,
@@ -1630,11 +1630,6 @@ export const campus = [
       },
       {
         "jugador": "Damián González",
-        "equipo": "Caguameros FC",
-        "goles": 1
-      },
-      {
-        "jugador": "Daniel Flores",
         "equipo": "Caguameros FC",
         "goles": 1
       },
