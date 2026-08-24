@@ -147,7 +147,7 @@ export const campus = [
         "gf": 21,
         "gc": 32,
         "dg": -11,
-        "pts": 10
+        "pts": 7
       },
       {
         "equipo": "TruzAzul",
