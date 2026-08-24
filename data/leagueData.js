@@ -47,15 +47,15 @@ export const campus = [
     "equipos": [
       "Roger FC",
       "Leñadores",
-      "Revo FC",
       "Las Mopas",
-      "Rolando City",
+      "Revo FC",
       "Formadores FC",
-      "Atlético de Timbuktu",
+      "Rolando City",
       "La Puerquisa",
-      "Arrestados FC",
-      "TruzAzul",
       "Lobos FC",
+      "TruzAzul",
+      "Atlético de Timbuktu",
+      "Arrestados FC",
       "Seleçao Canarinha",
       "La Banca FC",
       "Perros"
@@ -74,80 +74,102 @@ export const campus = [
       },
       {
         "equipo": "Leñadores",
-        "pj": 6,
-        "g": 4,
+        "pj": 7,
+        "g": 5,
         "e": 2,
         "p": 0,
-        "gf": 31,
-        "gc": 16,
-        "dg": 15,
-        "pts": 15
-      },
-      {
-        "equipo": "Revo FC",
-        "pj": 6,
-        "g": 4,
-        "e": 1,
-        "p": 1,
-        "gf": 35,
-        "gc": 13,
-        "dg": 22,
-        "pts": 13
+        "gf": 38,
+        "gc": 17,
+        "dg": 21,
+        "pts": 18
       },
       {
         "equipo": "Las Mopas",
-        "pj": 6,
-        "g": 4,
+        "pj": 7,
+        "g": 5,
         "e": 0,
         "p": 2,
-        "gf": 35,
-        "gc": 18,
-        "dg": 17,
-        "pts": 15
+        "gf": 40,
+        "gc": 21,
+        "dg": 19,
+        "pts": 18
       },
       {
-        "equipo": "Rolando City",
-        "pj": 6,
+        "equipo": "Revo FC",
+        "pj": 7,
         "g": 4,
-        "e": 0,
-        "p": 2,
-        "gf": 27,
-        "gc": 30,
-        "dg": -3,
-        "pts": 12
+        "e": 2,
+        "p": 1,
+        "gf": 37,
+        "gc": 15,
+        "dg": 22,
+        "pts": 14
       },
       {
         "equipo": "Formadores FC",
-        "pj": 6,
-        "g": 3,
+        "pj": 7,
+        "g": 4,
         "e": 1,
         "p": 2,
-        "gf": 19,
-        "gc": 19,
-        "dg": 0,
-        "pts": 11
+        "gf": 22,
+        "gc": 20,
+        "dg": 2,
+        "pts": 14
       },
       {
-        "equipo": "Atlético de Timbuktu",
-        "pj": 6,
-        "g": 2,
-        "e": 3,
-        "p": 1,
-        "gf": 16,
-        "gc": 12,
-        "dg": 4,
-        "pts": 9
+        "equipo": "Rolando City",
+        "pj": 7,
+        "g": 4,
+        "e": 0,
+        "p": 3,
+        "gf": 30,
+        "gc": 34,
+        "dg": -4,
+        "pts": 12
       },
       {
         "equipo": "La Puerquisa",
-        "pj": 6,
-        "g": 1,
+        "pj": 7,
+        "g": 2,
         "e": 3,
         "p": 2,
-        "gf": 15,
+        "gf": 18,
         "gc": 25,
-        "dg": -10,
-        "pts": 8
+        "dg": -7,
+        "pts": 11
+      },
+      {
+        "equipo": "Lobos FC",
+        "pj": 7,
+        "g": 2,
+        "e": 1,
+        "p": 4,
+        "gf": 21,
+        "gc": 32,
+        "dg": -11,
+        "pts": 10
+      },
+      {
+        "equipo": "TruzAzul",
+        "pj": 7,
+        "g": 2,
+        "e": 2,
+        "p": 3,
+        "gf": 29,
+        "gc": 26,
+        "dg": 3,
+        "pts": 9
+      },
+      {
+        "equipo": "Atlético de Timbuktu",
+        "pj": 7,
+        "g": 2,
+        "e": 3,
+        "p": 2,
+        "gf": 17,
+        "gc": 15,
+        "dg": 2,
+        "pts": 9
       },
       {
         "equipo": "Arrestados FC",
@@ -161,58 +183,36 @@ export const campus = [
         "pts": 8
       },
       {
-        "equipo": "TruzAzul",
-        "pj": 6,
-        "g": 2,
-        "e": 1,
-        "p": 3,
-        "gf": 27,
-        "gc": 24,
-        "dg": 3,
-        "pts": 8
-      },
-      {
-        "equipo": "Lobos FC",
-        "pj": 6,
-        "g": 2,
-        "e": 1,
-        "p": 3,
-        "gf": 20,
-        "gc": 25,
-        "dg": -5,
-        "pts": 10
-      },
-      {
         "equipo": "Seleçao Canarinha",
-        "pj": 6,
+        "pj": 7,
         "g": 2,
         "e": 0,
-        "p": 4,
-        "gf": 28,
-        "gc": 22,
-        "dg": 6,
+        "p": 5,
+        "gf": 31,
+        "gc": 27,
+        "dg": 4,
         "pts": 6
       },
       {
         "equipo": "La Banca FC",
-        "pj": 6,
-        "g": 0,
+        "pj": 7,
+        "g": 1,
         "e": 1,
         "p": 5,
-        "gf": 16,
-        "gc": 41,
-        "dg": -25,
-        "pts": 2
+        "gf": 20,
+        "gc": 44,
+        "dg": -24,
+        "pts": 5
       },
       {
         "equipo": "Perros",
-        "pj": 6,
+        "pj": 7,
         "g": 0,
         "e": 0,
-        "p": 6,
+        "p": 7,
         "gf": 5,
-        "gc": 42,
-        "dg": -37,
+        "gc": 45,
+        "dg": -40,
         "pts": 0
       }
     ],
@@ -221,6 +221,11 @@ export const campus = [
         "jugador": "Mauricio Santos",
         "equipo": "Roger FC",
         "goles": 11
+      },
+      {
+        "jugador": "Pablo Mendez",
+        "equipo": "Atlético de Timbuktu",
+        "goles": 9
       },
       {
         "jugador": "Jesús Zambrano",
@@ -243,9 +248,14 @@ export const campus = [
         "goles": 9
       },
       {
-        "jugador": "Pablo Mendez",
-        "equipo": "Atlético de Timbuktu",
+        "jugador": "Bernardo Espinoza",
+        "equipo": "Revo FC",
         "goles": 8
+      },
+      {
+        "jugador": "Iker Melendez",
+        "equipo": "Las Mopas",
+        "goles": 7
       },
       {
         "jugador": "Miguel Marroquin",
@@ -258,13 +268,18 @@ export const campus = [
         "goles": 7
       },
       {
-        "jugador": "Iker Melendez",
-        "equipo": "Las Mopas",
+        "jugador": "Mauricio Ramirez",
+        "equipo": "Formadores FC",
         "goles": 6
       },
       {
-        "jugador": "Bernardo Espinoza",
-        "equipo": "Revo",
+        "jugador": "Alan de la Torre",
+        "equipo": "Leñadores",
+        "goles": 6
+      },
+      {
+        "jugador": "Alex Ortiz",
+        "equipo": "Leñadores",
         "goles": 6
       },
       {
@@ -273,7 +288,7 @@ export const campus = [
         "goles": 5
       },
       {
-        "jugador": "Alan de la Torre",
+        "jugador": "Marcelo Zambrano",
         "equipo": "Leñadores",
         "goles": 5
       },
@@ -289,12 +304,12 @@ export const campus = [
       },
       {
         "jugador": "Luis Peña",
-        "equipo": "Revo",
+        "equipo": "Revo FC",
         "goles": 5
       },
       {
         "jugador": "Pablo Richaud",
-        "equipo": "Revo",
+        "equipo": "Revo FC",
         "goles": 5
       },
       {
@@ -308,28 +323,28 @@ export const campus = [
         "goles": 5
       },
       {
+        "jugador": "Alex Díaz",
+        "equipo": "Seleçao Canarinha",
+        "goles": 5
+      },
+      {
+        "jugador": "Ángel Manjares",
+        "equipo": "TruzAzul",
+        "goles": 5
+      },
+      {
         "jugador": "Mauricio Palomo",
         "equipo": "Arrestados FC",
         "goles": 4
       },
       {
-        "jugador": "Mauricio Ramirez",
-        "equipo": "Formadores FC",
-        "goles": 4
-      },
-      {
         "jugador": "Patricio Guevara",
-        "equipo": "La Banca",
+        "equipo": "La Banca FC",
         "goles": 4
       },
       {
-        "jugador": "Alex Ortiz",
-        "equipo": "Leñadores",
-        "goles": 4
-      },
-      {
-        "jugador": "Marcelo Zambrano",
-        "equipo": "Leñadores",
+        "jugador": "Christian de Lima",
+        "equipo": "Las Mopas",
         "goles": 4
       },
       {
@@ -344,7 +359,7 @@ export const campus = [
       },
       {
         "jugador": "Daniel Yarte",
-        "equipo": "Revo",
+        "equipo": "Revo FC",
         "goles": 4
       },
       {
@@ -358,7 +373,12 @@ export const campus = [
         "goles": 4
       },
       {
-        "jugador": "Alex Díaz",
+        "jugador": "Jesús Garza",
+        "equipo": "Rolando City",
+        "goles": 4
+      },
+      {
+        "jugador": "Sergio Soto",
         "equipo": "Seleçao Canarinha",
         "goles": 4
       },
@@ -379,7 +399,17 @@ export const campus = [
       },
       {
         "jugador": "David Castillo",
-        "equipo": "La Banca",
+        "equipo": "La Banca FC",
+        "goles": 3
+      },
+      {
+        "jugador": "Eugenio Martinez",
+        "equipo": "La Banca FC",
+        "goles": 3
+      },
+      {
+        "jugador": "JP Rdz",
+        "equipo": "Leñadores",
         "goles": 3
       },
       {
@@ -399,12 +429,12 @@ export const campus = [
       },
       {
         "jugador": "Daniel Flores",
-        "equipo": "Revo",
+        "equipo": "Revo FC",
         "goles": 3
       },
       {
         "jugador": "Patricio Diaz",
-        "equipo": "Revo",
+        "equipo": "Revo FC",
         "goles": 3
       },
       {
@@ -418,17 +448,12 @@ export const campus = [
         "goles": 3
       },
       {
-        "jugador": "Jesús Garza",
+        "jugador": "Sebastian Brenes",
         "equipo": "Rolando City",
         "goles": 3
       },
       {
         "jugador": "Leonardo Gutierrez",
-        "equipo": "Seleçao Canarinha",
-        "goles": 3
-      },
-      {
-        "jugador": "Sergio Soto",
         "equipo": "Seleçao Canarinha",
         "goles": 3
       },
@@ -439,11 +464,6 @@ export const campus = [
       },
       {
         "jugador": "Teo Contreras",
-        "equipo": "TruzAzul",
-        "goles": 3
-      },
-      {
-        "jugador": "Ángel Manjares",
         "equipo": "TruzAzul",
         "goles": 3
       },
@@ -463,12 +483,27 @@ export const campus = [
         "goles": 2
       },
       {
-        "jugador": "Jorge Palomo",
-        "equipo": "La Banca",
+        "jugador": "Luis Velazquez",
+        "equipo": "Formadores FC",
         "goles": 2
       },
       {
-        "jugador": "Christian de Lima",
+        "jugador": "Daniel Velez",
+        "equipo": "La Banca FC",
+        "goles": 2
+      },
+      {
+        "jugador": "Jorge Palomo",
+        "equipo": "La Banca FC",
+        "goles": 2
+      },
+      {
+        "jugador": "Miguel Rodriguez",
+        "equipo": "Las Mopas",
+        "goles": 2
+      },
+      {
+        "jugador": "Rodrigo Julián",
         "equipo": "Las Mopas",
         "goles": 2
       },
@@ -483,6 +518,11 @@ export const campus = [
         "goles": 2
       },
       {
+        "jugador": "Fernando Chapa",
+        "equipo": "Lobos FC",
+        "goles": 2
+      },
+      {
         "jugador": "Miguel Menendez",
         "equipo": "Lobos FC",
         "goles": 2
@@ -490,11 +530,6 @@ export const campus = [
       {
         "jugador": "Pepe Castro",
         "equipo": "Perros",
-        "goles": 2
-      },
-      {
-        "jugador": "Sebastian Brenes",
-        "equipo": "Rolando City",
         "goles": 2
       },
       {
@@ -568,48 +603,38 @@ export const campus = [
         "goles": 1
       },
       {
-        "jugador": "Luis Velazquez",
-        "equipo": "Formadores FC",
-        "goles": 1
-      },
-      {
         "jugador": "Vicente Sánchez",
         "equipo": "Formadores FC",
         "goles": 1
       },
       {
-        "jugador": "Daniel Velez",
-        "equipo": "La Banca",
-        "goles": 1
-      },
-      {
         "jugador": "David Arpe",
-        "equipo": "La Banca",
+        "equipo": "La Banca FC",
         "goles": 1
       },
       {
         "jugador": "David Vazquez",
-        "equipo": "La Banca",
+        "equipo": "La Banca FC",
         "goles": 1
       },
       {
         "jugador": "Eliud Treviño",
-        "equipo": "La Banca",
-        "goles": 1
-      },
-      {
-        "jugador": "Eugenio Martinez",
-        "equipo": "La Banca",
+        "equipo": "La Banca FC",
         "goles": 1
       },
       {
         "jugador": "Gabriel Chapa",
-        "equipo": "La Banca",
+        "equipo": "La Banca FC",
         "goles": 1
       },
       {
         "jugador": "Patricio Campos",
-        "equipo": "La Banca",
+        "equipo": "La Banca FC",
+        "goles": 1
+      },
+      {
+        "jugador": "Rogelio Gzz",
+        "equipo": "La Banca FC",
         "goles": 1
       },
       {
@@ -623,17 +648,7 @@ export const campus = [
         "goles": 1
       },
       {
-        "jugador": "Miguel Rodriguez",
-        "equipo": "Las Mopas",
-        "goles": 1
-      },
-      {
         "jugador": "Patricio Santiestteban",
-        "equipo": "Las Mopas",
-        "goles": 1
-      },
-      {
-        "jugador": "Rodrigo Julián",
         "equipo": "Las Mopas",
         "goles": 1
       },
@@ -659,11 +674,6 @@ export const campus = [
       },
       {
         "jugador": "Augusto Garaboa",
-        "equipo": "Lobos FC",
-        "goles": 1
-      },
-      {
-        "jugador": "Fernando Chapa",
         "equipo": "Lobos FC",
         "goles": 1
       },
@@ -709,22 +719,22 @@ export const campus = [
       },
       {
         "jugador": "Daniel Flores",
-        "equipo": "Revo",
+        "equipo": "Revo FC",
         "goles": 1
       },
       {
         "jugador": "Jesus Garcia",
-        "equipo": "Revo",
+        "equipo": "Revo FC",
         "goles": 1
       },
       {
         "jugador": "Manuel Musi",
-        "equipo": "Revo",
+        "equipo": "Revo FC",
         "goles": 1
       },
       {
         "jugador": "Patricio Gzz",
-        "equipo": "Revo",
+        "equipo": "Revo FC",
         "goles": 1
       },
       {
@@ -758,12 +768,22 @@ export const campus = [
         "goles": 1
       },
       {
+        "jugador": "Jorge Torres",
+        "equipo": "Rolando City",
+        "goles": 1
+      },
+      {
         "jugador": "Rubén Álvarez",
         "equipo": "Rolando City",
         "goles": 1
       },
       {
         "jugador": "Adrián Salinas",
+        "equipo": "Seleçao Canarinha",
+        "goles": 1
+      },
+      {
+        "jugador": "Bruno Yañez",
         "equipo": "Seleçao Canarinha",
         "goles": 1
       },
@@ -1174,43 +1194,43 @@ export const campus = [
             "hora": "08:00",
             "local": "Rolando City",
             "visitante": "La Banca FC",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "3 - 4",
+            "estado": "Finalizado"
           },
           {
             "hora": "09:00",
             "local": "Atlético de Timbuktu",
             "visitante": "Formadores FC",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "1 - 3",
+            "estado": "Finalizado"
           },
           {
             "hora": "10:00",
             "local": "TruzAzul",
             "visitante": "Revo FC",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "2 - 2",
+            "estado": "Finalizado"
           },
           {
             "hora": "11:00",
             "local": "Lobos FC",
             "visitante": "Leñadores",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "1 - 7",
+            "estado": "Finalizado"
           },
           {
             "hora": "12:00",
             "local": "La Puerquisa",
             "visitante": "Perros",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "3 - 0",
+            "estado": "Finalizado"
           },
           {
             "hora": "13:00",
             "local": "Las Mopas",
             "visitante": "Seleçao Canarinha",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "5 - 3",
+            "estado": "Finalizado"
           }
         ],
         "sede": "Euro Campus Valle",
@@ -1254,8 +1274,8 @@ export const campus = [
           },
           {
             "hora": "12:00",
-            "local": "La Banca FC",
-            "visitante": "Seleçao Canarinha",
+            "local": "TruzAzul",
+            "visitante": "Atlético de Timbuktu",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
@@ -1268,8 +1288,8 @@ export const campus = [
           },
           {
             "hora": "14:00",
-            "local": "TruzAzul",
-            "visitante": "Atlético de Timbuktu",
+            "local": "La Banca FC",
+            "visitante": "Seleçao Canarinha",
             "marcador": "Por jugar",
             "estado": "Programado"
           }
@@ -1362,42 +1382,53 @@ export const campus = [
     "horario": "Horario por confirmar",
     "equipos": [
       "Kawashima Wonders",
-      "Anti CDP",
+      "Los Demás FC",
+      "Capri FC",
       "Pintao FC",
+      "Anti CDP",
       "Crocs FC",
       "Jaiba Brava",
-      "Los Demás FC",
       "Caguameros FC",
-      "Capri FC",
       "Monarquinha",
+      "Príncipes de la B",
+      "CAFC",
       "La Menor FC",
       "Diamantes Negros",
-      "SoccerBEE",
-      "Príncipes de la B",
-      "CAFC"
+      "SoccerBEE"
     ],
     "tabla": [
       {
         "equipo": "Kawashima Wonders",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "gf": 12,
+        "gc": 7,
+        "dg": 5,
+        "pts": 6
+      },
+      {
+        "equipo": "Los Demás FC",
         "pj": 2,
         "g": 2,
         "e": 0,
         "p": 0,
-        "gf": 10,
-        "gc": 3,
-        "dg": 7,
+        "gf": 8,
+        "gc": 4,
+        "dg": 4,
         "pts": 6
       },
       {
-        "equipo": "Anti CDP",
-        "pj": 2,
-        "g": 1,
-        "e": 1,
-        "p": 0,
-        "gf": 9,
-        "gc": 4,
-        "dg": 5,
-        "pts": 5
+        "equipo": "Capri FC",
+        "pj": 3,
+        "g": 2,
+        "e": 0,
+        "p": 1,
+        "gf": 11,
+        "gc": 11,
+        "dg": 0,
+        "pts": 6
       },
       {
         "equipo": "Pintao FC",
@@ -1408,6 +1439,17 @@ export const campus = [
         "gf": 7,
         "gc": 3,
         "dg": 4,
+        "pts": 5
+      },
+      {
+        "equipo": "Anti CDP",
+        "pj": 3,
+        "g": 1,
+        "e": 1,
+        "p": 1,
+        "gf": 9,
+        "gc": 7,
+        "dg": 2,
         "pts": 5
       },
       {
@@ -1433,17 +1475,6 @@ export const campus = [
         "pts": 4
       },
       {
-        "equipo": "Los Demás FC",
-        "pj": 1,
-        "g": 1,
-        "e": 0,
-        "p": 0,
-        "gf": 4,
-        "gc": 1,
-        "dg": 3,
-        "pts": 3
-      },
-      {
         "equipo": "Caguameros FC",
         "pj": 2,
         "g": 1,
@@ -1455,84 +1486,78 @@ export const campus = [
         "pts": 3
       },
       {
-        "equipo": "Capri FC",
-        "pj": 2,
-        "g": 1,
-        "e": 0,
-        "p": 1,
-        "gf": 7,
-        "gc": 9,
-        "dg": -2,
-        "pts": 3
-      },
-      {
         "equipo": "Monarquinha",
         "pj": 2,
         "g": 1,
         "e": 0,
         "p": 1,
+        "gf": 4,
+        "gc": 5,
+        "dg": -1,
+        "pts": 3
+      },
+      {
+        "equipo": "Príncipes de la B",
+        "pj": 2,
+        "g": 1,
+        "e": 0,
+        "p": 1,
         "gf": 7,
         "gc": 9,
         "dg": -2,
         "pts": 3
       },
       {
+        "equipo": "CAFC",
+        "pj": 3,
+        "g": 1,
+        "e": 0,
+        "p": 2,
+        "gf": 8,
+        "gc": 14,
+        "dg": -6,
+        "pts": 3
+      },
+      {
         "equipo": "La Menor FC",
-        "pj": 2,
+        "pj": 3,
         "g": 0,
         "e": 2,
-        "p": 0,
-        "gf": 2,
-        "gc": 2,
-        "dg": 0,
+        "p": 1,
+        "gf": 3,
+        "gc": 6,
+        "dg": -3,
         "pts": 2
       },
       {
         "equipo": "Diamantes Negros",
-        "pj": 2,
+        "pj": 3,
         "g": 0,
         "e": 0,
-        "p": 2,
-        "gf": 2,
-        "gc": 4,
-        "dg": -2,
-        "pts": 0
-      },
-      {
-        "equipo": "SoccerBEE",
-        "pj": 1,
-        "g": 0,
-        "e": 0,
-        "p": 1,
-        "gf": 2,
-        "gc": 5,
+        "p": 3,
+        "gf": 5,
+        "gc": 8,
         "dg": -3,
         "pts": 0
       },
       {
-        "equipo": "Príncipes de la B",
+        "equipo": "SoccerBEE",
         "pj": 2,
         "g": 0,
         "e": 0,
         "p": 2,
-        "gf": 7,
-        "gc": 14,
-        "dg": -7,
-        "pts": 0
-      },
-      {
-        "equipo": "CAFC",
-        "pj": 2,
-        "g": 0,
-        "e": 0,
-        "p": 2,
-        "gf": 4,
-        "gc": 11,
-        "dg": -7,
+        "gf": 5,
+        "gc": 9,
+        "dg": -4,
         "pts": 0
       }
     ],
     "goleadores": [
+      {
+        "jugador": "Joaquin Navarro",
+        "equipo": "Los Demás FC",
+        "goles": 4
+      },
       {
         "jugador": "Diego Aguirre",
         "equipo": "Anti CDP",
@@ -1541,6 +1566,11 @@ export const campus = [
       {
         "jugador": "Horacio Pérez",
         "equipo": "Anti CDP",
+        "goles": 3
+      },
+      {
+        "jugador": "Adrián Güereque",
+        "equipo": "Capri FC",
         "goles": 3
       },
       {
@@ -1564,8 +1594,18 @@ export const campus = [
         "goles": 3
       },
       {
+        "jugador": "Daniel García",
+        "equipo": "SoccerBEE",
+        "goles": 3
+      },
+      {
         "jugador": "Diego Lozano",
         "equipo": "Anti CDP",
+        "goles": 2
+      },
+      {
+        "jugador": "Eugenio Bortoni",
+        "equipo": "CAFC",
         "goles": 2
       },
       {
@@ -1574,8 +1614,8 @@ export const campus = [
         "goles": 2
       },
       {
-        "jugador": "Jesús Cantú",
-        "equipo": "CROCS",
+        "jugador": "Marcelo Chapa",
+        "equipo": "CAFC",
         "goles": 2
       },
       {
@@ -1589,18 +1629,53 @@ export const campus = [
         "goles": 2
       },
       {
-        "jugador": "Adrián Güereque",
-        "equipo": "Capri FC",
+        "jugador": "Jesús Cantú",
+        "equipo": "Crocs FC",
+        "goles": 2
+      },
+      {
+        "jugador": "Raúl Quintero",
+        "equipo": "Diamantes Negros",
+        "goles": 2
+      },
+      {
+        "jugador": "Abel Cepeda",
+        "equipo": "Kawashima Wonders",
+        "goles": 2
+      },
+      {
+        "jugador": "Gustavo Patiño",
+        "equipo": "Kawashima Wonders",
+        "goles": 2
+      },
+      {
+        "jugador": "Miguel Rodriguez",
+        "equipo": "Kawashima Wonders",
         "goles": 2
       },
       {
         "jugador": "Mauricio Garcia",
-        "equipo": "Los Demas",
+        "equipo": "Los Demás FC",
+        "goles": 2
+      },
+      {
+        "jugador": "Andrés Castaño",
+        "equipo": "Monarquinha",
         "goles": 2
       },
       {
         "jugador": "Patricio Alejandro",
         "equipo": "Monarquinha",
+        "goles": 2
+      },
+      {
+        "jugador": "Esteban García",
+        "equipo": "Príncipes",
+        "goles": 2
+      },
+      {
+        "jugador": "Gerino Ramirez",
+        "equipo": "Príncipes",
         "goles": 2
       },
       {
@@ -1614,13 +1689,8 @@ export const campus = [
         "goles": 1
       },
       {
-        "jugador": "Eugenio Bortoni",
+        "jugador": "Diego Mijares",
         "equipo": "CAFC",
-        "goles": 1
-      },
-      {
-        "jugador": "Marcelo García",
-        "equipo": "CROCS",
         "goles": 1
       },
       {
@@ -1649,12 +1719,27 @@ export const campus = [
         "goles": 1
       },
       {
+        "jugador": "Francisco Sauceda",
+        "equipo": "Capri FC",
+        "goles": 1
+      },
+      {
         "jugador": "José Támez",
         "equipo": "Capri FC",
         "goles": 1
       },
       {
-        "jugador": "Carlos Carnabali",
+        "jugador": "Marcelo García",
+        "equipo": "Crocs FC",
+        "goles": 1
+      },
+      {
+        "jugador": "Alfonso García",
+        "equipo": "Diamantes Negros",
+        "goles": 1
+      },
+      {
+        "jugador": "Carlos Carnavali",
         "equipo": "Diamantes Negros",
         "goles": 1
       },
@@ -1679,16 +1764,6 @@ export const campus = [
         "goles": 1
       },
       {
-        "jugador": "Gustavo Patiño",
-        "equipo": "Kawashima Wonders",
-        "goles": 1
-      },
-      {
-        "jugador": "Miguel Rodriguez",
-        "equipo": "Kawashima Wonders",
-        "goles": 1
-      },
-      {
         "jugador": "Gonzalo Escobar",
         "equipo": "La Menor FC",
         "goles": 1
@@ -1699,22 +1774,27 @@ export const campus = [
         "goles": 1
       },
       {
-        "jugador": "Joaquin Navarro",
-        "equipo": "Los Demas",
+        "jugador": "Gerardo Treviño",
+        "equipo": "Los Demás FC",
         "goles": 1
       },
       {
         "jugador": "Pablo Elizondo",
-        "equipo": "Los Demas",
+        "equipo": "Los Demás FC",
         "goles": 1
       },
       {
-        "jugador": "Andrés Castaño",
+        "jugador": "Adrián Hoyt",
         "equipo": "Monarquinha",
         "goles": 1
       },
       {
         "jugador": "Carlos Garza",
+        "equipo": "Monarquinha",
+        "goles": 1
+      },
+      {
+        "jugador": "Daniel Rdz",
         "equipo": "Monarquinha",
         "goles": 1
       },
@@ -1754,7 +1834,7 @@ export const campus = [
         "goles": 1
       },
       {
-        "jugador": "Esteban García",
+        "jugador": "Emilio Villarreal",
         "equipo": "Príncipes",
         "goles": 1
       },
@@ -1769,7 +1849,12 @@ export const campus = [
         "goles": 1
       },
       {
-        "jugador": "Daniel García",
+        "jugador": "Lionel Durán",
+        "equipo": "SoccerBEE",
+        "goles": 1
+      },
+      {
+        "jugador": "Melé Contreras",
         "equipo": "SoccerBEE",
         "goles": 1
       }
@@ -1895,15 +1980,15 @@ export const campus = [
             "hora": "08:00",
             "local": "Kawashima Wonders",
             "visitante": "Capri FC",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "2 - 4",
+            "estado": "Finalizado"
           },
           {
             "hora": "09:00",
             "local": "CAFC",
             "visitante": "SoccerBEE",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "4 - 3",
+            "estado": "Finalizado"
           },
           {
             "hora": "10:00",
@@ -1916,22 +2001,22 @@ export const campus = [
             "hora": "11:00",
             "local": "Príncipes de la B",
             "visitante": "La Menor FC",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "4 - 1",
+            "estado": "Finalizado"
           },
           {
             "hora": "12:00",
             "local": "Los Demás FC",
             "visitante": "Diamantes Negros",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "4 - 3",
+            "estado": "Finalizado"
           },
           {
             "hora": "13:00",
             "local": "Anti CDP",
             "visitante": "Monarquinha",
-            "marcador": "Por jugar",
-            "estado": "Programado"
+            "marcador": "0 - 3",
+            "estado": "Finalizado"
           }
         ],
         "sede": "Euro Campus Campestre",
@@ -1969,7 +2054,7 @@ export const campus = [
           {
             "hora": "11:00",
             "local": "Jaiba Brava",
-            "visitante": "Crocs FC",
+            "visitante": "Príncipes de la B",
             "marcador": "Por jugar",
             "estado": "Programado"
           },
@@ -1982,10 +2067,10 @@ export const campus = [
           },
           {
             "hora": "13:00",
-            "local": "Príncipes de la B",
+            "local": "Crocs FC",
             "visitante": "Monarquinha",
-            "marcador": "4 - 6",
-            "estado": "Finalizado"
+            "marcador": "Por jugar",
+            "estado": "Programado"
           }
         ],
         "sede": "Euro Campus Campestre",
